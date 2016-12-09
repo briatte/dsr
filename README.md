@@ -41,8 +41,6 @@ See also:
 
 Links:
 
-- [CSVY: YAML Frontmatter for CSV File Format](http://csvy.org/)
-- [Open Knowledge International](https://okfn.org/)
 - [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
 - [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
 
@@ -62,6 +60,10 @@ See also:
 - Wickham 2014a, ch. 2-3
 - Wickham 2014b
 
+Links:
+
+- [Tidyverse](http://tidyverse.org/)
+
 ## 4. Visualization
 
 Read:
@@ -73,3 +75,8 @@ See also:
 
 - Wickham 2010
 - Wickham, Cook and Hofmann 2015
+
+Links:
+
+- [ggplot2 Documentation](http://docs.ggplot2.org/current/)
+- [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
