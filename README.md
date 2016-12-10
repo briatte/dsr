@@ -80,9 +80,11 @@ See also:
 Links:
 
 - [Edward Tufte](https://www.edwardtufte.com/tufte/)
+- [GADM: Global Administrative Areas](http://gadm.org/)
+- [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
 - [ggplot2 Documentation](http://docs.ggplot2.org/current/)
 - [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
-- [GADM: Global Administrative Areas](http://gadm.org/)
+- [Network Visualization with R](http://kateto.net/network-visualization)
 
 [grolemund-2014]: http://shop.oreilly.com/product/0636920028574.do "'Hands-On Programming with R'"
 [grolemund-wickham-2016]: http://r4ds.had.co.nz/ "'R for Data Science'"
