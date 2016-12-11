@@ -70,8 +70,8 @@ See also:
 
 Read:
 
-- [Peng 2016a][peng-2016a], ch. 6-7, 15-16
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 28
+- [Peng 2016a][peng-2016a], ch. 6-7, 15-16
 - [Wickham 2010][wickham-2010] (optional)
 - [Wickham, Cook and Hofmann 2015][wickham-cook-hofmann-2015] (optional)
 
@@ -81,11 +81,11 @@ See also:
 - Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
 - Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
 - Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
+- Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
 - RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 - Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
 - Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
 - Wickham, H. [ggplot2 Documentation](http://docs.ggplot2.org/current/)
-- Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
 
 ## References
 
