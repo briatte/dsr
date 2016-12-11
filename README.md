@@ -23,6 +23,7 @@ See also:
 
 Links:
 
+- [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
 - [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
 - [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 
@@ -62,6 +63,8 @@ See also:
 
 Links:
 
+- [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
+- [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - [Tidyverse](http://tidyverse.org/)
 - [Tidy Text Mining](http://tidytextmining.com/)
 
@@ -79,6 +82,7 @@ See also:
 
 Links:
 
+- [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 - [Edward Tufte](https://www.edwardtufte.com/tufte/)
 - [GADM: Global Administrative Areas](http://gadm.org/)
 - [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
