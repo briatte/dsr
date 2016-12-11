@@ -65,6 +65,7 @@ Links:
 
 - [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 - [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
 - [Tidyverse](http://tidyverse.org/)
 - [Tidy Text Mining](http://tidytextmining.com/)
 
