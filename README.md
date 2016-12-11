@@ -15,14 +15,11 @@ Code:
 
 Read:
 
+- [Peng 2016b][peng-2016b], ch. 3 (optional)
 - [Urdan 2010][urdan-2010], ch. 1
 - [Zumel and Mount 2014][zumel-mount-2014], ch. 1
 
 See also:
-
-- [Peng 2016b][peng-2016b], ch. 3
-
-Links:
 
 - Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 - Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
@@ -37,14 +34,11 @@ Read:
 - [Grolemund 2014][grolemund-2014], App. A-B, ch. 1-2
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 11
 - [Peng 2016a][peng-2016a], ch. 3
-- [Peng 2016b][peng-2016b], ch. 6-7, 9
+- [Peng 2016b][peng-2016b], ch. 6-7, 8 (optional), 9, 12 (optional)
 - [Zumel and Mount 2014][zumel-mount-2014], ch. 2
 
+
 See also:
-
-- [Peng 2016b][peng-2016b], ch. 8, 12
-
-Links:
 
 - Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
 - Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
@@ -57,17 +51,12 @@ Read:
 - [Grolemund 2014][grolemund-2014], ch. 3-5
 - [Peng 2016a][peng-2016a], ch. 4-5
 - [Peng 2016b][peng-2016b], ch. 13
-- [Urdan 2010][urdan-2010], ch. 2-3, 6-7
-- [Zumel and Mount 2014][zumel-mount-2014], ch. 3-4
+- [Urdan 2010][urdan-2010], ch. 2-3, 6-7, 8-9 (optional), 13-14 (optional)
+- [Wickham 2014a][wickham-2014a], ch. 2-3 (optional)
+- [Wickham 2014b][wickham-2014b] (optional)
+- [Zumel and Mount 2014][zumel-mount-2014], ch. 3-4, 5-9 (optional)
 
 See also:
-
-- [Urdan 2010][urdan-2010], ch. 8-9, 13-14
-- [Wickham 2014a][wickham-2014a], ch. 2-3
-- [Wickham 2014b][wickham-2014b]
-- [Zumel and Mount 2014][zumel-mount-2014], ch. 5-9
-
-Links:
 
 - Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
 - Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
@@ -83,15 +72,13 @@ Read:
 
 - [Peng 2016a][peng-2016a], ch. 6-7, 15-16
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 28
+- [Wickham 2010][wickham-2010] (optional)
+- [Wickham, Cook and Hofmann 2015][wickham-cook-hofmann-2015] (optional)
 
 See also:
 
-- [Wickham 2010][wickham-2010]
-- [Wickham, Cook and Hofmann 2015][wickham-cook-hofmann-2015]
-
-Links:
-
 - Emaasit, D. [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
+- Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
 - Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
 - Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
 - RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
