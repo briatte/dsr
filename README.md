@@ -83,6 +83,7 @@ See also:
 - Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
 - RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 - Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
+- Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
 - Wickham, H. [ggplot2 Documentation](http://docs.ggplot2.org/current/)
 - Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
 
