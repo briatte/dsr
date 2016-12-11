@@ -16,6 +16,7 @@ Code:
 Read:
 
 - [Urdan 2010][urdan-2010], ch. 1
+- [Zumel and Mount 2014][zumel-mount-2014], ch. 1
 
 See also:
 
@@ -23,9 +24,11 @@ See also:
 
 Links:
 
-- [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
-- [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
-- [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
+- Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
+- Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
+- McNeill, M. [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+- Ushey, K. [What is a Function?](https://kevinushey.github.io/blog/2015/11/22/what-is-a-function/) (difficult)
+- Wickham, H. [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
 
 ## 2. Data I/O
 
@@ -35,6 +38,7 @@ Read:
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 11
 - [Peng 2016a][peng-2016a], ch. 3
 - [Peng 2016b][peng-2016b], ch. 6-7, 9
+- [Zumel and Mount 2014][zumel-mount-2014], ch. 2
 
 See also:
 
@@ -42,8 +46,9 @@ See also:
 
 Links:
 
-- [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
-- [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
+- Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
+- Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
+- Tennison, J., Kellogg, G. and Herman, I. [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
 
 ## 3. Manipulation
 
@@ -53,21 +58,24 @@ Read:
 - [Peng 2016a][peng-2016a], ch. 4-5
 - [Peng 2016b][peng-2016b], ch. 13
 - [Urdan 2010][urdan-2010], ch. 2-3, 6-7
+- [Zumel and Mount 2014][zumel-mount-2014], ch. 3-4
 
 See also:
 
 - [Urdan 2010][urdan-2010], ch. 8-9, 13-14
-- [Wickham 2011][wickham-2011]
 - [Wickham 2014a][wickham-2014a], ch. 2-3
 - [Wickham 2014b][wickham-2014b]
+- [Zumel and Mount 2014][zumel-mount-2014], ch. 5-9
 
 Links:
 
-- [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
-- [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-- [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
-- [Tidyverse](http://tidyverse.org/)
-- [Tidy Text Mining](http://tidytextmining.com/)
+- Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
+- Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
+- Mount, [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
+- RStudio. [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+- Silge, J. and Robinson, D. [Tidy Text Mining](http://tidytextmining.com/)
+- Wickham, H. [The Split-Apply-Combine Strategy for Data Analysis](http://vita.had.co.nz/papers/plyr.html)
+- Wickham, H. [Tidyverse](http://tidyverse.org/)
 
 ## 4. Visualization
 
@@ -83,13 +91,26 @@ See also:
 
 Links:
 
-- [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
-- [Edward Tufte](https://www.edwardtufte.com/tufte/)
-- [GADM: Global Administrative Areas](http://gadm.org/)
-- [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
-- [ggplot2 Documentation](http://docs.ggplot2.org/current/)
-- [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
-- [Network Visualization with R](http://kateto.net/network-visualization)
+- Emaasit, D. [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
+- Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
+- Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
+- RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
+- Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
+- Wickham, H. [ggplot2 Documentation](http://docs.ggplot2.org/current/)
+- Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
+
+## References
+
+- Grolemund, G. 2014. [Hands-On Programming with R][grolemund-2014]
+- Grolemund, G. and Wickham, H. 2016. [R for Data Science][grolemund-wickham-2016]
+- Peng, R.D. 2016a. [Exploratory Data Analysis with R][peng-2016a]
+- Peng, R.D. 2016b. [R Programming for Data Science][peng-2016b]
+- Urdan, T.C. 2010. [Statistics in Plain English][urdan-2010]
+- Wickham, H. 2010. [A Layered Grammar of Graphics][wickham-2010]
+- Wickham, H. 2014a. [Advanced R][wickham-2014a]
+- Wickham, H. 2014b. [Tidy Data][wickham-2014b]
+- Wickham, H., Cook, D. and Hofmann, H. [Visualizing Statistical Models][wickham-cook-hofmann-2015]
+- Zumel, N. and Mount, J. 2014. [Practical Data Science with R][zumel-mount-2014]
 
 [grolemund-2014]: http://shop.oreilly.com/product/0636920028574.do "'Hands-On Programming with R'"
 [grolemund-wickham-2016]: http://r4ds.had.co.nz/ "'R for Data Science'"
@@ -97,7 +118,7 @@ Links:
 [peng-2016b]: https://leanpub.com/rprogramming "'R Programming for Data Science'"
 [urdan-2010]: http://www.routledge.com/books/details/9780415872911/ "'Statistics in Plain English'"
 [wickham-2010]: http://vita.had.co.nz/papers/layered-grammar.html "'A Layered Grammar of Graphics'"
-[wickham-2011]: http://vita.had.co.nz/papers/plyr.html "'The Split-Apply-Combine Strategy for Data Analysis'"
 [wickham-2014a]: http://adv-r.had.co.nz/ "'Advanced R'"
 [wickham-2014b]: http://vita.had.co.nz/papers/tidy-data.html "'Tidy Data'"
 [wickham-cook-hofmann-2015]: http://vita.had.co.nz/papers/model-vis.html "'Visualizing Statistical Models'"
+[zumel-mount-2014]: http://www.win-vector.com/blog/2013/06/what-is-practical-data-science-with-r/ "'Practical Data Science with R'"
