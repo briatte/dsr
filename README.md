@@ -4,7 +4,7 @@
 > [Sciences Po, Paris](http://www.sciencespo.fr/)  
 > February 2017
 
-`>` __[Syllabus](https://goo.gl/BP3ixE)__
+`>` __[Syllabus](https://frama.link/dsr16sy)__
 
 ## 1. Setup
 
