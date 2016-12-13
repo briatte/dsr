@@ -10,8 +10,8 @@
 
 Code:
 
-- [Download some stuff with `wget`](#)
-- [Plot macroeconomic data with `ggplot2`](#)
+- [Download some stuff with `wget`](https://github.com/briatte/dsr/blob/master/session1/wget.sh)
+- [Plot macroeconomic data with `ggplot2`](https://github.com/briatte/dsr/blob/master/session1/debt.r)
 
 Read:
 
@@ -79,7 +79,7 @@ Read:
 
 See also:
 
-- Emaasit, D. [ggplot2 Extensions](http://www.ggplot2-exts.org/gallery/)
+- Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
 - Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
 - Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
 - Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
@@ -87,7 +87,7 @@ See also:
 - RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 - Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
 - Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
-- Wickham, H. [ggplot2 Documentation](http://docs.ggplot2.org/current/)
+- Wickham, H. [`ggplot2` Documentation](http://docs.ggplot2.org/current/)
 
 ## References
 
