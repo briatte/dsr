@@ -2,10 +2,10 @@
 ## NYT BREXIT COVERAGE
 ## =============================================================================
 
-library(dplyr)   # data manipulation
+library(dplyr)   # data manipulation (group_by, summarise, mutate)
 library(ggplot2) # plots
 library(readxl)  # read Excel format
-library(tidyr)   # tidy data
+library(tidyr)   # tidy data (gather, spread)
 
 ## =============================================================================
 ## DATA
@@ -14,7 +14,6 @@ library(tidyr)   # tidy data
 ## Source: Nives Dolsak and Aseem Prakash. 2016. "The New York Times' Coverage 
 ## of the Brexit Vote."
 ## URL: http://faculty.washington.edu/nives/replication_data.html
-
 
 u = "https://faculty.washington.edu/nives/New_York_Times_Brexit_coverage.xlsx"
 f = basename(u) # New_York_Times_Brexit_coverage.xlsx
