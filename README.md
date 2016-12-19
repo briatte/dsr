@@ -31,7 +31,7 @@ See also:
 
 Code:
 
-- [_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r)
+- [_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r) (uses `readxl`, `dplyr`, `tidyr` and `ggplot2`)
 
 Read:
 
