@@ -1,8 +1,7 @@
 # `>` Introduction to Data Science with R
 
 > [François Briatte](http://f.briatte.org/)  
-> [Sciences Po, Paris](http://www.sciencespo.fr/)  
-> February 2017
+> Spring 2017
 
 `>` __[Syllabus](https://frama.link/dsr16sy)__
 
@@ -29,6 +28,10 @@ See also:
 - Wickham, H. [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
 
 ## 2. Data I/O
+
+Code:
+
+- [_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r)
 
 Read:
 
@@ -89,6 +92,7 @@ See also:
 - Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
 - RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
 - Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
+- Tufte, E. [The Future of Data Analysis](https://youtu.be/rHUDJ8RyseQ)
 - Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
 - Wickham, H. [`ggplot2` Documentation](http://docs.ggplot2.org/current/)
 
