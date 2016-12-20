@@ -38,6 +38,14 @@ table(d$tone)
 ## =============================================================================
 
 ggplot(d, aes(x = date, fill = tone)) +
+  geom_bar() # by default, the bars will be stacked and will represent counts
+
+# show more dates on the x-axis
+ggplot(d, aes(x = date, fill = tone)) +
+  geom_bar() +
+  scale_x_datetime(date_breaks = "3 days", date_labels = "%b %d")
+
+ggplot(d, aes(x = date, fill = tone)) +
   geom_bar() +
   facet_wrap(~ tone, ncol = 1) # vertical small multiples
 
@@ -47,6 +55,14 @@ ggplot(d, aes(x = date, fill = tone)) +
 
 group_by(d, date, tone) %>%
   summarise(n_articles = n()) # number of articles by day
+
+# same thing, shorter code
+group_by(d, date, tone) %>%
+  tally # number of articles by day
+
+group_by(d, date, tone) %>%
+  tally %>%
+  arrange(-n) # sort by descending order
 
 # how can we split the data to 'tone' columns?
 # the code below works, but it is inefficient
