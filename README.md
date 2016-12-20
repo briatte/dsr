@@ -5,6 +5,12 @@
 
 `>` __[Syllabus](https://frama.link/dsr16sy)__
 
+## Instructions
+
+* [Create a GitHub account](https://github.com/join) (free).
+* To ask a question, use the [issues](https://github.com/briatte/dsr/issues).
+* To share your notes, use the [wiki](https://github.com/briatte/dsr/wiki).
+
 ## 1. Setup
 
 Code:
