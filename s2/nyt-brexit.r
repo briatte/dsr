@@ -2,7 +2,7 @@
 ## NYT BREXIT COVERAGE
 ## =============================================================================
 
-library(dplyr)   # data manipulation (group_by, summarise, mutate)
+library(dplyr)   # data manipulation (group_by, summarise, mutate...)
 library(ggplot2) # plots
 library(readxl)  # read Excel format
 library(tidyr)   # tidy data (gather, spread)
