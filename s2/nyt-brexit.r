@@ -54,15 +54,12 @@ ggplot(d, aes(x = date, fill = tone)) +
 ## =============================================================================
 
 group_by(d, date, tone) %>%
-  summarise(n_articles = n()) # number of articles by day
+  summarise(n_articles = n()) %>%  # number of articles by day
+  arrange(-n_articles) # sort by descending order
 
 # same thing, shorter code
 group_by(d, date, tone) %>%
-  tally # number of articles by day
-
-group_by(d, date, tone) %>%
-  tally %>%
-  arrange(-n) # sort by descending order
+  tally(sort = TRUE)
 
 # how can we split the data to 'tone' columns?
 # the code below works, but it is inefficient
