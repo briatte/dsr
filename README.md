@@ -39,9 +39,14 @@ See also:
 
 Code:
 
-- __[_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r)__ (uses `readxl`, `dplyr`, `tidyr` and `ggplot2`)
+- __[Journalists Killed since 1992](https://github.com/briatte/dsr/blob/master/s2/cpj-journalists.r)__ (uses `countrycode` and `lubridate`)
+  - Background: Committee to Protect Journalists. 2016. [Journalists Killed: Methodology](https://www.cpj.org/killed/methodology.php).
+  - Source: Committee to Protect Journalists. 2016. [Journalists Killed since 1992](https://www.cpj.org/killed/).
+- __[_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/s2/nyt-brexit.r)__ (uses `tidyr`)
   - Background: Dolšak, N. 2016. [Manufacturing Dissent: How _The New York Times_ Covered the Brexit Vote](http://duckofminerva.com/2016/09/manufacturing-dissent-how-the-new-york-times-covered-the-brexit-vote.html).
   - Source: Dolšak, N. and Prakash, A. 2016. [_The New York Times_’ Coverage of the Brexit Vote](http://faculty.washington.edu/nives/replication_data.html).
+
+> Several of the scripts above also show how to use `dplyr` and `tidyr` for data manipulation, `readr` and `readxl` for data import, and `ggplot2` for visualization.
 
 Read:
 

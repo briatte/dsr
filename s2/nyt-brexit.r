@@ -1,5 +1,5 @@
 ## =============================================================================
-## NYT BREXIT COVERAGE
+## NEW YORK TIMES BREXIT COVERAGE
 ## =============================================================================
 
 library(dplyr)   # data manipulation (group_by, summarise, mutate...)
