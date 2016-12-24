@@ -29,7 +29,9 @@ See also:
 - Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
 - Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 - Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
+- Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
 - McNeill, M. [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+- Schrodt, P. [7 Reasons Political Science “Math Camp” is a Complete Waste of Your Time](https://asecondmouse.wordpress.com/2016/03/14/7-reasons-political-science-math-camp-is-a-complete-waste-of-your-time/)
 - Ushey, K. [What is a Function?](https://kevinushey.github.io/blog/2015/11/22/what-is-a-function/) (difficult)
 - Wickham, H. [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
 
@@ -37,7 +39,9 @@ See also:
 
 Code:
 
-- [_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r) (uses `readxl`, `dplyr`, `tidyr` and `ggplot2`)
+- __[_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/session2/nyt-brexit.r)__ (uses `readxl`, `dplyr`, `tidyr` and `ggplot2`)
+  - Background: Dolšak, N. 2016. [Manufacturing Dissent: How _The New York Times_ Covered the Brexit Vote](http://duckofminerva.com/2016/09/manufacturing-dissent-how-the-new-york-times-covered-the-brexit-vote.html).
+  - Source: Dolšak, N. and Prakash, A. 2016. [_The New York Times_’ Coverage of the Brexit Vote](http://faculty.washington.edu/nives/replication_data.html).
 
 Read:
 
@@ -51,9 +55,11 @@ Read:
 See also:
 
 - Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
+- Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
 - Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
 - Hester, J. [Database Best Practices. `DBI`, `odbc` and `pool`](https://github.com/jimhester/presentations/blob/master/2016_12_15-CRUG-Database_Best_Practices/CRUG-2016_12_14.Rmd)
 - MonetDB. [MonetDB.R Tutorial](https://www.monetdb.org/Documentation/UserGuide/MonetDB-R)
+- Onuoha, M. [On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets)
 - Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
 - Tennison, J., Kellogg, G. and Herman, I. [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
 
@@ -71,6 +77,7 @@ Read:
 
 See also:
 
+- Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling)
 - Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
 - Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 - Mount, [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
