@@ -5,26 +5,30 @@
 
 `>` __[Syllabus](https://frama.link/dsr16sy)__
 
-## Instructions
+## Participate
 
 * [Create a GitHub account](https://github.com/join) (free).
 * To ask a question, use the [issues](https://github.com/briatte/dsr/issues).
 * To share your notes, use the [wiki](https://github.com/briatte/dsr/wiki).
 
+> For strictly personal questions, [email me](mailto:francois.briatte@sciencespo.fr).
+
 ## 1. Setup
 
-Code:
+### Code
 
-- [Download some stuff with `wget`](https://github.com/briatte/dsr/blob/master/session1/wget.sh)
-- [Plot macroeconomic data with `ggplot2`](https://github.com/briatte/dsr/blob/master/session1/debt.r)
+> The scripts below are short demos that will give you an idea of what you can accomplish from the command line or from R, using a selection of packages designed for data import/export, manipulation and visualization.
 
-Read:
+- [__Download a full course__ with `wget`](https://github.com/briatte/dsr/blob/master/s1/wget.sh)
+- [__Plot macroeconomic data__ with `ggplot2`](https://github.com/briatte/dsr/blob/master/s1/debt.r)
+
+### Read
 
 - [Peng 2016b][peng-2016b], ch. 3 (optional)
 - [Urdan 2010][urdan-2010], ch. 1
 - [Zumel and Mount 2014][zumel-mount-2014], ch. 1
 
-See also:
+### See also
 
 - Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
 - Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
@@ -37,18 +41,20 @@ See also:
 
 ## 2. Data I/O
 
-Code:
+### Code
 
-- __[Journalists Killed since 1992](https://github.com/briatte/dsr/blob/master/s2/cpj-journalists.r)__ (uses `countrycode` and `lubridate`)
-  - Background: Committee to Protect Journalists. 2016. [Journalists Killed: Methodology](https://www.cpj.org/killed/methodology.php).
-  - Source: Committee to Protect Journalists. 2016. [Journalists Killed since 1992](https://www.cpj.org/killed/).
-- __[_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/s2/nyt-brexit.r)__ (uses `tidyr`)
+> The scripts below all show how to use `dplyr` for data manipulation, `readr` or `readxl` for data import, and `ggplot2` for plotting. They also show how to use a few more packages that you might find useful.
+
+- __[_New York Times_ Brexit Coverage](https://github.com/briatte/dsr/blob/master/s2/nyt-brexit.r)__
+  - Demo: data reshaping  with `tidyr` (switching between 'long' and 'wide' formats).
   - Background: Dolšak, N. 2016. [Manufacturing Dissent: How _The New York Times_ Covered the Brexit Vote](http://duckofminerva.com/2016/09/manufacturing-dissent-how-the-new-york-times-covered-the-brexit-vote.html).
   - Source: Dolšak, N. and Prakash, A. 2016. [_The New York Times_’ Coverage of the Brexit Vote](http://faculty.washington.edu/nives/replication_data.html).
+- __[Journalists Killed Since 1992](https://github.com/briatte/dsr/blob/master/s2/cpj-journalists.r)__
+  - Demos: date manipulation with `lubridate`; country name manipulation with `countrycode`.
+  - Background: Committee to Protect Journalists. 2016. [Journalists Killed: Methodology](https://www.cpj.org/killed/methodology.php).
+  - Source: Committee to Protect Journalists. 2016. [Journalists Killed since 1992](https://www.cpj.org/killed/).
 
-> Several of the scripts above also show how to use `dplyr` and `tidyr` for data manipulation, `readr` and `readxl` for data import, and `ggplot2` for visualization.
-
-Read:
+### Read
 
 - [Grolemund 2014][grolemund-2014], App. A-B, ch. 1-2
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 11
@@ -56,8 +62,7 @@ Read:
 - [Peng 2016b][peng-2016b], ch. 6-7, 8 (optional), 9, 12 (optional)
 - [Zumel and Mount 2014][zumel-mount-2014], ch. 2
 
-
-See also:
+### See also
 
 - Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
 - Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
@@ -70,7 +75,9 @@ See also:
 
 ## 3. Manipulation
 
-Read:
+### Code
+
+### Read
 
 - [Grolemund 2014][grolemund-2014], ch. 3-5
 - [Peng 2016a][peng-2016a], ch. 4-5
@@ -80,7 +87,7 @@ Read:
 - [Wickham 2014b][wickham-2014b] (optional)
 - [Zumel and Mount 2014][zumel-mount-2014], ch. 3-4, 5-9 (optional)
 
-See also:
+### See also
 
 - Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling)
 - Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
@@ -94,14 +101,16 @@ See also:
 
 ## 4. Visualization
 
-Read:
+### Code
+
+### Read
 
 - [Grolemund and Wickham 2016][grolemund-wickham-2016], ch. 28
 - [Peng 2016a][peng-2016a], ch. 6-7, 15-16
 - [Wickham 2010][wickham-2010] (optional)
 - [Wickham, Cook and Hofmann 2015][wickham-cook-hofmann-2015] (optional)
 
-See also:
+### See also
 
 - Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
 - Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
