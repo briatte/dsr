@@ -31,6 +31,7 @@
 ### See also
 
 - Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+- DataCamp. [DataChats](https://www.youtube.com/playlist?list=PLjgj6kdf_snYAqMEWOlql_DVMPbh8dtP1)
 - Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 - Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
 - Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
