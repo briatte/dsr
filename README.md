@@ -66,6 +66,7 @@
 ### See also
 
 - Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
+- Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 - Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
 - Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
 - Hester, J. [Database Best Practices. `DBI`, `odbc` and `pool`](https://github.com/jimhester/presentations/blob/master/2016_12_15-CRUG-Database_Best_Practices/CRUG-2016_12_14.Rmd)
