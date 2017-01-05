@@ -66,6 +66,7 @@
 
 ### See also
 
+- Bryan, J. [Sanesheets: A Rant About Spreadsheets](https://github.com/jennybc/sanesheets) (related: [video presentation](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/jailbreakr-Get-out-of-Excel-free), [slides](https://speakerdeck.com/jennybc/spreadsheets), [sources](https://github.com/jennybc/2016-06_spreadsheets))
 - Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 - Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
 - Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
@@ -94,6 +95,7 @@
 ### See also
 
 - Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
+- Bryan, J. [Tidy Data Lesson using _Lord of the Rings_ Data](https://github.com/jennybc/lotr-tidy)
 - Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
 - Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
 - Mount, J. [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
