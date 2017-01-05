@@ -30,11 +30,12 @@
 
 ### See also
 
+- Briatte, F. [R as a Data Science Language](http://f.briatte.org/r/r-as-a-data-science-language)
 - Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+- Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
 - DataCamp. [DataChats](https://www.youtube.com/playlist?list=PLjgj6kdf_snYAqMEWOlql_DVMPbh8dtP1)
 - Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
 - Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
-- Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
 - McNeill, M. [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
 - Schrodt, P. [7 Reasons Political Science “Math Camp” is a Complete Waste of Your Time](https://asecondmouse.wordpress.com/2016/03/14/7-reasons-political-science-math-camp-is-a-complete-waste-of-your-time/)
 - Ushey, K. [What is a Function?](https://kevinushey.github.io/blog/2015/11/22/what-is-a-function/) (difficult)
@@ -65,11 +66,12 @@
 
 ### See also
 
-- Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
 - Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+- Damico, A.J. [MonetDBLite because fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
 - Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
 - Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
 - Hester, J. [Database Best Practices. `DBI`, `odbc` and `pool`](https://github.com/jimhester/presentations/blob/master/2016_12_15-CRUG-Database_Best_Practices/CRUG-2016_12_14.Rmd)
+- Leek, J. [The Four Eras of Data](http://simplystatistics.org/2016/12/16/the-four-eras-of-data/)
 - MonetDB. [MonetDB.R Tutorial](https://www.monetdb.org/Documentation/UserGuide/MonetDB-R)
 - Onuoha, M. [On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets)
 - Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
@@ -91,10 +93,10 @@
 
 ### See also
 
-- Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling)
+- Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
 - Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
 - Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
-- Mount, [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
+- Mount, J. [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
 - Myles White, J. [Modes, Medians and Means: A Unifying Perspective](http://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/)
 - RStudio. [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
 - Silge, J. and Robinson, D. [Tidy Text Mining](http://tidytextmining.com/)
