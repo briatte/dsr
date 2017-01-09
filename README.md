@@ -144,6 +144,10 @@
 - Wickham, H., Cook, D. and Hofmann, H. [Visualizing Statistical Models][wickham-cook-hofmann-2015]
 - Zumel, N. and Mount, J. 2014. [Practical Data Science with R][zumel-mount-2014]
 
+## Thanks
+
+- [Joël Gombin](https://github.com/joelgombin) for feedback on early drafts
+
 [grolemund-2014]: http://shop.oreilly.com/product/0636920028574.do "'Hands-On Programming with R'"
 [grolemund-wickham-2016]: http://r4ds.had.co.nz/ "'R for Data Science'"
 [peng-2016a]: https://leanpub.com/exdata "'Exploratory Data Analysis with R'"
