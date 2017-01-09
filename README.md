@@ -30,17 +30,17 @@
 
 ### See also
 
-- Briatte, F. [R as a Data Science Language](http://f.briatte.org/r/r-as-a-data-science-language)
-- Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
-- Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
-- DataCamp. [DataChats](https://www.youtube.com/playlist?list=PLjgj6kdf_snYAqMEWOlql_DVMPbh8dtP1)
-- Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
-- Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
-- Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
-- McNeill, M. [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
-- Schrodt, P. [7 Reasons Political Science “Math Camp” is a Complete Waste of Your Time](https://asecondmouse.wordpress.com/2016/03/14/7-reasons-political-science-math-camp-is-a-complete-waste-of-your-time/)
-- Ushey, K. [What is a Function?](https://kevinushey.github.io/blog/2015/11/22/what-is-a-function/) (difficult)
-- Wickham, H. [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
+1.  Briatte, F. [R as a Data Science Language](http://f.briatte.org/r/r-as-a-data-science-language)
+-   Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
+-   Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
+-   DataCamp. [DataChats](https://www.youtube.com/playlist?list=PLjgj6kdf_snYAqMEWOlql_DVMPbh8dtP1)
+-   Deleneuville, M. [Les stratégies open data des 20 plus grandes villes françaises](http://www.journaldunet.com/economie/services/1189782-les-strategies-open-data-des-20-plus-grandes-villes-francaises/)
+-   Free Software Foundation. [What is Free Software?](https://www.gnu.org/philosophy/free-sw.html)
+-   Gillespie, C. and Lovelace, R. [Efficient Learning](https://bookdown.org/csgillespie/efficientR/learning.html)
+-   McNeill, M. [Base R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/10/r-cheat-sheet-3.pdf)
+-   Schrodt, P. [7 Reasons Political Science “Math Camp” is a Complete Waste of Your Time](https://asecondmouse.wordpress.com/2016/03/14/7-reasons-political-science-math-camp-is-a-complete-waste-of-your-time/)
+-   Ushey, K. [What is a Function?](https://kevinushey.github.io/blog/2015/11/22/what-is-a-function/) (difficult)
+-   Wickham, H. [Data Science: How is it Different to Statistics ?](http://bulletin.imstat.org/2014/09/data-science-how-is-it-different-to-statistics%E2%80%89/)
 
 ## 2. Data I/O
 
@@ -67,17 +67,17 @@
 
 ### See also
 
-- Bryan, J. [Sanesheets: A Rant About Spreadsheets](https://github.com/jennybc/sanesheets) (related: [video presentation](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/jailbreakr-Get-out-of-Excel-free), [slides](https://speakerdeck.com/jennybc/spreadsheets), [sources](https://github.com/jennybc/2016-06_spreadsheets))
-- Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
-- Damico, A.J. [MonetDBLite Because Fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
-- Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
-- Hester, J. [Database Best Practices. `DBI`, `odbc` and `pool`](https://github.com/jimhester/presentations/blob/master/2016_12_15-CRUG-Database_Best_Practices/CRUG-2016_12_14.Rmd)
-- Leek, J. [The Four Eras of Data](http://simplystatistics.org/2016/12/16/the-four-eras-of-data/)
-- Luraschi, J. [Importing Modern Data into R](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Importing-modern-data-into-R)
-- MonetDB. [MonetDB.R Tutorial](https://www.monetdb.org/Documentation/UserGuide/MonetDB-R)
-- Onuoha, M. [On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets)
-- Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
-- Tennison, J., Kellogg, G. and Herman, I. [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
+1.  Bryan, J. [Sanesheets: A Rant About Spreadsheets](https://github.com/jennybc/sanesheets) (related: [video presentation](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/jailbreakr-Get-out-of-Excel-free), [slides](https://speakerdeck.com/jennybc/spreadsheets), [sources](https://github.com/jennybc/2016-06_spreadsheets))
+-   Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
+-   Damico, A.J. [MonetDBLite Because Fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
+-   Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
+-   Hester, J. [Database Best Practices. `DBI`, `odbc` and `pool`](https://github.com/jimhester/presentations/blob/master/2016_12_15-CRUG-Database_Best_Practices/CRUG-2016_12_14.Rmd)
+-   Leek, J. [The Four Eras of Data](http://simplystatistics.org/2016/12/16/the-four-eras-of-data/)
+-   Luraschi, J. [Importing Modern Data into R](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/Importing-modern-data-into-R)
+-   MonetDB. [MonetDB.R Tutorial](https://www.monetdb.org/Documentation/UserGuide/MonetDB-R)
+-   Onuoha, M. [On Missing Data Sets](https://github.com/MimiOnuoha/missing-datasets)
+-   Shafranovich, Y. [IETF RFC 4180: Common Format and MIME Type for Comma-Separated Values (CSV) Files](https://tools.ietf.org/html/rfc4180)
+-   Tennison, J., Kellogg, G. and Herman, I. [W3C: Model for Tabular Data and Metadata on the Web](https://www.w3.org/TR/tabular-data-model/)
 
 ## 3. Manipulation
 
@@ -95,17 +95,17 @@
 
 ### See also
 
-- Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
-- Bryan, J. [Tidy Data Lesson using _Lord of the Rings_ Data](https://github.com/jennybc/lotr-tidy)
-- Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
-- Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
-- Mount, J. [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
-- Myles White, J. [Modes, Medians and Means: A Unifying Perspective](http://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/)
-- Robinson, D.G. [`broom`: Converting Statistical Models to Tidy Data Frames](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/broom-Converting-statistical-models-to-tidy-data-frames)
-- RStudio. [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
-- Silge, J. and Robinson, D. [Tidy Text Mining](http://tidytextmining.com/)
-- Wickham, H. [The Split-Apply-Combine Strategy for Data Analysis](http://vita.had.co.nz/papers/plyr.html)
-- Wickham, H. [Tidyverse](http://tidyverse.org/)
+1.  Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
+-   Bryan, J. [Tidy Data Lesson using _Lord of the Rings_ Data](https://github.com/jennybc/lotr-tidy)
+-   Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
+-   Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
+-   Mount, J. [The Case for Index-Free Data](http://www.win-vector.com/blog/2016/12/the-case-for-index-free-data-manipulation/)
+-   Myles White, J. [Modes, Medians and Means: A Unifying Perspective](http://www.johnmyleswhite.com/notebook/2013/03/22/modes-medians-and-means-an-unifying-perspective/)
+-   Robinson, D.G. [`broom`: Converting Statistical Models to Tidy Data Frames](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/broom-Converting-statistical-models-to-tidy-data-frames)
+-   RStudio. [Data Wrangling with `dplyr` and `tidyr` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2015/02/data-wrangling-cheatsheet.pdf)
+-   Silge, J. and Robinson, D. [Tidy Text Mining](http://tidytextmining.com/)
+-   Wickham, H. [The Split-Apply-Combine Strategy for Data Analysis](http://vita.had.co.nz/papers/plyr.html)
+-   Wickham, H. [Tidyverse](http://tidyverse.org/)
 
 ## 4. Visualization
 
@@ -120,16 +120,16 @@
 
 ### See also
 
-- Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
-- Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
-- Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
-- Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
-- Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
-- RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
-- Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
-- Tufte, E. [The Future of Data Analysis](https://youtu.be/rHUDJ8RyseQ)
-- Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
-- Wickham, H. [`ggplot2` Documentation](http://docs.ggplot2.org/current/)
+1.  Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
+-   Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
+-   Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
+-   Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
+-   Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
+-   RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
+-   Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
+-   Tufte, E. [The Future of Data Analysis](https://youtu.be/rHUDJ8RyseQ)
+-   Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
+-   Wickham, H. [`ggplot2` Documentation](http://docs.ggplot2.org/current/)
 
 ## References
 
