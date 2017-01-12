@@ -126,6 +126,7 @@
 -   Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
 -   Ognyanova, K. [Network Visualization with R](http://kateto.net/network-visualization)
 -   RStudio. [Data Visualization with `ggplot2` - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/11/ggplot2-cheatsheet-2.1.pdf)
+-   Scavetta, R. [Introducing the Grammar of Graphics Plotting Concept](http://www.science-craft.com/2014/07/08/introducing-the-grammar-of-graphics-plotting-concept/)
 -   Tufte, E. [Edward Tufte Notebooks](https://www.edwardtufte.com/tufte/)
 -   Tufte, E. [The Future of Data Analysis](https://youtu.be/rHUDJ8RyseQ)
 -   Unwin, A. [Graphical Data Analysis with R](http://www.gradaanwr.net/)
@@ -146,7 +147,8 @@
 
 ## Thanks
 
-- [Joël Gombin](https://github.com/joelgombin) for feedback on early drafts
+- [Timothée Gidoin](https://github.com/Gidoin) initiated the workshop at Sciences Po
+- [Joël Gombin](https://github.com/joelgombin) provided very helpful feedback on early drafts
 
 [grolemund-2014]: http://shop.oreilly.com/product/0636920028574.do "'Hands-On Programming with R'"
 [grolemund-wickham-2016]: http://r4ds.had.co.nz/ "'R for Data Science'"
