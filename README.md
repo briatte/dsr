@@ -120,6 +120,8 @@
 
 ### See also
 
+> The links below point to (mostly) `ggplot2`-related resources, but data visualization is much, much more than that: see the resources listed in [awesome-visualization-research](https://github.com/mathisonian/awesome-visualization-research) and [awesome-dataviz](https://github.com/fasouto/awesome-dataviz).
+
 1.  Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
 -   Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
 -   Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
