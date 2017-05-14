@@ -1,7 +1,7 @@
 # `>` Introduction to Data Science with R
 
 > [François Briatte](http://f.briatte.org/)  
-> Spring 2017
+> Spring 2017. __Work in progress, not taught right now.__
 
 `>` __[Syllabus](https://frama.link/dsr16sy)__
 
@@ -30,7 +30,7 @@
 
 ### See also
 
-1.  Briatte, F. [R as a Data Science Language](http://f.briatte.org/r/r-as-a-data-science-language)
+-   Briatte, F. [R as a Data Science Language](http://f.briatte.org/r/r-as-a-data-science-language)
 -   Bryan, J. _et al._ [Happy Git and GitHub for the useR](http://happygitwithr.com/)
 -   Center for Government Excellence. [Data-Science Cheatsheet](https://github.com/govex/Data-Science)
 -   DataCamp. [DataChats](https://www.youtube.com/playlist?list=PLjgj6kdf_snYAqMEWOlql_DVMPbh8dtP1)
@@ -67,7 +67,7 @@
 
 ### See also
 
-1.  Bryan, J. [Sanesheets: A Rant About Spreadsheets](https://github.com/jennybc/sanesheets) (related: [video presentation](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/jailbreakr-Get-out-of-Excel-free), [slides](https://speakerdeck.com/jennybc/spreadsheets), [sources](https://github.com/jennybc/2016-06_spreadsheets))
+-   Bryan, J. [Sanesheets: A Rant About Spreadsheets](https://github.com/jennybc/sanesheets) (related: [video presentation](https://channel9.msdn.com/Events/useR-international-R-User-conference/useR2016/jailbreakr-Get-out-of-Excel-free), [slides](https://speakerdeck.com/jennybc/spreadsheets), [sources](https://github.com/jennybc/2016-06_spreadsheets))
 -   Chen, X. _et al._ [Awesome Public Datasets](https://github.com/caesar0301/awesome-public-datasets)
 -   Damico, A.J. [MonetDBLite Because Fast](http://www.asdfree.com/2016/06/monetdblite-because-fast.html)
 -   Gillespie, C. and Lovelace, R. [Efficient Input/Output](https://bookdown.org/csgillespie/efficientR/input-output.html)
@@ -95,7 +95,7 @@
 
 ### See also
 
-1.  Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
+-   Bryan, J. [Data Rectangling](https://speakerdeck.com/jennybc/data-rectangling) ([video presentation](https://youtu.be/4MfUCX_KpdE))
 -   Bryan, J. [Tidy Data Lesson using _Lord of the Rings_ Data](https://github.com/jennybc/lotr-tidy)
 -   Gillespie, C. and Lovelace, R. [Efficient Data Carpentry](https://bookdown.org/csgillespie/efficientR/data-carpentry.html)
 -   Kopacka, J. [Basic Regular Expressions in R - Cheat Sheet](https://www.rstudio.com/wp-content/uploads/2016/09/RegExCheatsheet.pdf)
@@ -122,7 +122,7 @@
 
 > The links below point to (mostly) `ggplot2`-related resources, but data visualization is much, much more than that: see the resources listed in [awesome-visualization-research](https://github.com/mathisonian/awesome-visualization-research) and [awesome-dataviz](https://github.com/fasouto/awesome-dataviz).
 
-1.  Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
+-   Emaasit, D. [`ggplot2` Extensions](http://www.ggplot2-exts.org/gallery/)
 -   Healy, K. and Moody, J. [Data Visualization in Sociology](https://kieranhealy.org/files/papers/data-visualization.pdf)
 -   Hijmans, R. _et al._ [GADM: Global Administrative Areas](http://gadm.org/)
 -   Nenadic, A. [Generating Google Maps out of Google Spreadsheets](https://www.software.ac.uk/generating-google-maps-out-google-spreadsheets)
@@ -149,8 +149,8 @@
 
 ## Thanks
 
-- [Timothée Gidoin](https://github.com/Gidoin) initiated the workshop at Sciences Po
-- [Joël Gombin](https://github.com/joelgombin) provided very helpful feedback on early drafts
+- [Timothée Gidoin](https://github.com/Gidoin)
+- [Joël Gombin](https://github.com/joelgombin)
 
 [grolemund-2014]: http://shop.oreilly.com/product/0636920028574.do "'Hands-On Programming with R'"
 [grolemund-wickham-2016]: http://r4ds.had.co.nz/ "'R for Data Science'"
