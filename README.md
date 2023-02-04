@@ -210,11 +210,15 @@ Students manifested an interest in that.
 
 # Credits
 
-The last time I had a chance to build such a course was [10 years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
+The last time I had a chance to build such a course was [ten years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
 
 In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
 
-## Inspiration
+Some thanks also go to [Joël Gombin](https://twitter.com/joelgombin) and [Timothée Gidoin](https://twitter.com/tgidoin), who inspired and helped with a first draft of this course, several years before it actually ran for the first time.
+
+Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
+
+## Elsewhere
 
 - Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
 - Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/) (University of Oregon, 2021)
