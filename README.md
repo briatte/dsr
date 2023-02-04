@@ -11,20 +11,65 @@ A provisional outline follows. Ideally, we'd also find time for a session to wra
 
 This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and the links are not currently active.__
 
+# Handbooks
+
+Early in the course, we will rely on R-focused handbooks, all of which are readable online:
+
+- Irizarry, _[Introduction to Data Science](http://rafalab.dfci.harvard.edu/dsbook/)_, 2022
+- Rodrigues, _[Modern R with the tidyverse](https://modern-rstats.eu/)_, 2022
+- Wickham and Grolemund, _[R for Data Science](https://r4ds.had.co.nz/index.html), 2022 (ongoing updates)
+- Healy, _[Data Visualization. A Practical Introduction](https://socviz.co/)_
+
+I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets).
+
+Later in the course, we will continue with some of those handbooks, but also refer to more reseach-focused ones, which are only available as (paying) PDF books:
+
+- Imai
+- Kennedy and Waggoner
+- Llaudet and Imai
+- Li
+
+… plus a few additional references for good measure.
+
 # Part 1. Basics
 
 ## 1. Software
 
-R and RStudio.
+- RStudio interface basics
+  - Pane layout
+  - Executing code
+  - Preferences
+- R syntax basics
+  - Comments and code
+  - Functions, arguments
+  - Packages
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-01-software.pdf)__  
 `>` Exercise 1: __[Generative art][ex1]__
 
 [ex1]: https://github.com/briatte/dsr/tree/master/dsr-01-exercise
 
+Readings:
+
+- Irizarry, ch. 1, [‘Getting started with R and RStudio’](http://rafalab.dfci.harvard.edu/dsbook/getting-started.html)
+- Rodrigues, ch. 1, [‘Getting to know RStudio’](http://modern-rstats.eu/getting-to-know-rstudio.html)
+- Wickham and Grolemund, ch. 4 ([‘Workflow: basics’](https://r4ds.had.co.nz/workflow-basics.html))
+- Wickham and Grolemund, ch. 6 ([‘Workflow: scripts’](https://r4ds.had.co.nz/workflow-scripts.html))
+
+Video:
+
+- Bail, ["Installing R and RStudio"](https://youtu.be/ulIv0NiVTs4) (also covers RStudio basics)
+
 ## 2. Workflow
 
-Projects, folders, code.
+- Setting the working directory
+- Doing so by clicking RStudio project files (`.Rproj`)
+- More R syntax essentials:
+  - Packages, functions, objects and pipes (`%>%`)
+  - Executing code spanning multiple lines
+  - Data frames (with rows/observations and columns/variables)
+  - R has many packages and sub-syntaxes (base, `tidyverse`, `ggplot2`, etc.)
+  - Executing code down to a given line (`Ctrl-Alt-B`)
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
 `>` Class example 1: __[Cholera deaths in London, 1854][s2-1]__  
@@ -34,6 +79,26 @@ Projects, folders, code.
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
 [s2-2]: https://github.com/briatte/dsr/tree/master/dsr-02/02-industrial-disputes
 [ex2]: https://github.com/briatte/dsr/tree/master/dsr-02-exercise
+
+Readings:
+
+- Irizarry, ch. 2, [‘R basics’](http://rafalab.dfci.harvard.edu/dsbook/r-basics.html)
+- Irizarry, ch. 4, [‘The tidyverse’](http://rafalab.dfci.harvard.edu/dsbook/tidyverse.html) (up to Section 4.8)
+- Irizarry, ch. 5 ([‘Importing data’](http://rafalab.dfci.harvard.edu/dsbook/importing-data.html))
+<!-- - Llaudet and Imai, ch. 1 (‘Introduction’) -->
+- Rodrigues, ch. 2 ([‘Objects, ...’](http://modern-rstats.eu/objects-their-classes-and-types-and-useful-r-functions-to-get-you-started.html))
+- Rodrigues, ch. 3 ([‘Reading and writing data’](http://modern-rstats.eu/reading-and-writing-data.html))
+
+Video:
+
+- Bail, ["R basics"](https://youtu.be/vVcH_OvrLEM)
+
+Cheatsheets:
+
+- [Base R](https://github.com/rstudio/cheatsheets/raw/main/base-r.pdf)
+- [RStudio IDE](https://github.com/rstudio/cheatsheets/raw/main/rstudio-ide.pdf)
+- [R syntax(es)](https://github.com/rstudio/cheatsheets/raw/main/syntax.pdf)
+- [Stata to R](https://github.com/rstudio/cheatsheets/raw/main/stata2r.pdf) (if relevant)
 
 ## 3. Data
 
@@ -175,8 +240,10 @@ Students manifested an interest in that.
 
 The last time I had a chance to build such a course was [10 years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
 
-See also:
+## Inspiration
 
-- Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22)
-- Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/)
-- Cosma Shalizi
+- Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
+- Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/) (University of Oregon, 2021)
+- Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
+- Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
+- Cosma Shalizi, [Modern Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/) (Carnegie Mellon University, 2015)
