@@ -17,7 +17,7 @@ This folder contains the code, data and documentation of the examples used eithe
 
 R and RStudio.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-01-software.pdf)__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-01-software.pdf)__  
 `>` Exercise 1: __[Generative art][ex1]__
 
 [ex1]: https://github.com/briatte/dsr/tree/master/dsr-01-exercise
@@ -26,9 +26,9 @@ R and RStudio.
 
 Projects, folders, code.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__
-`>` Class example 1: __[Cholera deaths in London, 1854][s2-1]__
-`>` Class example 2: __[Industrial disputes and left-wing seat shares, 1960s-2010s][s2-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
+`>` Class example 1: __[Cholera deaths in London, 1854][s2-1]__  
+`>` Class example 2: __[Industrial disputes and left-wing seat shares, 1960s-2010s][s2-2]__  
 `>` Exercise 2: __[Weird R syntax][ex2]__
 
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
@@ -39,9 +39,9 @@ Projects, folders, code.
 
 Data wrangling, mostly with `dplyr`.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__
-`>` Class example 1: __[...][s3-1]__
-`>` Class example 2: __[...][s3-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
+`>` Class example 1: __[...][s3-1]__  
+`>` Class example 2: __[...][s3-2]__  
 `>` Exercise 3: __[...][ex3]__
 
 [s3-1]: /
@@ -52,9 +52,9 @@ Data wrangling, mostly with `dplyr`.
 
 Plots, mostly with `ggplot2`.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__
-`>` Class example 1: __[...][s4-1]__
-`>` Class example 2: __[...][s4-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__  
+`>` Class example 1: __[...][s4-1]__  
+`>` Class example 2: __[...][s4-2]__  
 `>` Exercise 4: __[...][ex4]__
 
 [s4-1]: /
@@ -67,9 +67,9 @@ Plots, mostly with `ggplot2`.
 
 Also covering sampling, and possibly bootstrapping if time permits.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__
-`>` Class example 1: __[...][s5-1]__
-`>` Class example 2: __[...][s5-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__  
+`>` Class example 1: __[...][s5-1]__  
+`>` Class example 2: __[...][s5-2]__  
 `>` Exercise 5: __[...][ex5]__
 
 [s5-1]: /
@@ -80,9 +80,9 @@ Also covering sampling, and possibly bootstrapping if time permits.
 
 Also covering surveys, and (if time permits) how to handle survey weights.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__
-`>` Class example 1: __[...][s6-1]__
-`>` Class example 2: __[...][s6-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
+`>` Class example 1: __[...][s6-1]__  
+`>` Class example 2: __[...][s6-2]__  
 `>` Exercise 6: __[...][ex6]__
 
 [s6-1]: /
@@ -93,9 +93,9 @@ Also covering surveys, and (if time permits) how to handle survey weights.
 
 Also introducing least squares, and possibly LO(W)ESS.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf)__
-`>` Class example 1: __[...][s7-1]__
-`>` Class example 2: __[...][s7-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf)__  
+`>` Class example 1: __[...][s7-1]__  
+`>` Class example 2: __[...][s7-2]__  
 `>` Exercise 7: __[...][ex7]__
 
 [s7-1]: /
@@ -106,9 +106,9 @@ Also introducing least squares, and possibly LO(W)ESS.
 
 Linear regression, the full package: dummies, interactions, diagnostics, marginal effects. All in one session, if things go well.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__
-`>` Class example 1: __[...][s8-1]__
-`>` Class example 2: __[...][s8-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__  
+`>` Class example 1: __[...][s8-1]__  
+`>` Class example 2: __[...][s8-2]__  
 `>` Exercise 8: __[...][ex8]__
 
 [s8-1]: /
@@ -119,9 +119,9 @@ Linear regression, the full package: dummies, interactions, diagnostics, margina
 
 Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__
-`>` Class example 1: __[...][s9-1]__
-`>` Class example 2: __[...][s9-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__  
+`>` Class example 1: __[...][s9-1]__  
+`>` Class example 2: __[...][s9-2]__  
 `>` Exercise 9: __[...][ex9]__
 
 [s9-1]: /
@@ -132,9 +132,9 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 
 Dimensionality reduction, clustering, etc.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__
-`>` Class example 1: __[...][s10-1]__
-`>` Class example 2: __[...][s10-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__  
+`>` Class example 1: __[...][s10-1]__  
+`>` Class example 2: __[...][s10-2]__  
 `>` Exercise 10: __[...][ex10]__
 
 [s10-1]: /
@@ -147,9 +147,9 @@ Dimensionality reduction, clustering, etc.
 
 Students manifested an interest in that.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__
-`>` Class example 1: __[...][s11-1]__
-`>` Class example 2: __[...][s11-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__  
+`>` Class example 1: __[...][s11-1]__  
+`>` Class example 2: __[...][s11-2]__  
 `>` Exercise 11: __[...][ex11]__
 
 [s11-1]: /
@@ -160,9 +160,9 @@ Students manifested an interest in that.
 
 Students manifested an interest in that.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__
-`>` Class example 1: __[...][s12-1]__
-`>` Class example 2: __[...][s12-2]__
+`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__  
+`>` Class example 1: __[...][s12-1]__  
+`>` Class example 2: __[...][s12-2]__  
 `>` Exercise 12: __[...][ex12]__
 
 [s12-1]: /
