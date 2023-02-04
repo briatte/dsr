@@ -7,7 +7,7 @@
 
 This repo contains files from an old course project that took 5 years to actually get taught. I'm giving it a go this semester, so all old content is gone, and will be replaced, if everything goes well, by some new sessions.
 
-A provisional outline follows. Ideally, we'd also find time for a session to wrap up and to introduce tools that are not covered here. By order of priority: SQL, Git/GitHub, R Markdown, and possibly some JavaScript visualization libraries.
+A provisional outline follows -- not the full syllabus, only a recap of the main topics covered in each session, plus short descriptions of what happens during those.
 
 This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and the links are not currently active.__
 
@@ -33,6 +33,8 @@ Later in the course, we will continue with some of those handbooks, but also ref
 
 # Part 1. Basics
 
+Software setup, first steps with coding, handling data, and plotting things.
+
 ## 1. Software
 
 - RStudio interface basics
@@ -49,26 +51,15 @@ Later in the course, we will continue with some of those handbooks, but also ref
 
 [ex1]: https://github.com/briatte/dsr/tree/master/dsr-01-exercise
 
-Readings:
-
-- Irizarry, ch. 1, [‘Getting started with R and RStudio’](http://rafalab.dfci.harvard.edu/dsbook/getting-started.html)
-- Rodrigues, ch. 1, [‘Getting to know RStudio’](http://modern-rstats.eu/getting-to-know-rstudio.html)
-- Wickham and Grolemund, ch. 4 ([‘Workflow: basics’](https://r4ds.had.co.nz/workflow-basics.html))
-- Wickham and Grolemund, ch. 6 ([‘Workflow: scripts’](https://r4ds.had.co.nz/workflow-scripts.html))
-
-Video:
-
-- Bail, ["Installing R and RStudio"](https://youtu.be/ulIv0NiVTs4) (also covers RStudio basics)
-
 ## 2. Workflow
 
 - Setting the working directory
-- Doing so by clicking RStudio project files (`.Rproj`)
-- More R syntax essentials:
-  - Packages, functions, objects and pipes (`%>%`)
+- Doing so by using RStudio project files (`.Rproj`)
+- More R syntax essentials
+  - Packages, functions, objects and pipes (`%>%`, `|>`)
   - Executing code spanning multiple lines
   - Data frames (with rows/observations and columns/variables)
-  - R has many packages and sub-syntaxes (base, `tidyverse`, `ggplot2`, etc.)
+  - R has many packages, and sub-syntaxes (base, `tidyverse`, `ggplot2`, etc.)
   - Executing code down to a given line (`Ctrl-Alt-B`)
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
@@ -79,26 +70,6 @@ Video:
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
 [s2-2]: https://github.com/briatte/dsr/tree/master/dsr-02/02-industrial-disputes
 [ex2]: https://github.com/briatte/dsr/tree/master/dsr-02-exercise
-
-Readings:
-
-- Irizarry, ch. 2, [‘R basics’](http://rafalab.dfci.harvard.edu/dsbook/r-basics.html)
-- Irizarry, ch. 4, [‘The tidyverse’](http://rafalab.dfci.harvard.edu/dsbook/tidyverse.html) (up to Section 4.8)
-- Irizarry, ch. 5 ([‘Importing data’](http://rafalab.dfci.harvard.edu/dsbook/importing-data.html))
-<!-- - Llaudet and Imai, ch. 1 (‘Introduction’) -->
-- Rodrigues, ch. 2 ([‘Objects, ...’](http://modern-rstats.eu/objects-their-classes-and-types-and-useful-r-functions-to-get-you-started.html))
-- Rodrigues, ch. 3 ([‘Reading and writing data’](http://modern-rstats.eu/reading-and-writing-data.html))
-
-Video:
-
-- Bail, ["R basics"](https://youtu.be/vVcH_OvrLEM)
-
-Cheatsheets:
-
-- [Base R](https://github.com/rstudio/cheatsheets/raw/main/base-r.pdf)
-- [RStudio IDE](https://github.com/rstudio/cheatsheets/raw/main/rstudio-ide.pdf)
-- [R syntax(es)](https://github.com/rstudio/cheatsheets/raw/main/syntax.pdf)
-- [Stata to R](https://github.com/rstudio/cheatsheets/raw/main/stata2r.pdf) (if relevant)
 
 ## 3. Data
 
@@ -127,6 +98,8 @@ Plots, mostly with `ggplot2`.
 [ex4]: /
 
 # Part 2. Essentials
+
+Descriptive and inferential statistics, the Frequentist way (no time for Bayesian ones, I'm afraid).
 
 ## 5. Description
 
@@ -207,6 +180,10 @@ Dimensionality reduction, clustering, etc.
 [ex10]: /
 
 # Part 3. Extras
+
+Statistical and machine learning could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
+
+Ideally, we'd still also find time for an extra last session to wrap up and to introduce tools that are not covered here. By order of priority: SQL, Git/GitHub, R Markdown, and possibly some JavaScript visualization libraries.
 
 ## 11. Text
 
