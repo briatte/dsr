@@ -3,7 +3,9 @@
 > [François Briatte](https://f.briatte.org/)  
 > Spring ~~2017~~ 2023. __Work in progress.__
 
-`>` __[Syllabus](https://f.briatte.org/teaching/syllabus-dsr.pdf)__
+`>` __[Syllabus][syllabus]__
+
+[syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
 
 This repo contains files from an old course project that took 5 years to actually get taught. I'm giving it a go this semester, so all old content is gone, and will be replaced, if everything goes well, by some new sessions.
 
@@ -17,19 +19,12 @@ Early in the course, we will rely on R-focused handbooks, all of which are reada
 
 - Irizarry, _[Introduction to Data Science](http://rafalab.dfci.harvard.edu/dsbook/)_, 2022
 - Rodrigues, _[Modern R with the tidyverse](https://modern-rstats.eu/)_, 2022
-- Wickham and Grolemund, _[R for Data Science](https://r4ds.had.co.nz/index.html), 2022 (ongoing updates)
-- Healy, _[Data Visualization. A Practical Introduction](https://socviz.co/)_
+- Wickham and Grolemund, _[R for Data Science](https://r4ds.hadley.nz/)_, 2nd ed., 2023
+- Healy, _[Data Visualization. A Practical Introduction](https://socviz.co/)_, 2019
 
 I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets).
 
-Later in the course, we will continue with some of those handbooks, but also refer to more reseach-focused ones, which are only available as (paying) PDF books:
-
-- Imai
-- Kennedy and Waggoner
-- Llaudet and Imai
-- Li
-
-… plus a few additional references for good measure.
+Later in the course, we will continue with some of those handbooks, but also refer to more reseach-focused ones, plus a few additional references for good measure. Those additional readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
 
 # Part 1. Basics
 
@@ -216,6 +211,8 @@ Students manifested an interest in that.
 # Credits
 
 The last time I had a chance to build such a course was [10 years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
+
+In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
 
 ## Inspiration
 
