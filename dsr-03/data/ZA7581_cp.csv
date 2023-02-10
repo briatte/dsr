@@ -1,0 +1,427 @@
+Coutnry_short,countrycode,Region,Unifed_party_code,Q10_PTV,Q13_left_right ,Q24_EU,Party_name_questionnaire,English name,Q7_EES,Q7,Q7n,Q2,Q2_EES,Q2n,Q9_Q25_EES,Q9,Q9n,q25,Q25n
+AT,1040,,1,Q10_1,Q13_1,Q24_1,ÖVP ,Austrian People's Party,1040520,101,1,101,1040520,1,1040520,101,1,103,1
+AT,1040,,2,Q10_2,Q13_2,Q24_2,SPÖ,Austrian Social Democratic Party,1040320,102,2,102,1040320,2,1040320,102,2,102,2
+AT,1040,,3,Q10_3,Q13_3,Q24_3,NEOS,NEOS - The New Austria and Liberal Forum,1040423,104,3,103,1040423,3,1040423,103,3,107,3
+AT,1040,,4,Q10_4,Q13_4,Q24_4, Die Grünen,The Greens,1040110,106,4,104,1040110,4,1040110,104,4,106,4
+AT,1040,,5,Q10_5,Q13_5,Q24_5,FPÖ,Austrian Freedom Party,1040420,103,5,105,1040420,5,1040420,105,5,104,5
+AT,1040,,6,Q10_6,Q13_6,Q24_6,Jetzt – Liste Pilz/ Europa,Alliance for the Future of Austria,1040600,105,6,106,1040600,6,1040600,106,6,105,6
+AT,1040,,,,,,KPÖ,Austrian Communist Party,20,107,7,,,,20,107,7,108,7
+AT,1040,,,,,,Die Weißen,,,,,,,,20,108,20,,
+AT,1040,,,,,,FLÖ (Liste Dr. Schnell),,,,,,,,20,109,20,,
+,,,,,,,Liste Roland Düringer,,,,,,,,20,110,20,,
+,,,,,,,,,,,,,,,,,,,
+BE,1056,Flanders,1,Q10_1,Q13_1,Q24_1,Partij van de Arbeid – Parti du Travail de Belgique(PVDA/PTB),Workers Party of Belgium,1056325,207,1,207,1056325,1,1056325,207,1,208,1
+BE,1056,Flanders,2,Q10_2,Q13_2,Q24_2,Christen-Democratisch en Vlaams (CD&V),Christian Democratic and Flemish Party,1056521,201,2,201,1056521,2,1056521,201,2,202,2
+BE,1056,Flanders,3,Q10_3,Q13_3,Q24_3,Socialistische Partij – Anders (sp.a),Socialist Party Different,1056327,204,3,204,1056327,3,1056327,204,3,205,3
+BE,1056,Flanders,4,Q10_4,Q13_4,Q24_4,Vlaamse Liberalen en Democraten(Open VLD),Open Flemish Liberals and Democrats,1056421,206,4,206,1056421,4,1056421,206,4,207,4
+BE,1056,Flanders,5,Q10_5,Q13_5,Q24_5,Nieuw-Vlaamse Alliantie  (N-VA),New Flemish Alliance,1056913,203,5,203,1056913,5,1056913,203,5,204,5
+BE,1056,Flanders,6,Q10_6,Q13_6,Q24_6,Groen,Green,1056112,202,6,202,1056112,6,1056112,202,6,203,6
+BE,1056,Flanders,7,Q10_7,Q13_7,Q24_7,Vlaams Belang (VB),Flemish Interest,1056711,205,7,205,1056711,7,1056711,205,7,206,7
+,,,,,,,,,,,,,,,,,,,
+BE,1056,Wallonia,1,Q10_1,Q13_1,Q24_1,Parti Socialiste (PS),Francophone Socialist Party,1056322,208,1,208,1056322,1,1056322,208,1,212,1
+BE,1056,Wallonia,2,Q10_2,Q13_2,Q24_2,Mouvement Réformateur (MR),Reform Movement,1056427,209,2,209,1056427,2,1056427,209,2,213,2
+BE,1056,Wallonia,3,Q10_3,Q13_3,Q24_3,Centre Démocrate Humaniste (cdH),Humanist Democratic Centre,1056522,210,3,210,1056522,3,1056522,210,3,214,3
+BE,1056,Wallonia,4,Q10_4,Q13_4,Q24_4,Ecologistes Confédérés pour l'Organisation de Luttes Originales (ECOLO),Ecologists,1056111,211,4,211,1056111,4,1056111,211,4,215,4
+BE,1056,Wallonia,5,Q10_5,Q13_5,Q24_5,Front National (FN),National Front (Belgium),1056751,212,5,212,1056751,5,1056751,212,5,216,5
+BE,1056,Wallonia,6,Q10_6,Q13_6,Q24_6,Parti du Travail de Belgique (PTB),Workers Party of Belgium,1056335,213,6,213,1056335,6,1056335,213,6,217,6
+BE,1056,Wallonia,7,Q10_7,Q13_7,Q24_7,Démocrate Fédéraliste Indépendant (DéFI),Francophone Democratic Federalists,1056900,214,7,214,1056900,7,1056900,,7,218,7
+,,,,,,,Parti Populaire (PP),People's Party,1056601,215,8,215,1056601,8,1056601,214,8,219,8
+,,,,,,,,,,,,,,,,,,,
+BG,1110,,1,Q10_1,Q13_1,Q24_1,"????, ???????? ?? ?????????? ???????? ?? ???????? (????) ",Citzizens for European Development of Bulgaria (GERB),1100600,301,1,301,1100600,1,1100600,301,1,302,1
+BG,1110,,2,Q10_2,Q13_2,Q24_2, ???????? ?? ???????? (??),Coalition for Bulgaria (KB),1100300,302,2,302,1100300,2,1100300,302,2,303,2
+BG,1110,,3,Q10_3,Q13_3,Q24_3,???????? ?? ????? ? ??????? (???),Movements for Rights and Freedoms (DPS),1100900,303,3,303,1100900,3,1100900,303,3,304,3
+BG,1110,,4,Q10_4,Q13_4,Q24_4,???? – ????????? ?????????? ???????? (????),IMRO – Bulgarian National Movement,1103701,304,4,304,1103001,4,1103001,304,4,305,4
+BG,1110,,5,Q10_5,Q13_5,Q24_5,???????????? ???????? (??),Democratic Bulgaria,1100100,305,5,305,1100100,5,1100100,305,5,306,5
+BG,1110,,6,Q10_6,Q13_6,Q24_6, ????,Will,1100421,304,6,306,1100421,6,1100421,304,6,307,6
+BG,1110,,7,Q10_7,Q13_7,Q24_7, ?????????? ???? ????? (?????),National Union Attack (ATAKA/ATA),1100700,307,7,307,1100700,7,1100700,307,7,308,7
+BG,1110,,,,,,?????????? ????? ?? ???????? ?? ???????? (????),National Front for the Salvation of Bulgaria,20,308,20,,,,20,309,99,310,20
+BG,1110,,,,,,"????, ???????? ?? ?????????? ???????? ?? ???????? (????) ",Alternative for Bulgarian Revival,1103001,309,20,,,,1103001,310,99,311,20
+BG,1110,,,,,, ???????? ?? ???????? (??),Reformist Bloc,,,,,,,1100601,308,99,309,20
+BG,1110,,,,,,???????? ?? ????? ? ??????? (???),"Yes, Bulgaria!",,,,,,,20,311,99,,
+BG,1110,,,,,,???? – ????????? ?????????? ???????? (????),"Democrats for Responsibility, Solidarity and Tolerance",,,,,,,20,312,99,,
+BG,1110,,,,,,???????????? ???????? (??),Democrats for a Strong Bulgaria,,,,,,,20,313,99,,
+,,,,,,,,,,,,,,,,,,,
+HR,1119,,1,Q10_1,Q13_1,Q24_1,Socijaldemokratska partija Hrvatske (SDP),Social Democratic Party of Croatia,1191320,412,1,401,1191320,1,1191320,408,1,404,1
+HR,1119,,2,Q10_2,Q13_2,Q24_2,Hrvatska demokratska zajednica (HDZ),Croation Democratic Union,1191511,404,2,402,1191511,2,1191511,402,2,402,2
+HR,1119,,3,Q10_3,Q13_3,Q24_3,Živi zid,Human Shield ,1191951,414,3,403,1191951,3,1191951,409,3,411,3
+HR,1119,,4,Q10_4,Q13_4,Q24_4,Amsterdamska koalicija ,Coaltion of  HSS (1191810) + GRA?ANSKO-LIBERALNI SAVEZ - GLAS +IDS (1191953),1191810,405,4,404,1191810,4,1191810,,4,403,4
+HR,1119,,5,Q10_5,Q13_5,Q24_5,MOST,Bridge of Independent Lists,1191601,406,5,405,1191601,5,1191601,407,5,410,5
+HR,1119,,6,Q10_6,Q13_6,Q24_6,START,"Party of Anti-corruption, Development and Transparency",1191901,413,6,406,1191901,6,1191901,,6,412,6
+HR,1119,,7,Q10_7,Q13_7,Q24_7,Bandi? Milan 365,Milan Bandic 365 -- The Party of Labour and Solidarity,1191330,401,7,407,1191330,7,1191330,401,7,407,7
+HR,1119,,,,,,BRUNA ESIH - ZLATKO HASANBEGOVIC?: NEOVISNI ZA HRVATSKU + HRVATSKA STRANKA PRAVA,Coaltion of NHR (1191714) and HSP(1191713),1191011,402,20,,,,1191714,404,99,413,20
+HR,1119,,,,,,HRAST - POKRET ZA USPJES?NU HRVATSKU + HRVATSKA KONZERVATIVNA STRANKA - HKS + HRVATSKA STRANKA PRAVA DR. ANTE STARC?EV,Croatian Growth,1191952,403,20,,,,1191952,,,414,20
+HR,1119,,,,,,MOZ?EMO! - POLITIC?KA PLATFORMA+ NOVA LJEVICA + ODRZ?IVI RAZVOJ HRVATSKE – OraH (Možemo + NL + ORaH),MOZ?EMO,1191014,407,20,,,,1191014,,,416,20
+HR,1119,,,,,,NEZAVISNA LISTA MARIJANA PETIR,Independent,20,408,20,,,,,,,,20
+HR,1119,,,,,,NEZAVISNA LISTA MISLAV KOLAKUŠI?,Independent,11910021,409,20,,,,,,,,20
+HR,1119,,,,,,PAMETNO + UNIJA KVARNERA,,20,410,20,,,,20,,,415,20
+HR,1119,,,,,,SAMOSTALNA DEMOKRATSKA SRPSKA STRANKA (SDSS),Independent Democratic Serbian Party,20,411,20,,,,20,,,406,20
+HR,1119,,,,,,Hrvatski demokratski savez Slavonije i Barabnje (HDSSB),Croatian Democratic Assembly of Slavonia and Baranja,,,,,,,1191952,403,99,,
+HR,1119,,,,,,Hrvatska stranka prava Ante Star?evi? (HSP AS) i koalicijski partneri,Croatian Party of Rights -- Dr. Ante Starcevic,,,,,,,1191613,405,99,,
+HR,1119,,,,,,Istarski demokratski sabor (IDS) i koalicijski partneri,Istrian Democratic Assembly,,,,,,,1191953,406,99,408,20
+HR,1119,,,,,,Hrvatska konzervativna stranka (HKS),Croatian Conservative Party,,,,,,,20,,,419,20
+HR,1119,,,,,,Hrvatska narodna stranka (HNS),Croation People's Party,,,,,,,1191412,,,405,20
+HR,1119,,,,,,Hrvatska socijalno liberalna stranka (HSLS),Croatian Social-Liberal Party,,,,,,,1191410,,,409,20
+HR,1119,,,,,,Glas,,,,,,,,20,,,417,20
+HR,1119,,,,,,Reformisti,Reformists,,,,,,,,,,418,20
+,,,,,,,,,,,,,,,,,,,
+CY,1196,,1,Q10_1,Q13_1,Q24_1,"???? (?????????? ????? ??????????? ???? – ????????, ???? ????????)",Progressive Party of the Working People,1196321,501,1,501,1196321,1,1196321,501,1,502,1
+CY,1196,,2,Q10_2,Q13_2,Q24_2,???? (???????????? ??????????),Democratic Rally,1196711,502,2,502,1196711,2,1196711,502,2,503,2
+CY,1196,,3,Q10_3,Q13_3,Q24_3,???? (??????????? ?????),Democratic Party,1196422,503,3,503,1196422,3,1196422,503,3,504,3
+CY,1196,,4,Q10_4,Q13_4,Q24_4,???? (?????? ???????????????? ????),United Democratic Union of Centre,1196423,504,4,504,1196423,4,1196423,504,4,505,4
+CY,1196,,5,Q10_5,Q13_5,Q24_5, ?????? ?????????,Ecological and Environmental Movement (Cyprus Green Party),,,,505,1196110,5,1196110,507,5,511,5
+CY,1196,,6,Q10_6,Q13_6,Q24_6, ????,National Popular Front,1196951,507,6,506,1196951,6,1196951,505,6,507,6
+CY,1196,,7,,Q13_7,Q24_7,???????? ???????,Citizens' Alliance,,,,,,,1196341,508,7,,
+CY,1196,,8,,Q13_8,,???? (??????????? ????????),Democratic Alignment ,1196442,506,8,507,1196442,8,1196442,,,506,8
+CY,1196,,9,,"mean(Q13_5, Q13_7)","mean(Q24_5, Q24_7)",???????? ???????-?????????, Electoral alliance: Citizens's Alliance (1196002) and Ecological and Environmental Movement (1196110),1196010,505,9,,,,,,,,
+CY,1196,,,,,,???????,Yasemin Hareketi ,20,508,20,,,,,,,,
+CY,1196,,,,,, ??????????,Solidarity Movement,20,,,,,,20,506,20,508,
+CY,1196,,,,,,?????????? ??????,The Patriotic Movement,20,509,20,,,,,,,,
+CY,1196,,,,,,??? (??????????? ?????????????? ??????),,20,510,20,,,,,,,,
+CY,1196,,,,,,??? (???????? ????????? ???????????),,20,511,20,,,,,,,,
+CY,1196,,,,,,????? ??? ?? ???,Animal Party Cyprus,20,512,20,,,,20,509,20,,
+,,,,,,,,,,,,,,,,,,,
+CZ,1203,,1,Q10_1,Q13_1,Q24_1,K?es?anská a demokratická unie - ?eskoslovenská strana lidová  (KDU/CSL),Christian and Democratic Union / Czechoslovak People's Party,1203523,601,1,601,1203523,1,1203523,601,1,602,1
+CZ,1203,,2,Q10_2,Q13_2,Q24_2,?eská strana sociáln? demokratická  (CSSD),Czech Social Democratic Party,1203320,603,2,602,1203320,2,1203320,603,2,604,2
+CZ,1203,,3,Q10_3,Q13_3,Q24_3,Ob?anská demokratická strana  (ODS),Civic Democratic Party,1203413,604,3,603,1203413,3,1203413,604,3,605,3
+CZ,1203,,4,Q10_4,Q13_4,Q24_4,Komunistická strana Cech a Moravy  (KSCM),Communist Party of Bohemia and Moravia,1203220,605,4,604,1203220,4,1203220,605,4,606,4
+CZ,1203,,5,Q10_5,Q13_5,Q24_5,ANO2011 (ANO),ANO 2011,1203423,606,5,605,1203423,5,1203423,606,5,607,5
+CZ,1203,,6,Q10_6,Q13_6,Q24_6,Pirátská strana (Piráti),Czech Pirate Party,1203901,607,6,606,1203901,6,1203901,607,6,608,6
+CZ,1203,,7,Q10_7,Q13_7,Q24_7,Strana p?ímé demokracie Tomio Okamura (SPD),Freedom and Direct Democracy Tomio Okamura,1203951,608,7,607,1203951,7,1203951,608,7,609,7
+CZ,1203,,8,Q10_8,Q13_8,Q24_8,Tradice Odpov?dnost Prosperita 09  (TOP 09),"Tradition, Responsibility, Prosperity 09 (TOP 09)",1203530,602,8,,,,1203530,602,8,603,8
+,,,,,,,Starostové a nezávislí (STAN),Mayors and Independents,,,,,,,20,609,20,610,20
+,,,,,,,,,,,,,,,,,,,
+DE,1276,,1,Q10_1,Q13_1,Q24_1,1 CDU/CSU ,Christian Democratic Union / Christian Social Union ,1276521,801,1,801,1276521,1,1276521,801,1,802,1
+DE,1276,,2,Q10_2,Q13_2,Q24_2,2 SPD,Sozialdemokratische Partei Deutschlands (SPD),1276320,802,2,802,1276320,2,1276320,802,2,803,2
+DE,1276,,3,Q10_3,Q13_3,Q24_3,3 FDP,Free Democratic Party,1276420,805,3,803,1276420,3,1276420,803,3,806,3
+DE,1276,,4,Q10_4,Q13_4,Q24_4,4 Die Grünen,Alliance 90 / The Greens,1276113,803,4,804,1276113,4,1276113,804,4,804,4
+DE,1276,,5,Q10_5,Q13_5,Q24_5,5 Die Linke,The Left,1276321,804,5,805,1276321,5,1276321,805,5,805,5
+DE,1276,,6,Q10_6,Q13_6,Q24_6,6 AFD,Alternative for Germany,1276621,807,6,806,1276621,6,1276621,806,6,808,6
+DE,1276,,7,Q10_7,Q13_7,Q24_7,7 Piraten,Pirates,1276951,806,7,807,1276951,7,1276951,807,7,807,7
+,,,,,,,Familien-Partei,Family Party of Germany,20,808,20,,,,,,,,
+,,,,,,,Freie Wähler,Free Voters,20,809,20,,,,,,,,
+,,,,,,,NPD,National Democratic Party of Germany,20,810,20,,,20,20,808,,,
+,,,,,,,ÖDP,Ecological Democratic Party,20,811,20,,,,,,,,
+,,,,,,,Tierschutzpartei,Human Environmental Animal Protection,20,812,20,,,,,,,,
+,,,,,,,Die Partei,THE PARTY,20,813,20,,,,,,,,
+,,,,,,,Die Republikaner,The Republicans,,,,,,20,20,809,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+DK,1208,,1,Q10_1,Q13_1,Q24_1,Socialdemokraterne,Social Democratic Party,1208320,701,1,701,1208320,1,1208320,701,1,702,1
+DK,1208,,2,Q10_2,Q13_2,Q24_2,Venstre,Liberals,1208420,702,2,702,1208420,2,1208420,702,2,703,2
+DK,1208,,3,Q10_3,Q13_3,Q24_3,Dansk Folkeparti ,Danish People's Party,1208720,703,3,703,1208720,3,1208720,703,3,704,3
+DK,1208,,4,Q10_4,Q13_4,Q24_4,Radikale Venstre,Radical Party,1208410,704,4,704,1208410,4,1208410,704,4,705,4
+DK,1208,,5,Q10_5,Q13_5,Q24_5,Socialistisk Folkeparti ,Socialist People's Party,1208330,705,5,705,1208330,5,1208330,705,5,706,5
+DK,1208,,6,Q10_6,Q13_6,Q24_6,Enhedslisten,Red-Green Unity List,1208220,706,6,706,1208220,6,1208220,706,6,707,6
+DK,1208,,7,Q10_7,Q13_7,Q24_7,Det Konservative Folkeparti,Conservative People's Party,1208620,707,7,707,1208620,7,1208620,708,7,709,7
+DK,1208,,,,,,Liberal Alliance,Liberal Alliance,1208421,708,20,,,20,1208421,707,20,708,20
+DK,1208,,,,,,Folkebevægelsen mod EU,People's Movement against the EU,1208954,709,20,,,20,,,,,
+DK,1208,,,,,,Kristendemokraterne,,,,,,,,20,709,20,710,20
+,,,,,,,Alternativet,,`,,,,,,20,710,20,711,20
+,,,,,,,,,,,,,,,,,,,
+EE,1233,,1,Q10_1,Q13_1,Q24_1,Eesti Reformierakond (Reform),Estonian Reform Party,1233430,901,1,901,1233430,1,1233430,901,1,902,1
+EE,1233,,2,Q10_2,Q13_2,Q24_2,Eesti Keskerakond (Kesk),Estonian Center Party,1233411,902,2,902,1233411,2,1233411,902,2,903,2
+EE,1233,,3,Q10_3,Q13_3,Q24_3,Eesti Konservatiivne Rahvaerakond (EKRE),Conservative People's Party of Estonia,1233751,903,3,903,1233810,3,1233810,903,3,904,3
+EE,1233,,4,Q10_4,Q13_4,Q24_4,Isamaa Erakond (Isamaa),Union for the Republic -- Res Publica,1233613,904,4,904,1233613,4,1233613,904,4,905,4
+EE,1233,,5,Q10_5,Q13_5,Q24_5,Sotsiaaldemokraatlik Erakond (SDE),Social Democratic Party,1233410,905,5,905,1233410,5,1233410,905,5,906,5
+EE,1233,,6,Q10_6,Q13_6,Q24_6,Erakond Eesti 200 (Eesti 200),Estonia 200,1233420,906,6,906,1233420,6,1233420,906,6,907,6
+EE,1233,,7,Q10_7,Q13_7,Q24_7,Erakond Eestimaa Rohelised (Rohelised),Estonian Greens,1233100,907,7,907,1233100,7,1233100,907,7,908,7
+EE,1233,,,,,,Elurikkuse Erakond (EE),Richness of Life,20,908,20,,,,20,908,20,909,20
+EE,1233,,,,,,Eestimaa Ühendatud Vasakpartei (EÜV),Estonian United People's Party,20,909,20,,,,20,910,20,911,20
+EE,1233,,,,,,üksikkandidaat (sõltumatu kandidaat),"Independent ,Raimond Kaljulaid",20,910,20,,,,,,,,
+EE,1233,,,,,,Eesti Vabaerakond (EV),Free Party,,,,,,,20,909,20,910,20
+EE,1233,,,,,,üksikkandidaat (sõltumatu kandidaat),Independent candidates,,,,,,,20,911,20,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+FI,1246,,1,Q10_1,Q13_1,Q24_1,Suomen Sosialidemokraattinen Puolue (SDP),Finnish Social Democrats,1246320,1001,1,1001,1246320,1,1246320,1001,1,1002,1
+FI,1246,,2,Q10_2,Q13_2,Q24_2,Perussuomalaiset (Perus/PS),True Finns,1246820,1002,2,1002,1246820,2,1246820,1002,2,1003,2
+FI,1246,,3,Q10_3,Q13_3,Q24_3,Kansallinen Kokoomus (KOK),National Coalition,1246620,1003,3,1003,1246620,3,1246620,1003,3,1004,3
+FI,1246,,4,Q10_4,Q13_4,Q24_4,Suomen Keskusta (KESK),Finnish Centre,1246810,1004,4,1004,1246810,4,1246810,1004,4,1005,4
+FI,1246,,5,Q10_5,Q13_5,Q24_5,Vihreä Liitto (VIHR),Green Union,1246110,1005,5,1005,1246110,5,1246110,1005,5,1006,5
+FI,1246,,6,Q10_6,Q13_6,Q24_6,Vasemmistoliitto (VAS),Left Wing Alliance,1246223,1006,6,1006,1246223,6,1246223,1006,6,1007,6
+FI,1246,,7,Q10_7,Q13_7,Q24_7,Suomen ruotsalainen kansanpuolue (RKP),Swedish People's Party,1246901,1007,7,1007,1246901,7,1246901,1007,7,1008,7
+FI,1246,,,,,,Suomen Kristillisdemokraatit (KD),Christian Democrats in Finland,1246520,1008,20,,,,20,1008,20,1009,20
+FI,1246,,,,,,Sininen tulevaisuus, Blue Reform,20,1009,20,,,,20,1009,20,1010,20
+FI,1246,,,,,,Piraattipuolue (PIR),Pirate Party of Finland,20,1010,20,,,,20,1010,20,,
+,,,,,,,Seitsemän tähden liike (STL),Seven Star Movement,20,1011,20,,,,20,1011,,,
+,,,,,,,Liberaalipuolue - Vapaus valita (LIBE),Liberal Party – Freedom to Choose,20,1012,20,,,,20,1012,,,
+,,,,,,,Kansalaispuolue (KP),People's Party,20,1013,20,,,,20,1013,,,
+,,,,,,,Feministinen puolue (FP),Feminst Party,20,1014,20,,,,20,1014,,,
+,,,,,,,Suomen Kommunistinen Puolue (SKP),Communist Party of Finland,20,1015,20,,,,20,1015,,,
+,,,,,,,Eläinoikeuspuolue (EOP),EOP: Animal Justice Party of Finland,20,1016,20,,,,20,1016,,,
+,,,,,,,Itsenäisyyspuolue (IPU),The Independence Party,20,1017,20,,,,20,1017,,,
+,,,,,,,Suomen Kansa Ensin (SKE),Finnish People's Party,20,1018,20,,,,20,1018,,,
+,,,,,,,Kommunistinen Työväenpuolue - Rauhan ja Sosialismin puolesta (KTP),Workers' Party of Finland,20,1019,20,,,,20,1019,,,
+,,,,,,,,,,,,,,,,,,,
+FR,1250,,1,Q10_1,Q13_1,Q24_1,Les Républicains (LR),The Republicans,1250626,1113,1,1101,1250626,1,1250626,1111,1,1102,1
+FR,1250,,2,Q10_2,Q13_2,Q24_2,Parti socialiste (PS),Socialist Party,1250320,1105,2,1102,1250320,2,1250320,1104,2,1103,2
+FR,1250,,3,Q10_3,Q13_3,Q24_3,Rassemblement national (RN),National Rally ,1250720,1111,3,1103,1250720,3,1250720,1113,3,1104,3
+FR,1250,,4,Q10_4,Q13_4,Q24_4,Europe Ecologie - Les Verts (EELV),Europe Ecology - The Greens,1250110,1114,4,1104,1250110,4,1250110,1107,4,1105,4
+FR,1250,,5,Q10_5,Q13_5,Q24_5,France insoumise (LFI),Unbowed France,1250225,1101,5,1105,1250225,5,1250225,1103,5,1106,5
+FR,1250,,6,Q10_6,Q13_6,Q24_6,Génération.s," Generation.s, the movement ",1250321,1110,6,1106,1250321,6,1250321,,6,1107,6
+FR,1250,,7,Q10_7,Q13_7,Q24_7,La République en Marche (LRM),The Republic Onwards! ,1250438,1102,7,1107,1250438,7,1250438,1108,7,1108,7
+FR,1250,,,,,,"La liste Patriote et Gilets jaunes, menée par Florian Philippot",,20,1103,20,,,,20,,20,1117,20
+FR,1250,,,,,,"La liste Urgence écologie, menée par Dominique Bourg",,20,1104,20,,,,,,,,
+FR,1250,,,,,,"La liste Debout La France, menée par Nicolas Dupont-Aignan",Arise the Republic,1250636,1106,20,,,,1250636,,20,1116,20
+FR,1250,,,,,,"La liste Lutte Ouvrirère, menée par Nathalie Arthaud",Workers' Struggle ,20,1107,20,,,,20,1101,20,1109,20
+FR,1250,,,,,,"La Liste du Parti communiste français, menée par Ian Brossat",Left Front,1250223,1108,20,,,,1250223,1102,20,1111,20
+FR,1250,,,,,,"La liste pour le Frexit, menée par François Asselineau",Popular Republican Union,20,1109,20,,,,20,,20,1118,20
+FR,1250,,,,,,"La Liste Alliance jaune, menée par Francis Lalanne",Yellow alliance,20,1112,20,,,,,,,,
+FR,1250,,,,,,Parti radical de gauche,Left Radical Party,,,,,,,20,1105,,,
+FR,1250,,,,,,Divers gauche,Miscellaneous Left,,,,,,,20,1106,,,
+FR,1250,,,,,,MoDem,Democratic Movement,,,,,,,20,1109,20,1114,20
+FR,1250,,,,,,Union des Démocrates et Indépendants (UDI),Union of Democrats and Independents – UDI,,,,,,,1250336,1110,20,1115,20
+FR,1250,,,,,,Divers droite,Miscellaneous Right,,,,,,,20,1112,,,
+FR,1250,,,,,,Régionalistes,Regionalists,,,,,,,20,1114,,,
+FR,1250,,,,,,Nouveau parti anticapitaliste (NPA),New Anticapitalist Party,,,,,,,1250233,,20,1110,20
+FR,1250,,,,,,Place publique,Public place,,,,,,,20,,20,1112,20
+FR,1250,,,,,,Nouvelle donne,New Deal ,,,,,,,20,,20,1113,20
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+GR,1300,,1,Q10_1,Q13_1,Q24_1,??????????? ????????????? ????????? (??????),Coalition of the Radical Left,1300215,1201,1,1201,1300215,1,1300215,1201,1,1202,1
+GR,1300,,2,Q10_2,Q13_2,Q24_2,??? ?????????? (??),New Democracy,1300511,1202,2,1202,1300511,2,1300511,1202,2,1203,2
+GR,1300,,3,Q10_3,Q13_3,Q24_3,????? ???? (??),Golden Dawn,1300710,1203,3,1203,1300710,3,1300710,1203,3,1204,3
+GR,1300,,4,Q10_4,Q13_4,Q24_4,?????? ??????? (?????),Panhellenic Socialist Movement/ Movement for Change,1300314,1204,4,1204,1300314,4,1300314,1204,4,1205,4
+GR,1300,,5,Q10_5,Q13_5,Q24_5,????????????? ????? ??????? (???),Communist Party of Greece,1300210,1205,5,1205,1300210,5,1300210,1205,5,1206,5
+GR,1300,,6,Q10_6,Q13_6,Q24_6,?? ??????,The River (Greece),1300323,1206,6,1206,1300323,6,1300323,1206,6,1207,6
+GR,1300,,7,Q10_7,Q13_7,Q24_7,??????????? ??????? (????),Independent Greeks,1300611,1207,7,1207,1300611,7,1300611,1207,7,1208,7
+GR,1300,,,,,,????? ???????? (??),Union of Centrists,20,1208,20,,,,20,1208,20,1209,20
+GR,1300,,,,,,????? ??????? (???),Popular Unity,20,1209,20,,,,20,1209,20,1210,20
+GR,1300,,,,,,????????? ????????,Ecologist Greens,20,1210,20,,,,,,,,
+GR,1300,,,,,,???????? ????,Greek Solution,1300703,1211,20,,,,,,,,
+GR,1300,,,,,,?????? ??????????? ????????? (????25), European Realistic Disobedience Front ,1300217,1212,20,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+HU,1348,,1,Q10_1,Q13_1,Q24_1,Demokratikus Koalíció (DK),Democratic Coalition,1348330,1301,1,1301,1348330,1,1348330,1301,1,1302,1
+HU,1348,,2,Q10_2,Q13_2,Q24_2,Fidesz -Magyar Polgári Szövetség - Kereszténydemokrata Néppárt (FIDESZ-KDNP),FIDESZ-KDNP Alliance,1348421,1302,2,1302,1348421,2,1348421,1302,2,1303,2
+HU,1348,,3,Q10_3,Q13_3,Q24_3,Jobbik Magyarországért Mozgalom  (JOBBIK),Jobbik,1348700,1303,3,1303,1348700,3,1348700,1303,3,1304,3
+HU,1348,,4,Q10_4,Q13_4,Q24_4,Lehet Más a Politika(LMP),Politics Can Be Different,1348110,1304,4,1304,1348110,4,1348110,1304,4,,4
+HU,1348,,5,Q10_5,Q13_5,Q24_5,Magyar Szocialista Párt (MSZP),Hungarian Socialist Party,1348220,1306,5,1306,1348220,5,1348220,1306,5,1306,5
+HU,1348,,6,Q10_6,Q13_6,Q24_6,Mi Hazánk Mozgalom (MH),Our Homeland Movement,1348702,1307,6,1307,1348702,6,1348702,1307,6,1307,6
+HU,1348,,7,Q10_7,Q13_7,Q24_7,Momentum Mozgalom,Momentum Movement ,1348430,1308,7,1308,1348430,7,1348430,1308,7,1308,7
+HU,1348,,8,,,,Magyar Kétfarkú Kutya Párt (MkKP),Hungarian Two-tailed Dog Party,1348959,1305,8,1305,1348959,8,1348959,1305,8,1305,8
+HU,1348,,,,,,Kereszténydemokrata Néppárt (KDNP),Christian Democratic People's Party,,,,1309,1348421,1,,,,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+IE,1372,,1,Q10_1,Q13_1,Q24_1,Fine Gael,Familiy of the Irish,1372520,1402,1,1401,1372520,1,1372520,1401,1,1403,1
+IE,1372,,2,Q10_2,Q13_2,Q24_2,Labour Party,Labour Party,1372320,1403,2,1402,1372320,2,1372320,1402,2,1404,2
+IE,1372,,3,Q10_3,Q13_3,Q24_3,Fianna Fáil ,Soldiers of Destiny,1372620,1401,3,1403,1372620,3,1372620,1403,3,1402,3
+IE,1372,,4,Q10_4,Q13_4,Q24_4,Green Party,Green Party,1372110,1404,4,1404,1372110,4,1372110,1404,4,1405,4
+IE,1372,,5,Q10_5,Q13_5,Q24_5,Sinn Féin,Ourselves Alone,1372951,1405,5,1405,1372951,5,1372951,1405,5,1406,5
+IE,1372,,6,Q10_6,Q13_6,Q24_6,Solidarity - People Before Profit/ ,Solidarity - People Before Profit/ ,1372222,1406,6,1406,1372222,6,1372222,1407,6,1407,6
+IE,1372,,,,,,Social Democrats,Social Democrats,20,1407,20,,,,20,1410,20,1408,20
+IE,1372,,,,,,Independents 4 Change,Independents 4 Change,20,1408,20,,,,20,1409,20,,
+IE,1372,,,,,,Independent,Independent,20,1409,20,,,,,,,,
+IE,1372,,,,,,Socialist Party,Socialist Party,,,,,,,1372220,1406,20,,
+IE,1372,,,,,,Independent,Independent,,,,,,,20,1411,20,,
+IE,1372,,,,,,Independent Alliance,Independent Alliance,,,,,,,20,1408,20,,
+,,,,,,,,,,,,,,,,,,,
+IT,1380,,1,Q10_1,Q13_1,Q24_1,Partito Democratico (PD),Democratic Party,1380331,1501,1,1501,1380331,1,1380331,1501,1,1502,1
+IT,1380,,2,Q10_2,Q13_2,Q24_2,Forza Italia (Fi),Go Italy,1380610,1502,2,1502,1380610,2,1380610,1506,2,1503,2
+IT,1380,,3,Q10_3,Q13_3,Q24_3,Lega Salvini Premier ,Northern League,1380720,1503,3,1503,1380720,3,1380720,1507,3,1504,3
+IT,1380,,4,Q10_4,Q13_4,Q24_4,Movimento 5 Stelle (MCS),Five Star Movement,1380956,1504,4,1504,1380956,4,1380956,1508,4,1505,4
+IT,1380,,5,Q10_5,Q13_5,Q24_5,Sinistra,Italian Left,1380211,1505,5,1505,1380211,5,1380211,1502,5,1506,5
+IT,1380,,6,Q10_6,Q13_6,Q24_6,"""+Europa""", More Europe (+Europa) ,1380421,1506,6,1506,1380421,6,1380421,1503,6,1507,6
+IT,1380,,7,Q10_7,Q13_7,Q24_7,Fratelli d'Italia - Centrodestra Nazionale,Brothers of Italy - National Centre-right,1380631,1507,7,1507,1380631,7,1380631,1510,7,1508,7
+IT,1380,,,,,,FEDERAZIONE DEI VERDI,Federation of the Greens ,1380101,1508,20,,,,1380101,,,1509,20
+IT,1380,,,,,,Südtiroler Volkspartei (Partito popolare sudtirolese) (SVP),South Tyrol People's Party,1380958,1509,20,,,,1380958,1504,20,1510,20
+IT,1380,,,,,,POPOLARI PER L'ITALIA,Populars for Italy,20,1510,20,,,,20,,,1511,20
+IT,1380,,,,,,Partito Comunista,Communist Party ,20,1511,20,,,,20,,,1512,20
+IT,1380,,,,,,Forza Nuova,New orice,20,1512,20,,,,20,,,1513,20
+IT,1380,,,,,,Casa Pound,CasaPound Italy–United Right ,20,1513,20,,,,20,,,1514,20
+IT,1380,,,,,,Noi con L'Italia (Udc)_, Us with Italy_UDC,,,,,,,20,1509,20,,
+IT,1380,,,,,,Italia Europa Insieme, Italy Europe Together ,,,,,,,20,1505,20,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+LV,1428,,1,Q10_1,Q13_1,Q24_1,Nacion?l? apvien?ba “Visu Latvijai!”-“T?vzemei un Br?v?bai/LNNK”,For Fatherland and Freedom - National Independence Movement of Latvia,1428723,1611,1,1606,1428723,1,1428723,1604,1,1612,1
+LV,1428,,2,Q10_2,Q13_2,Q24_2,Jaun? konservat?v? partija,New Conservative Party,1428630,1608,2,1603,1428630,2,1428630,1602,2,1609,2
+LV,1428,,3,Q10_3,Q13_3,Q24_3,Att?st?bai/Par!,Development/For!,1428001,1609,3,1604,1428001,3,1428001,1610,3,1610,3
+LV,1428,,4,Q10_4,Q13_4,Q24_4,Politisk? partija KPV LV,Who owns the state? ,1428956,1605,4,1602,1428956,4,1428956,1615,4,1606,4
+LV,1428,,5,Q10_5,Q13_5,Q24_5,“Saska?a” soci?ldemokr?tisk? partija,"Social Democratic Party ""Harmony""",1428317,1610,5,1605,1428317,5,1428317,1609,5,1611,5
+LV,1428,,6,Q10_6,Q13_6,Q24_6,Za?o un Zemnieku savien?ba,Green and Farmers' Union,1428110,1604,6,1601,1428110,6,1428110,1616,6,1605,6
+LV,1428,,7,Q10_7,Q13_7,Q24_7,Jaun? Vienot?ba,Unity,1428610,1616,7,1607,1428610,7,1428610,1613,7,1614,7
+LV,1428,,,,,,Latvijas Krievu savien?ba,Latvian Russian Union,1428901,1601,20,,,,1428901,1601,20,1602,20
+LV,1428,,,,,,Latviešu nacion?listi,  Latvian Nationalists,20,1602,20,,,,20,1612,20,1603,20
+LV,1428,,,,,,Latvijas Re?ionu apvien?ba,Latvian Association of Regions,1428902,1603,20,,,,1428902,1611,20,1604,20
+LV,1428,,,,,,Progres?vie,Progressives,1428319,1606,20,,,,1428319,1605,20,1607,20
+LV,1428,,,,,,Jaun? Saska?a,New Harmony,20,1607,20,,,,20,,,1608,20
+LV,1428,,,,,,R?c?bas partija,  Action Party,20,1612,20,,,,20,1603,20,1616,20
+LV,1428,,,,,,Atmoda,Awakening,20,1613,20,,,,20,1608,20,1615,20
+LV,1428,,,,,,Centra partija,Center Party,20,1614,20,,,,,,,,
+LV,1428,,,,,,Latvijas Soci?ldemokr?tisk? str?dnieku partija (LDSP),Latvian Social Democratic Workers' Party,20,1615,20,,,,20,1607,20,1613,20
+LV,1428,,,,,,Latvijas centrisk? partija,Latvian Centrist Party ,20,,,,,,20,1606,20,,
+LV,1428,,,,,,Par Alternat?vu ,For an Alterantive ,20,,,,,,20,1614,20,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+LT,1440,,1,Q10_1,Q13_1,Q24_1,T?vyn?s s?junga – Lietuvos krikš?ionys demokratai (TS-LKD),Homeland Union - Lithuanian Christian Democrats,1440620,1701,1,1707,1440620,1,1440620,1701,1,1708,1
+LT,1440,,2,Q10_2,Q13_2,Q24_2,Lietuvos socialdemokrat? partija  (LSDP),Lithuanian Social Democratic Party,1440320,1703,2,1704,1440620,2,1440620,1703,2,1705,2
+LT,1440,,3,Q10_3,Q13_3,Q24_3,Lietuvos Respublikos liberal? s?j?dis  (LS),Liberal Movement,1440421,1706,3,1703,1440421,3,1440421,1704,3,1704,3
+LT,1440,,4,Q10_4,Q13_4,Q24_4,Darbo partija  (DP),Labour Party,1440322,1705,4,1701,1440322,4,1440322,1708,4,1702,4
+LT,1440,,5,Q10_5,Q13_5,Q24_5,Partija “Tvarka ir teisingumas”  (TT),Order and Justice,1440621,1704,5,1706,1440621,5,1440621,1706,5,1707,5
+LT,1440,,6,Q10_6,Q13_6,Q24_6,Lietuvos lenk? rinkim? akcija  - Krikš?ionišk? šeim? s?junga (LLRA),Election Action of Lithuania's Poles,1440952,1707,6,1702,1440952,6,1440952,1705,6,1703,6
+LT,1440,,7,Q10_7,Q13_7,Q24_7,Lietuvos valstie?i? ir žali?j? s?junga (LVŽS),Lithuanian Peasant and Greens Union,1440524,1702,7,1705,1440524,7,1440524,1702,7,1706,7
+LT,1440,,,,,,Lietuvos centro partija (LCP),Lithuanian Centre Party ,20,1708,20,,,,,1707,20,,20
+LT,1440,,,,,,Lietuvos socialdemokrat? darbo partija (LSDDP),Social Democratic Labour Party of Lithuania,1440333,1709,20,,,,,,,,
+LT,1440,,,,,,Lietuvos laisv?s s?junga (liberalai) (LLS),Lithuanian Freedom Union,20,1710,20,,,,20,1709,20,,20
+LT,1440,,,,,,Lietuvos žali?j? partija (LŽP),Lithuanian Green Party,1440110,1711,20,,,,1440110,1710,20,,20
+LT,1440,,,,,,"Visuomeninis rinkim? komitetas „Prezidento Rolando Pakso jud?jimas""","Public election committee ""Decisive Leap""",20,1712,20,,,,,,,,
+LT,1440,,,,,,"Visuomeninis rinkim? komitetas „Aušros Maldeikien?s traukinys""","Public election committee ""Aušra Maldeikien?'s Train"" (VKM-AMT)",1440001,1713,20,,,,,,,,
+LT,1440,,,,,,"Visuomeninis rinkim? komitetas „Vytautas Radžvilas: susigr?žinkime valstyb?!""","Public election committee ""Vytautas Radžvilas: Recover the State!""",20,1714,20,,,,,,,,
+LT,1440,,,,,,"Visuomeninis rinkim? komitetas „Stipri Lietuva vieningoje Europoje""","Public election committee ""Strong Lithuania in United Europe""",20,1715,20,,,,,,,,
+LT,1440,,,,,,"Visuomeninis rinkim? komitetas „Lemiamas šuolis""","Public election committee ""Decisive Leap""",20,1716,20,,,,,,,,
+LT,1440,,,,,,"Politin? partija ""Lietuvos s?rašas""","Political Party ""Lithuanian List""",,,,,,,20,1711,20,,
+LT,1440,,,,,,Lietuvos liaudies partija,Lithuanian People's Party,,,,,,,20,1712,20,,
+LT,1440,,,,,,"S. Buškevi?iaus ir Tautinink? koalicija „Prieš korupcij? ir skurd?"" (Partija „Jaunoji Lietuva"", Tautinink? s",Anti-corruption coalition of Kristupas Krivickas and Naglis Puteikis,,,,,,,20,1713,20,,
+LT,1440,,,,,,"""Dr?sos kelias"" politin? partija",The Way of Courage,,,,,,,20,1714,20,,
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+LU,1442,,1,Q10_1,Q13_1,Q24_1,Chrëschtlech Sozial Vollekspartei (CSV),Christian Social People's Party,1442520,1801,1,1801,1442520,1,1442520,1801,1,1805,1
+LU,1442,,2,Q10_2,Q13_2,Q24_2,Lëtzebuerger Sozialistesch Aarbechterpartei (LSAP),Socialist Workers' Party,1442320,1802,2,1802,1442320,2,1442320,1802,2,1803,2
+LU,1442,,3,Q10_3,Q13_3,Q24_3,Demokratesch Partei (DP),Democratic Party,1442420,1803,3,1803,1442420,3,1442420,1803,3,1804,3
+LU,1442,,4,Q10_4,Q13_4,Q24_4,Déi Gréng,The Greens,1442113,1804,4,1804,1442113,4,1442113,1804,4,1802,4
+LU,1442,,5,Q10_5,Q13_5,Q24_5,Déi Lénk (DL ),The Left,1442222,1805,5,1805,1442222,5,1442222,1807,5,1806,5
+LU,1442,,6,Q10_6,Q13_6,Q24_6,Alternativ Demokratesch Reformpartei (ADR),Alternative Democratic Reform Party,1442951,1806,6,1806,1442951,6,1442951,1806,6,1807,6
+LU,1442,,7,Q10_7,Q13_7,Q24_7,Piratepartei (PPL),Pirate Party of Luxembourg,1442901,1807,7,1807,1442901,7,1442901,1805,7,1808,7
+LU,1442,,,,,,DK,The Left,20,1808,20,,,,20,1809,,,20
+LU,1442,,,,,,VOLT,Volt Luxembourg ,20,1809,20,,,,,,,,
+LU,1442,,,,,,Kommunistesch Partei Lëtzebuerg,Communist Party,,,,,,,20,1808,,,20
+LU,1442,,,,,,DEMOKRATIE,Democracy ,,,,,,,20,1810,,,20
+,,,,,,,,,,,,,,,,,,,
+MT,1470,,1,Q10_1,Q13_1,Q24_1,Partit Laburista,Labour Party,1470300,1901,1,1901,1470300,1,1470300,1901,1,1902,1
+MT,1470,,2,Q10_2,Q13_2,Q24_2,Partit Nazzjonalista,Nationalist Party,1470500,1902,2,1902,1470500,2,1470500,1902,2,1901,2
+MT,1470,,3,Q10_3,Q13_3,Q24_3,Alternattiva Demokratika,Democratic Alternative,1470100,1903,3,1903,1470100,3,1470100,1904,3,1903,3
+MT,1470,,4,Q10_4,Q13_4,Q24_4,Partit Demokratiku,  Democratic Party,1470401,1904,4,1904,1470401,4,20,,,1905,4
+MT,1470,,5,Q10_5,Q13_5,Q24_5,Imperu Ewropew,  Imperium Europa ,1470951,1905,5,1905,1470951,5,20,,,1904,5
+,,,,,,,Maltese Patriots Movement,,,,,,,,20,1903,,,
+,,,,,,,,,,,,,,,,,,,
+NL,1528,,1,Q10_1,Q13_1,Q24_1,VVD,People's Party for Freedom and Democracy,1528420,2001,1,2001,1528420,1,1528420,2001,1,2002,1
+NL,1528,,2,Q10_2,Q13_2,Q24_2,PVV,Party of Freedom,1528600,2002,2,2002,1528600,2,1528600,2002,2,2003,2
+NL,1528,,3,Q10_3,Q13_3,Q24_3,CDA,Christian Democratic Appeal,1528521,2003,3,2003,1528521,3,1528521,2003,3,2004,3
+NL,1528,,4,Q10_4,Q13_4,Q24_4,D66,Democrats '66,1528330,2004,4,2004,1528330,4,1528330,2004,4,2005,4
+NL,1528,,5,Q10_5,Q13_5,Q24_5,GroenLinks,Green Left,1528110,2005,5,2005,1528110,5,1528110,2005,5,2006,5
+NL,1528,,6,Q10_6,Q13_6,Q24_6,SP,Socialist Party,1528220,2006,6,2006,1528220,6,1528220,2006,6,2007,6
+NL,1528,,7,Q10_7,Q13_7,Q24_7,PvdA,Labour Party,1528320,2007,7,2007,1528320,7,1528320,2007,7,2008,7
+NL,1528,,8,Q10_8,Q13_8,Q24_8, Christen Unie-SGP,Christian Union,1528528,2008,8,2008,1528528,8,1528526,2008,8,2009,8
+NL,1528,,9,Q10_9,Q13_9,Q24_9,Forum voor Democratie,Forum for Democracy,1528661,2012,9,2009,1528661,9,1528661,2013,9,2014,9
+NL,1528,,,,,,Partij voor de Dieren,Party for the Animals,1528951,2009,20,,,,1528951,2010,20,2011,20
+NL,1528,,,,,,50Plus,50Plus,20,2010,20,,,,20,2011,20,2012,20
+NL,1528,,,,,,Denk,Think ,20,2011,20,,,,20,2011,20,2013,20
+NL,1528,,,,,,Volt Nederland,Volt Netherlands ,20,2013,20,,,,,,,,
+NL,1528,,,,,,De Groenen,The Greens,20,2014,20,,,,,,,,
+NL,1528,,,,,,vande Regio & Piratenpartij,Of the Region & Pirate Party,20,2015,20,,,,,,,`,
+NL,1528,,,,,,Jezus Leeft,Jesus Lives ,20,2016,20,,,,,,,,
+,,,,,,,SGP,Political Reformed Party,,,,,,,20,2009,20,2010,20
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+PL,1616,,1,Q10_1,Q13_1,Q24_1,Platforma Obywatelska (PO),Civic Platform,,,,2101,1616435,1,1616435,2101,1,2103,1
+PL,1616,,2,Q10_2,Q13_2,Q24_2,Polskie Stronnictwo Ludowe (PSL),Polish People's Party,,,,2102,1616811,2,1616811,2102,2,2105,2
+PL,1616,,3,Q10_3,Q13_3,Q24_3,Sojusz Lewicy Demokratycznej (SLD),Democratic Left Alliance,,,,2103,1616210,3,1616210,2103,3,2102,3
+PL,1616,,4,Q10_4,Q13_4,Q24_4,Prawo i Sprawiedliwo?? (PIS),Law and Justice,1616436,2104,4,2104,1616436,4,1616436,2104,4,2107,4
+PL,1616,,5,Q10_5,Q13_5,Q24_5,Kukiz'15,Kukiz'15,1616953,2106,5,2105,1616953,5,1616953,2105,5,2108,5
+PL,1616,,6,Q10_6,Q13_6,Q24_6,Wiosna Roberta Biedronia,Spring,1616337,2102,6,2106,1616337,6,1616337,,,2109,6
+PL,1616,,7,Q10_7,Q13_7,Q24_7,Razem,Poland Together,1616338,2105,7,2107,1616338,7,1616338,2107,7,2110,7
+PL,1616,,8,"mean (Q10_1, Q10_2, Q10_3)","mean (Q13_1, Q13_2, Q13_3)","mean (Q24_1, Q24_2, Q24_3)",Koalicja Europejska PO PSL SLD .N Zieloni (KE ), European Coalition,1616001,2103,8,,,,,,,,
+PL,1616,,,,,,Konfederacja Korwin Braun Liroy Narodowcy(KKBLN),Coalition for the Renewal of the Republic -- Liberty and Hope,1616737,2101,20,,,,1616737,2108,20,2106,20
+PL,1616,,,,,,Polska Fair Play bezpartyjni Gwiazdowski(PFP),Poland Fair Play (PFP),20,2107,20,,,,,,,,
+PL,1616,,,,,,Ruch Prawdziwa Europa - Europa Christi(EC),,20,2108,20,,,,,,,,
+PL,1616,,,,,,Polexit-Koalicja(P-K),Coalition for the Renewal of the Republic -- Liberty and Hope,20,2109,20,,,,,,,,
+PL,1616,,,,,,Nowoczesna Ryszarda Petru,Modern,1616435,,20,,,,1616435,2106,20,2104,20
+,,,,,,,,,,,,,,,,,,,
+,,,,,,,,,,,,,,,,,,,
+PT,1620,,1,Q10_1,Q13_1,Q24_1,Partido Social Democrata  (PSD) ,Social Democratic Party,1620313,2202,1,2201,1620313,1,1620313,,,2203,1
+PT,1620,,2,Q10_2,Q13_2,Q24_2,Centro Democrático e Social - Partido Popular (CDS-PP),Social Democratic Center-Popular Party,1620520,2204,2,2202,1620520,2,1620520,,,2206,2
+PT,1620,,3,Q10_3,Q13_3,Q24_3,Partido Socialista (PS),Socialist Party,1620311,2201,3,2203,1620311,3,1620311,2202,3,2202,3
+PT,1620,,4,Q10_4,Q13_4,Q24_4,Coligação Democrática Unitária (CDU) ,Unified Democratic Coalition,1620229,2203,4,2204,1620229,4,1620229,2204,4,,4
+PT,1620,,5,Q10_5,Q13_5,Q24_5,Bloco de Esquerda (BE),Left Bloc,1620211,2206,5,2205,1620211,5,1620211,2203,5,2208,5
+PT,1620,,6,Q10_6,Q13_6,Q24_6,"Pessoas, Animais, Natureza (PAN)",Party for Animals and Nature,1620122,2208,6,2206,1620122,6,1620122,2205,6,2210,6
+PT,1620,,,,,,Partido da Terra (MPT),Earth Party,1620110,2205,20,,,,20,,,2207,20
+PT,1620,,,,,,Partido Democrático Republicano (PDR),Republican Democratic Party,20,2207,20,,,,20,2206,20,2209,20
+PT,1620,,,,,,Aliança,Alliance ,20,2209,20,,,,20,,,2211,20
+PT,1620,,,,,,Coligação Portugal à Frente (Partido Social Democrata + Centro Democrático Social/Partido Popular),Coalition PSD (1620313) + CDS-PP (1620520),,,,,,,1620314,2201,20,,
+PT,1620,,,,,,Partido Comunista dos Trabalhadores Portugueses/Movimento Reorganizativo do Partido do Proletariado (PCTP/MRPP),,,,,,,,20,2207,,,
+PT,1620,,,,,,Partido Comunista Português (PCP),Portuguese Communist Party,,,,,,,1620229,,,2204,4
+PT,1620,,,,,,Partido Ecologista os Verdes (PEV),Ecologist Party 'The Greens',,,,,,,1620229,,,2205,4
+,,,,,,,,,,,,,,,,,,,
+RO,1642,,1,Q10_1,Q13_1,Q24_1,Partidul Social Democrat (PSD),Social Democratic Party,1642300,2301,1,2301,1642300,1,1642300,2301,1,2302,1
+RO,1642,,2,Q10_2,Q13_2,Q24_2,Uniunea Salva?i România  (USR) ,Save Romania Union,,,,2302,1642421,2,1642421,2303,2,2303,2
+RO,1642,,3,Q10_3,Q13_3,Q24_3,Partidul Alian?a Liberalilor ?i Democra?ilor (ALDE),Alliance of Liberals and Democrats,1642402,2303,3,2303,1642402,3,1642402,2305,3,2305,3
+RO,1642,,4,Q10_4,Q13_4,Q24_4,Partidul Pro România (PPR),PRO Romania,1642340,2305,4,2304,1642340,4,1642340,,,2306,4
+RO,1642,,5,Q10_5,Q13_5,Q24_5,Partidul Na?ional Liberal (PNL),National Liberal Party,1642401,2306,5,2305,1642401,5,1642401,2302,5,2307,5
+RO,1642,,6,Q10_6,Q13_6,Q24_6,Uniunea Democrat? Maghiar? din România (UDMR),Hungarian Democratic Alliance of Romania,1642900,2307,6,2306,1642900,6,1642900,2304,6,2308,6
+RO,1642,,7,Q10_7,Q13_7,Q24_7,Partidul Mi?carea Popular? (PMP),People's Movement Party,1642503,2308,7,2307,1642503,7,1642503,2306,7,2309,7
+RO,1642,,8,Q10_8,Q13_8,Q24_8, +PLUS,"PLUS+ Freedom, Unity and Solidarity Party",,,,2308,1642422,8,1642422,,,2304,8
+RO,1642,,9,"mean (Q10_2, Q10_8)","mean (Q13_2, Q13_8)","mean (Q24_2, Q24_8)",Alian?a 2020 USR PLUS (2020 USR PLUS),2020 USR(1642421) -PLUS Alliance(1642422),1642001,2302,9,,,,,,,,
+RO,1642,,,,,,Partidul Uniunea Na?ional? pentru Progresul României (UNPR),National Union for the Progress of Romania,20,2304,20,,,,20,20,,2313,20
+RO,1642,,,,,,Partidul România Mare (PRM),Greater Romania Party,1642700,2309,20,,,,1642700,2308,,2310,20
+RO,1642,,,,,,Partidul România Unit? (PRU),United Romania Party,20,2310,20,,,,20,2307,,2311,20
+RO,1642,,,,,,Partidul Democra?iei ?i Solidarit??ii – Demos (Demos),Demos,20,2311,20,,,,20,20,,2312,20
+,,,,,,,,,,,,,,,,,,,
+SI,1705,,1,Q10_1,Q13_1,Q24_1,Slovenska demokratska stranka in Slovenska ljudska stranka (SDS in SLS),Electoral alliance with Slovenian Democratic Party and Slovenian People's Party ,1705010,2401,1,2401,1705010,1,1705010,,,,
+SI,1705,,2,Q10_2,Q13_2,Q24_2,Lista Marjana Šarca (LMŠ),List of Marjan Sarec,1705353,2402,2,2402,1705353,2,1705353,2402,2,2403,2
+SI,1705,,3,Q10_3,Q13_3,Q24_3,Socialni demokrati (SD),Social Democratic Party,1705323,2403,3,2403,1705323,3,1705323,2403,3,2404,3
+SI,1705,,4,Q10_4,Q13_4,Q24_4,Nova Slovenija - krš?anski demokrati  (NSi),New Slovene Christian People's Party,1705522,2404,4,2404,1705522,4,1705522,2406,4,2405,4
+SI,1705,,5,Q10_5,Q13_5,Q24_5,Levica,The Left ,1705221,2405,5,2405,1705221,5,1705221,2405,5,2406,5
+SI,1705,,6,Q10_6,Q13_6,Q24_6,Slovenska nacionalna stranka (SNS),Slovenian National Party,1705710,2406,6,2406,1705710,6,1705710,2409,6,2407,6
+SI,1705,,7,Q10_7,Q13_7,Q24_7,Stranka modernega centra (SMC),  Party of Miro Cerar ,1705460,2407,7,2407,1705460,7,1705460,2404,7,2408,7
+SI,1705,,8,Q10_8,Q13_8,Q24_8,Stranka Alenke Bratušek (SAB),Alliance of Alenka Bratusek,1705480,2408,8,2408,1705480,8,1705480,2407,8,2409,8
+SI,1705,,9,Q10_9,Q13_9,Q24_9,Demokrati?na stranka upokojencev Slovenije (DESUS),Democratic Party of Pensioners of Slovenia,1705951,2409,9,2409,1705951,9,1705951,2408,9,2410,9
+SI,1705,,10,,,,Slovenska ljudska stranka (SLS),Slovenian People's Party,,,,,,,1705324,2410,1,2411,1
+SI,1705,,,,,,Slovenska demokratska stranka (SDS),Slovenian Democratic Party,,,,,,,1705320,2401,1,2402,1
+SI,1705,,11,,,,Piratska stranka Slovenije,Slovenian Pirate Party,,,,,,,20,2411,20,2413,20
+SI,1705,,,,,,Dom - domovinska liga (DOM),Patriotic League ,,2410,20,,,,20,2413,20,2414,20
+SI,1705,,,,,,Zeleni Slovenije,Greens of Slovenia,20,2411,20,,,,20,,,2415,20
+SI,1705,,,,,,Povežimo se,Connect,20,2412,20,,,,20,,,2416,20
+SI,1705,,,,,,Dobra država (DD),Good Country,,,,,,,20,2412,20,2412,20
+,,,,,,,,,,,,,,,,,,,
+SK,1703,,1,Q10_1,Q13_1,Q24_1,Kres?anskodemokratické hnutie  (KDH),Christian Democratic Movement,1703521,2510,1,2501,1703521,1,1703521,2506,1,2502,1
+SK,1703,,2,Q10_2,Q13_2,Q24_2,?udová strana- Naše Slovensko (?SNS),People's Party Our Slovakia,1703957,2501,2,2502,1703957,2,1703957,2507,2,2503,2
+SK,1703,,3,Q10_3,Q13_3,Q24_3,Sme rodina,We are family ,1703721,2509,3,2503,1703721,3,1703721,2502,3,2504,3
+SK,1703,,4,Q10_4,Q13_4,Q24_4,Smer–sociálna demokracia  (Smer-SD),Direction - Social Democracy,1703423,2503,4,2504,1703423,4,1703423,2509,4,2505,4
+SK,1703,,5,Q10_5,Q13_5,Q24_5,Sloboda a Solidarita (SaS),Freedom and Solidarity,1703440,2505,5,2505,1703440,5,1703440,2505,5,2506,5
+SK,1703,,6,Q10_6,Q13_6,Q24_6,Oby?ajní ?udia a nezávislé osobnosti  (O?aNO),Ordinary People and Independent Personalities,1703620,2506,6,2506,1703620,6,1703620,2501,6,2507,6
+SK,1703,,7,Q10_7,Q13_7,Q24_7,Progresívne Slovensko a SPOLU ,Electoral alliance Progressive Slovakia and TOGETHER – Civic Democracy ,1703470,2508,7,2507,1703470,7,1703470,,7,2508,7
+SK,1703,,8,Q10_8,Q13_8,Q24_8,Slovenská národná strana (SNS),Slovak National Part,1703710,2504,8,2508,1703710,8,1703710,2504,8,2509,8
+SK,1703,,9,Q10_9,Q13_9,Q24_9,Most–Híd,Bridge,1703955,2507,9,2509,1703955,9,1703955,2503,9,2510,9
+SK,1703,,,,,,Strana mad'arskej koalície - Magyar Koalíció Pártja (SMK–MKP),Party of the Hungarian Community,1703954,2502,20,,,,20,210,,,
+SK,1703,,,,,,Komunistická strana Slovenska (KSS),Communist Party of Slovakia,1703222,2511,20,,,,,,,,
+SK,1703,,,,,,#SIE?,Network,,,,,,,20,2508,20,,
+,,,,,,,,,,,,,,,,,,,
+ES,1724,,1,Q10_1,Q13_1,Q24_1,Partido Socialista Obrero Español (PSOE),Spanish Socialist Workers' Party,1724320,2601,1,2601,1724320,1,1724320,2601,1,2602,1
+ES,1724,,2,Q10_2,Q13_2,Q24_2,Partido Popular (PP),Popular Party,1724610,2602,2,2602,1724610,2,1724610,2602,2,2603,2
+ES,1724,,3,Q10_3,Q13_3,Q24_3,Unidas Podemos (UP),Podemos (We Can),1724230,2603,3,2603,1724230,3,1724230,2604,3,2605,3
+ES,1724,,4,Q10_4,Q13_4,Q24_4,Ciudadanos,Citizens - Party of the Citizenry,1724410,2604,4,2604,1724410,4,1724410,2603,4,2604,4
+ES,1724,,5,Q10_5,Q13_5,Q24_5,VOX,Voice,1724955,2605,5,2605,1724955,5,1724955,2605,5,2607,5
+ES,1724,,6,Q10_6,Q13_6,Q24_6,Ahora Repúblicas (Esquerra Republicana de Catalunya y otros),Republican Left of Catalonia ,1724905,2606,6,2606,1724905,6,1724905,2606,6,2608,6
+ES,1724,,7,Q10_7,Q13_7,Q24_7,Compromís per Europa/Compromiso por Europa,Commitment to Europe ,1724010,2609,7,2607,1724010,7,1724010,2610,7,2612,7
+ES,1724,,,,,,Junts,Together for Catalonia,20,2608,20,,,,20,2608,,2610,20
+ES,1724,,,,,,Coalición por una Europa Solidaria,Coalition for a Solidary Europe,20,2607,20,,,,,,,,
+ES,1724,,,,,,Partido Animalista contra el Maltrato Animal (PACMA),Animalist Party Against Mistreatment to Animals,20,2610,20,,,,20,2611,20,2613,20
+ES,1724,,,,,,Partido Nacionalista Vasco–Euzko Alderdi Jeltzalea,Basque Nationalist Party,,,,,,,20,2607,20,2609,20
+ES,1724,,,,,,EH Bildu,Basque Country Unite,,,,,,,20,2609,6,2611,6
+ES,1724,,,,,,Coalición Canaria,Canarian Coalition,,,,,,,20,2612,20,2614,20
+ES,1724,,,,,,Navarra Suma,Sum Navarre,,,,,,,20,2613,20,2615,
+ES,1724,,,,,,Izquierda Unida,United Left,,,,,,,20,,,2606,
+,,,,,,,,,,,,,,,,,,,
+SE,1752,,1,Q10_1,Q13_1,Q24_1,Socialdemokraterna (S),Social Democratic Labour Party,1752320,2702,1,2701,1752700,1,1752700,2702,1,2703,1
+SE,1752,,2,Q10_2,Q13_2,Q24_2,Moderaterna (M),Moderate Coalition Party,1752620,2705,2,2702,1752620,2,1752620,2705,2,2706,2
+SE,1752,,3,Q10_3,Q13_3,Q24_3,Miljöpartiet de gröna (MP),Green Ecology Party,1752110,2707,3,2703,1752110,3,1752110,2707,3,2708,3
+SE,1752,,4,Q10_4,Q13_4,Q24_4,Liberalerna (L),Liberal People's Party,1752420,2704,4,2704,1752420,4,1752420,2704,4,2705,4
+SE,1752,,5,Q10_5,Q13_5,Q24_5,Centerpartiet (C),Centre Party,1752810,2703,5,2705,1752810,5,1752810,2703,5,2704,5
+SE,1752,,6,Q10_6,Q13_6,Q24_6,Sverigedemokraterna(SD),Sweden Democrats,1752700,2708,6,2706,1752700,6,1752700,2708,6,2709,6
+SE,1752,,7,Q10_7,Q13_7,Q24_7,Kristdemokraterna (KD),Christian Democrats,1752520,2706,7,2707,1752520,7,1752520,2706,7,2707,7
+SE,1752,,8,Q10_8,Q13_8,Q24_8,Vänsterpartiet (VP),Left Party,1752220,2701,8,2708,1752220,8,1752220,2701,8,2702,8
+SE,1752,,9,,,,Feministiskt initiativ (FI),Feminist Initiative,1752953,2709,9,2709,1752953,9,1752953,2709,9,2710,9
+,,,,,,,,,,,,,,,,,,,
+UK,1826,,1,Q10_1,Q13_1,Q24_1,Conservative  (Con),Conservative Party,1826620,2801,1,2801,1826620,1,1826620,2801,1,2802,1
+UK,1826,,2,Q10_2,Q13_2,Q24_2,Labour Party (Lab),Labour Party,1826320,2802,2,2802,1826320,2,1826320,2802,2,2803,2
+UK,1826,,3,Q10_3,Q13_3,Q24_3,Liberal Democrats (LD),Liberal Democrats,1826421,2803,3,2803,1826421,3,1826421,2803,3,2804,3
+UK,1826,,4,Q10_4,Q13_4,Q24_4,Green Party (GP),Green Party,1826110,2804,4,2804,1826110,4,1826110,2804,4,2805,4
+UK,1826,,5,Q10_5,Q13_5,Q24_5,Scottish National Party (SNP),Scottish National Party,1826902,2805,5,2805,1826902,5,1826902,2805,5,2806,5
+UK,1826,,6,Q10_6,Q13_6,Q24_6,United Kingdom Independence Party (UKIP),United Kingdom Independence Party,1826951,2806,6,2806,1826951,6,1826951,2806,6,2807,6
+UK,1826,,7,Q10_7,Q13_7,Q24_7,The Brexit Party,The Brexit Party,1826955,2807,7,2807,1826955,7,1826955,,,2808,7
+UK,1826,,8,,,,Change UK – The Independent Group,Change UK – The Independent Group,1826957,2808,8,2808,1826957,8,,,,,
+UK,1826,,,,,,Plaid Cymru (Plaid),Party of Wales,1826901,2809,20,,,,1826901,2809,20,,20
+UK,1826,,,,,,Sinn Féin (SF),Sinn Fein,1826210,2810,20,,,,1826210,2810,20,,20
+UK,1826,,,,,,Democratic Unionist Party (DUP),Democratic Unionist Party,1826903,2811,20,,,,1826903,2811,20,,20
+UK,1826,,,,,,Ulster Unionist Party,Ulster Unionist Party,20,2812,20,,,,20,2812,20,,20
+UK,1826,,,,,,Social Democratic & Labour Party (SDLP),Social Democratic & Labour Party,1826724,2813,20,,,,1826724,2813,20,,20
+UK,1826,,,,,,Independent,Independent,20,2814,20,,,,20,2814,20,,20
