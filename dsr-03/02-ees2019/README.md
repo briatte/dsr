@@ -1,1 +1,0 @@
-__Data source:__ Schmitt, Hermann, Hobolt, Sara B., Brug, Wouter van der, & Popa, Sebastian A. (2022). _European Parliament Election Study 2019, Voter Study_. GESIS, Cologne. ZA7581 Data file Version 2.0.1, [doi:10.4232/1.13846](https://doi.org/10.4232/1.13846).
