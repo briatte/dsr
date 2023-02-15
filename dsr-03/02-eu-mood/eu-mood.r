@@ -12,7 +12,7 @@ library(tidyverse) # {dplyr}, {ggplot2}, {readxl}, {stringr}, {tidyr}, etc.
 # Load and clean up the data
 # ------------------------------------------------------------------------------
 
-d <- readxl::read_excel("data/eu-mood.xlsx", sheet = 2) %>%
+d <- readxl::read_excel("data/S0007123416000776sup001.xlsx", sheet = 2) %>%
   rename(year = `...1`) %>%
   # remove first row
   filter(!is.na(year)) %>%
