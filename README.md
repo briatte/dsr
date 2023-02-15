@@ -11,7 +11,7 @@ This repo contains files from an old course project that took 5 years to actuall
 
 A provisional outline follows -- not the full syllabus, only a recap of the main topics covered in each session, plus short descriptions of what happens during those.
 
-This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and the links are not currently active.__
+This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and most links are not yet active.__
 
 # Handbooks
 
@@ -61,8 +61,8 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
-`>` Class example 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
-`>` Class example 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS)  
+`>` Example 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
+`>` Example 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
 `>` Exercise 2: __[Weird R syntax][ex02]__
 
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
@@ -74,12 +74,12 @@ Software setup, first steps with coding, handling data, and plotting things.
 Data wrangling, mostly with `dplyr`.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
-`>` Class example 1: __[Attitudes towards the EU][s3-1]__ ('EU mood')  
-`>` Class example 2: __[Voting in the 2019 European elections][s3-2]__ (EES 2019)  
+`>` Example 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
+`>` Example 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer 2017)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
 
-[s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-eu-mood
-[s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-ees2019
+[s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
+[s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-eu-mood
 [ex03]: https://github.com/briatte/dsr/tree/master/dsr-03-exercise
 
 ## 4. Visualization
@@ -87,12 +87,14 @@ Data wrangling, mostly with `dplyr`.
 Plots, mostly with `ggplot2`.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__  
-`>` Class example 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
-`>` Class example 2: __[Life expectancy and GDP per capita][s4-2]__ (Preston curve)  
-`>` Exercise 4: __[Covid-19 and income inequality][ex04]__ (Deaton)
+`>` Example 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
+`>` Example 2: __[Mapping life expectancy worldwide][s4-2]__ (map example)  
+`>` Bonus: __[Anscombe's quartet][s4-3]__ (not shown in class)  
+`>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
-[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-preston-curve
+[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
+[s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
 [ex04]: https://github.com/briatte/dsr/tree/master/dsr-04-exercise
 
 # Part 2. Essentials
@@ -101,11 +103,11 @@ Descriptive and inferential statistics, the frequentist way (no time for Bayesia
 
 ## 5. Description
 
-Also covering sampling, and possibly bootstrapping if time permits.
+Also covering sampling, and possibly bootstrap resampling if time permits.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__  
-`>` Class example 1: __[...][s5-1]__  
-`>` Class example 2: __[...][s5-2]__  
+`>` Example 1: __[...][s5-1]__  
+`>` Example 2: __[...][s5-2]__  
 `>` Exercise 5: __[...][ex05]__
 
 [s5-1]: /
@@ -117,8 +119,8 @@ Also covering sampling, and possibly bootstrapping if time permits.
 Also covering surveys, and (if time permits) how to handle survey weights.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
-`>` Class example 1: __[...][s6-1]__  
-`>` Class example 2: __[...][s6-2]__  
+`>` Example 1: __[...][s6-1]__  
+`>` Example 2: __[...][s6-2]__  
 `>` Exercise 6: __[...][ex06]__
 
 [s6-1]: /
@@ -130,8 +132,8 @@ Also covering surveys, and (if time permits) how to handle survey weights.
 Also introducing least squares, and possibly LO(W)ESS.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf)__  
-`>` Class example 1: __[...][s7-1]__  
-`>` Class example 2: __[...][s7-2]__  
+`>` Example 1: __[...][s7-1]__  
+`>` Example 2: __[...][s7-2]__  
 `>` Exercise 7: __[...][ex07]__
 
 [s7-1]: /
@@ -143,8 +145,8 @@ Also introducing least squares, and possibly LO(W)ESS.
 Linear regression, the full package: dummies, interactions, diagnostics, marginal effects. All in one session, if things go well.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__  
-`>` Class example 1: __[...][s8-1]__  
-`>` Class example 2: __[...][s8-2]__  
+`>` Example 1: __[...][s8-1]__  
+`>` Example 2: __[...][s8-2]__  
 `>` Exercise 8: __[...][ex08]__
 
 [s8-1]: /
@@ -156,8 +158,8 @@ Linear regression, the full package: dummies, interactions, diagnostics, margina
 Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__  
-`>` Class example 1: __[...][s9-1]__  
-`>` Class example 2: __[...][s9-2]__  
+`>` Example 1: __[...][s9-1]__  
+`>` Example 2: __[...][s9-2]__  
 `>` Exercise 9: __[...][ex09]__
 
 [s9-1]: /
@@ -169,8 +171,8 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 Dimensionality reduction, clustering, etc.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__  
-`>` Class example 1: __[...][s10-1]__  
-`>` Class example 2: __[...][s10-2]__  
+`>` Example 1: __[...][s10-1]__  
+`>` Example 2: __[...][s10-2]__  
 `>` Exercise 10: __[...][ex10]__
 
 [s10-1]: /
@@ -188,8 +190,8 @@ Ideally, we'd still also find time for an extra last session to wrap up and to i
 Students manifested an interest in that.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__  
-`>` Class example 1: __[...][s11-1]__  
-`>` Class example 2: __[...][s11-2]__  
+`>` Example 1: __[...][s11-1]__  
+`>` Example 2: __[...][s11-2]__  
 `>` Exercise 11: __[...][ex11]__
 
 [s11-1]: /
@@ -201,8 +203,8 @@ Students manifested an interest in that.
 Students manifested an interest in that.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__  
-`>` Class example 1: __[...][s12-1]__  
-`>` Class example 2: __[...][s12-2]__  
+`>` Example 1: __[...][s12-1]__  
+`>` Example 2: __[...][s12-2]__  
 `>` Exercise 12: __[...][ex12]__
 
 [s12-1]: /
