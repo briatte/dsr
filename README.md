@@ -20,26 +20,30 @@ Early in the course, we will rely on R-focused handbooks, all of which are reada
 - Irizarry, _[Introduction to Data Science](http://rafalab.dfci.harvard.edu/dsbook/)_, 2022
 - Rodrigues, _[Modern R with the tidyverse](https://modern-rstats.eu/)_, 2022
 - Wickham and Grolemund, _[R for Data Science](https://r4ds.hadley.nz/)_, 2nd ed., 2023
+
+I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets), as well as reading from a few additional, more focused handbooks:
+
+- Elff, _[Data Management in R](https://www.elff.eu/book/data-management-r/)_, 2020
 - Healy, _[Data Visualization. A Practical Introduction](https://socviz.co/)_, 2019
 
-I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets).
+Later in the course, we will continue with some of those handbooks, but also refer to even more reseach-focused ones, plus a few additional references for good measure.
 
-Later in the course, we will continue with some of those handbooks, but also refer to more reseach-focused ones, plus a few additional references for good measure. Those additional readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
 
 # Outline
 
-[1. Software](#1-software) (R and RStudio)
-[2. Workflow](#2-workflow)
-[3. Data](#3-data) (wrangling)
-[4. Visualization](#4-visualization)
-[5. Description](#5-description)
-[6. Association](#6-association) (and surveys)
-[7. Correlation](#7-correlation) (and least squares)
-[8. Regression](#8-regression)
-[9. Nonlinearity](#9-nonlinearity) (logistic regression)
-[10. Classification](#10-classification)
-[11. Text](#11-text)
-[12. Maps](#12-maps)
+1. [Software](#1-software) (R and RStudio)
+2. [Workflow](#2-workflow)
+3. [Data](#3-data) (wrangling)
+4. [Visualization](#4-visualization)
+5. [Description](#5-description)
+6. [Association](#6-association) (and surveys)
+7. [Correlation](#7-correlation) (and least squares)
+8. [Regression](#8-regression)
+9. [Nonlinearity](#9-nonlinearity) (logistic regression)
+10. [Classification](#10-classification)
+11. [Text](#11-text)
+12. [Maps](#12-maps)
 
 # Part 1. Basics
 
