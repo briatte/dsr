@@ -73,22 +73,21 @@ Software setup, first steps with coding, handling data, and plotting things.
 
 Data wrangling, mostly with `dplyr`.
 
-- Data I/O: reading/writing datasets
-  - (... with passing mentions of) dates, strings, special formats
-  - (... with passing mentions of) databases, SQL, data pipelines, big data
+- Data I/O:
+  - reading/writing datasets with `readr`, `haven` and `readxl`
   - inspecting datasets: `head`, `str`, `View`, `glimpse`
-- Data manipulation with `tidyverse` packages
-  - ... on a single dataset:
-    - sorting (ordering): `arrange`
-    - subsetting (filtering): `filter`
-    - aggregating and summarising values: `group_by` + `summarise`
-    - (... with a passing mention of) reshaping/pivoting
-  - recoding and transforming values: `mutate`
-    - recoding, esp. in order to handle missing values: `na_if`, `drop_na`
-    - (... with passing mentions of) `lag`/`lead`
-  - ... on multiple datasets:
-    - joining (merging) two datasets `full_join` and the like
-    - binding multiple datasets: `bind_rows`
+  - passing mentions -- dates, strings and special formats
+  - passing mentions -- SQL databases, data pipelines
+- Data manipulation on a single dataset
+  - sorting (ordering): `arrange`
+  - subsetting: `filter`
+  - aggregating and summarising values: `group_by` + `summarise`
+  - reshaping: `pivot_longer`, `pivot_wider`
+- Data manipulation on multiple datasets
+  - joining (merging) two datasets `full_join` and the like
+  - binding multiple datasets: `bind_rows`
+- Recoding and transforming values: `mutate`
+  - missing values: `na_if`, `drop_na`
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
 `>` Example 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
