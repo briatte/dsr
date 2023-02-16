@@ -79,15 +79,17 @@ Data wrangling, mostly with `dplyr`.
   - passing mentions -- dates, strings and special formats
   - passing mentions -- SQL databases, data pipelines
 - Data manipulation on a single dataset
+  - selecting variables: `$`, `select` and `$\`special cases\``
   - sorting (ordering): `arrange`
   - subsetting: `filter`
   - aggregating and summarising values: `group_by` + `summarise`
   - reshaping: `pivot_longer`, `pivot_wider`
 - Data manipulation on multiple datasets
-  - joining (merging) two datasets `full_join` and the like
+  - joining (merging) two datasets: `full_join` and the like
   - binding multiple datasets: `bind_rows`
 - Recoding and transforming values: `mutate`
   - missing values: `na_if`, `drop_na`
+  - passing mention -- text and regular expressions with the `stringr` package
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
 `>` Example 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
