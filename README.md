@@ -3,6 +3,11 @@
 > [François Briatte](https://f.briatte.org/)  
 > Spring ~~2017~~ 2023. __Work in progress.__
 
+An introduction to data science with [R][r], [RStudio][rstudio], and the `tidyverse` packages.
+
+[r]: https://www.r-project.org/
+[rstudio]: https://posit.co/products/open-source/rstudio/
+
 `>` __[Syllabus][syllabus]__
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
@@ -32,15 +37,15 @@ All readings, and what to read at which stage of the course, appear in the [cour
 
 # Outline
 
-1. [Software](#1-software) (R and RStudio)
+1. [Software](#1-software)
 2. [Workflow](#2-workflow)
-3. [Data](#3-data) (wrangling)
+3. [Data](#3-data)
 4. [Visualization](#4-visualization)
 5. [Description](#5-description)
-6. [Association](#6-association) (and surveys)
-7. [Correlation](#7-correlation) (and least squares)
+6. [Association](#6-association)
+7. [Correlation](#7-correlation)
 8. [Regression](#8-regression)
-9. [Nonlinearity](#9-nonlinearity) (logistic regression)
+9. [Nonlinearity](#9-nonlinearity)
 10. [Classification](#10-classification)
 11. [Text](#11-text)
 12. [Maps](#12-maps)
@@ -80,8 +85,8 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
-`>` Example 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
-`>` Example 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
+`>` Demo 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
+`>` Demo 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
 `>` Exercise 2: __[Weird R syntax][ex02]__
 
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
@@ -90,13 +95,13 @@ Software setup, first steps with coding, handling data, and plotting things.
 
 ## 3. Data
 
-Data wrangling, mostly with `dplyr`.
+Data wrangling, mostly with the `dplyr` package.
 
 - Data I/O
   - reading/writing datasets with `readr`, `haven` and `readxl`
   - inspecting datasets: `head`, `str`, `View`, `glimpse`
-  - passing mentions -- dates, strings and special formats
-  - passing mentions -- SQL databases, data pipelines
+  - passing mentions -- strings, factors, dates and special formats
+  - passing mentions -- SQL databases, data engineering
 - Data manipulation on a single dataset
   - selecting variables: `$`, `select` and `` $`special cases` ``
   - sorting (ordering): `arrange`
@@ -110,11 +115,11 @@ Data wrangling, mostly with `dplyr`.
   - 'if/else' recodes: `if_else`
   - type coercion/conversion: `as.numeric`, `as.integer` etc.
   - missing values: `is.na`, `na_if`, `drop_na`
-  - passing mention -- text and regular expressions with the `stringr` package
+  - manipulating text with the `stringr` package (brief intro)
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
-`>` Example 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
-`>` Example 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer 2017)  
+`>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
+`>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer 2017)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
 
 [s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
@@ -123,11 +128,11 @@ Data wrangling, mostly with `dplyr`.
 
 ## 4. Visualization
 
-Plots, mostly with `ggplot2`.
+Plots, mostly with the `ggplot2` package.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__  
-`>` Example 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
-`>` Example 2: __[Mapping life expectancy worldwide][s4-2]__ (map example)  
+`>` Demo 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
+`>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__ (map example)  
 `>` Bonus: __[Anscombe's quartet][s4-3]__ (not shown in class)  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
@@ -145,8 +150,8 @@ Descriptive and inferential statistics, the frequentist way (no time for Bayesia
 Also covering sampling, and possibly bootstrap resampling if time permits.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__  
-`>` Example 1: __[...][s5-1]__  
-`>` Example 2: __[...][s5-2]__  
+`>` Demo 1: __[...][s5-1]__  
+`>` Demo 2: __[...][s5-2]__  
 `>` Exercise 5: __[...][ex05]__
 
 [s5-1]: /
@@ -158,8 +163,8 @@ Also covering sampling, and possibly bootstrap resampling if time permits.
 Also covering surveys, and (if time permits) how to handle survey weights.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
-`>` Example 1: __[...][s6-1]__  
-`>` Example 2: __[...][s6-2]__  
+`>` Demo 1: __[...][s6-1]__  
+`>` Demo 2: __[...][s6-2]__  
 `>` Exercise 6: __[...][ex06]__
 
 [s6-1]: /
@@ -171,8 +176,8 @@ Also covering surveys, and (if time permits) how to handle survey weights.
 Also introducing least squares, and possibly LO(W)ESS.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf)__  
-`>` Example 1: __[...][s7-1]__  
-`>` Example 2: __[...][s7-2]__  
+`>` Demo 1: __[...][s7-1]__  
+`>` Demo 2: __[...][s7-2]__  
 `>` Exercise 7: __[...][ex07]__
 
 [s7-1]: /
@@ -184,8 +189,8 @@ Also introducing least squares, and possibly LO(W)ESS.
 Linear regression, the full package: dummies, interactions, diagnostics, marginal effects. All in one session, if things go well.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__  
-`>` Example 1: __[...][s8-1]__  
-`>` Example 2: __[...][s8-2]__  
+`>` Demo 1: __[...][s8-1]__  
+`>` Demo 2: __[...][s8-2]__  
 `>` Exercise 8: __[...][ex08]__
 
 [s8-1]: /
@@ -197,8 +202,8 @@ Linear regression, the full package: dummies, interactions, diagnostics, margina
 Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__  
-`>` Example 1: __[...][s9-1]__  
-`>` Example 2: __[...][s9-2]__  
+`>` Demo 1: __[...][s9-1]__  
+`>` Demo 2: __[...][s9-2]__  
 `>` Exercise 9: __[...][ex09]__
 
 [s9-1]: /
@@ -210,8 +215,8 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 Dimensionality reduction, clustering, etc.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__  
-`>` Example 1: __[...][s10-1]__  
-`>` Example 2: __[...][s10-2]__  
+`>` Demo 1: __[...][s10-1]__  
+`>` Demo 2: __[...][s10-2]__  
 `>` Exercise 10: __[...][ex10]__
 
 [s10-1]: /
@@ -229,8 +234,8 @@ Ideally, we'd still also find time for an extra last session to wrap up and to i
 Students manifested an interest in that.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__  
-`>` Example 1: __[...][s11-1]__  
-`>` Example 2: __[...][s11-2]__  
+`>` Demo 1: __[...][s11-1]__  
+`>` Demo 2: __[...][s11-2]__  
 `>` Exercise 11: __[...][ex11]__
 
 [s11-1]: /
@@ -242,8 +247,8 @@ Students manifested an interest in that.
 Students manifested an interest in that.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__  
-`>` Example 1: __[...][s12-1]__  
-`>` Example 2: __[...][s12-2]__  
+`>` Demo 1: __[...][s12-1]__  
+`>` Demo 2: __[...][s12-2]__  
 `>` Exercise 12: __[...][ex12]__
 
 [s12-1]: /
@@ -264,10 +269,13 @@ Last, this course and all the other ones mentioned above took place at [Sciences
 
 ## Elsewhere
 
+I would love it if the present course were as good as those listed below, but cannot guarantee it.
+
 - Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
 - Mine Çetinkaya-Rundel, [Intro to Data Science](http://www2.stat.duke.edu/courses/Spring18/Sta199/) (Duke University, 2018)
 - Friedrich Geiecke, [Data for Data Scientists](https://lse-my472.github.io/) (London School of Economics and Political Science, 2022)
 - Kieran Healy, [Data Wrangling](https://github.com/kjhealy/data_wrangling) (Statistical Horizons, 2022)
+- Andrew Heiss, [Data Visualization](https://datavizs22.classes.andrewheiss.com/) (Georgia State University, 2022)
 - Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/) (University of Oregon, 2021)
 - Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
 - Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
