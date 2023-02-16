@@ -79,7 +79,7 @@ Data wrangling, mostly with `dplyr`.
   - passing mentions -- dates, strings and special formats
   - passing mentions -- SQL databases, data pipelines
 - Data manipulation on a single dataset
-  - selecting variables: `$`, `select` and `$\`special cases\``
+  - selecting variables: `$`, `select` and `$`special cases``
   - sorting (ordering): `arrange`
   - subsetting: `filter`
   - aggregating and summarising values: `group_by` + `summarise`
