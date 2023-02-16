@@ -26,6 +26,21 @@ I will also recommend downloading and using [R cheatsheets](https://github.com/r
 
 Later in the course, we will continue with some of those handbooks, but also refer to more reseach-focused ones, plus a few additional references for good measure. Those additional readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
 
+# Outline
+
+[1. Software](#1-software) (R and RStudio)
+[2. Workflow](#2-workflow)
+[3. Data](#3-data) (wrangling)
+[4. Visualization](#4-visualization)
+[5. Description](#5-description)
+[6. Association](#6-association) (and surveys)
+[7. Correlation](#7-correlation) (and least squares)
+[8. Regression](#8-regression)
+[9. Nonlinearity](#9-nonlinearity) (logistic regression)
+[10. Classification](#10-classification)
+[11. Text](#11-text)
+[12. Maps](#12-maps)
+
 # Part 1. Basics
 
 Software setup, first steps with coding, handling data, and plotting things.
@@ -73,7 +88,7 @@ Software setup, first steps with coding, handling data, and plotting things.
 
 Data wrangling, mostly with `dplyr`.
 
-- Data I/O:
+- Data I/O
   - reading/writing datasets with `readr`, `haven` and `readxl`
   - inspecting datasets: `head`, `str`, `View`, `glimpse`
   - passing mentions -- dates, strings and special formats
