@@ -46,7 +46,7 @@ Software setup, first steps with coding, handling data, and plotting things.
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-01-software.pdf)__  
 `>` Exercise 1: __[Generative art][ex01]__
 
-[ex01]: https://github.com/briatte/dsr/tree/master/dsr-01-exercise
+[ex01]: https://github.com/briatte/dsr/tree/master/exercise-01
 
 ## 2. Workflow
 
@@ -67,11 +67,28 @@ Software setup, first steps with coding, handling data, and plotting things.
 
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
 [s2-2]: https://github.com/briatte/dsr/tree/master/dsr-02/02-industrial-disputes
-[ex02]: https://github.com/briatte/dsr/tree/master/dsr-02-exercise
+[ex02]: https://github.com/briatte/dsr/tree/master/exercise-02
 
 ## 3. Data
 
 Data wrangling, mostly with `dplyr`.
+
+- Data I/O: reading/writing datasets
+  - (... with passing mentions of) dates, strings, special formats
+  - (... with passing mentions of) databases, SQL, data pipelines, big data
+  - inspecting datasets: `head`, `str`, `View`, `glimpse`
+- Data manipulation with `tidyverse` packages
+  - ... on a single dataset:
+    - sorting (ordering): `arrange`
+    - subsetting (filtering): `filter`
+    - aggregating and summarising values: `group_by` + `summarise`
+    - (... with a passing mention of) reshaping/pivoting
+  - recoding and transforming values: `mutate`
+    - recoding, esp. in order to handle missing values: `na_if`, `drop_na`
+    - (... with passing mentions of) `lag`/`lead`
+  - ... on multiple datasets:
+    - joining (merging) two datasets `full_join` and the like
+    - binding multiple datasets: `bind_rows`
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
 `>` Example 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
@@ -80,7 +97,7 @@ Data wrangling, mostly with `dplyr`.
 
 [s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
 [s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-eu-mood
-[ex03]: https://github.com/briatte/dsr/tree/master/dsr-03-exercise
+[ex03]: https://github.com/briatte/dsr/tree/master/exercise-03
 
 ## 4. Visualization
 
@@ -95,7 +112,7 @@ Plots, mostly with `ggplot2`.
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
 [s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
 [s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
-[ex04]: https://github.com/briatte/dsr/tree/master/dsr-04-exercise
+[ex04]: https://github.com/briatte/dsr/tree/master/exercise-04
 
 # Part 2. Essentials
 
