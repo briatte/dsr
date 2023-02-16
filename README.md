@@ -132,8 +132,8 @@ Plots, mostly with the `ggplot2` package.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__  
 `>` Demo 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
-`>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__ (map example)  
-`>` Bonus: __[Anscombe's quartet][s4-3]__ (not shown in class)  
+`>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__  
+`>` Bonus: __[Anscombe's quartet][s4-3]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
@@ -225,7 +225,9 @@ Dimensionality reduction, clustering, etc.
 
 # Part 3. Extras
 
-Statistical and machine learning could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
+Statistical and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
+
+[ml]: https://conf20-intro-ml.netlify.app/
 
 Ideally, we'd still also find time for an extra last session to wrap up and to introduce tools that are not covered here. By order of priority: SQL, Git/GitHub, R Markdown, and possibly some JavaScript visualization libraries.
 
@@ -272,11 +274,13 @@ Last, this course and all the other ones mentioned above took place at [Sciences
 I would love it if the present course were as good as those listed below, but cannot guarantee it.
 
 - Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
+- Jenny Bryan, [Data Wrangling, Exploration, and Analysis with R](https://stat545.com/) (formerly at University of British Columbia, c. 2019)
 - Mine Çetinkaya-Rundel, [Intro to Data Science](http://www2.stat.duke.edu/courses/Spring18/Sta199/) (Duke University, 2018)
 - Friedrich Geiecke, [Data for Data Scientists](https://lse-my472.github.io/) (London School of Economics and Political Science, 2022)
 - Kieran Healy, [Data Wrangling](https://github.com/kjhealy/data_wrangling) (Statistical Horizons, 2022)
 - Andrew Heiss, [Data Visualization](https://datavizs22.classes.andrewheiss.com/) (Georgia State University, 2022)
 - Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/) (University of Oregon, 2021)
+- Gaston Sanchez [Data Visualization](https://www.gastonsanchez.com/#tutorials) (University of California, Berkeley, n.d.)
 - Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
 - Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
 - Cosma Shalizi, [Modern Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/) (Carnegie Mellon University, 2015)
