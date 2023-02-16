@@ -79,7 +79,7 @@ Data wrangling, mostly with `dplyr`.
   - passing mentions -- dates, strings and special formats
   - passing mentions -- SQL databases, data pipelines
 - Data manipulation on a single dataset
-  - selecting variables: `$`, `select` and `$`special cases``
+  - selecting variables: `$`, `select` and `` $`special cases` ``
   - sorting (ordering): `arrange`
   - subsetting: `filter`
   - aggregating and summarising values: `group_by` + `summarise`
@@ -88,7 +88,9 @@ Data wrangling, mostly with `dplyr`.
   - joining (merging) two datasets: `full_join` and the like
   - binding multiple datasets: `bind_rows`
 - Recoding and transforming values: `mutate`
-  - missing values: `na_if`, `drop_na`
+  - 'if/else' recodes: `if_else`
+  - type coercion/conversion: `as.numeric`, `as.integer` etc.
+  - missing values: `is.na`, `na_if`, `drop_na`
   - passing mention -- text and regular expressions with the `stringr` package
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
