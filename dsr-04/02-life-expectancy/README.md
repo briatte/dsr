@@ -8,7 +8,7 @@ __Data source for life expectancy:__ World Bank [World Development Indicators][w
 
 [wdi]: https://databank.worldbank.org/source/world-development-indicators
 
-The latter were retrieved with the `WDI` package:
+The latter were retrieved with `WDI` (R package by Vincent Arel-Bundock):
 
 ```r
 library(WDI)

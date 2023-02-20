@@ -73,8 +73,7 @@ Note -- the hints below cite some R help pages, but you can also browse those pa
    2 HU      2007           0.73
    3 PL      2007           0.47
    4 EU      2010           0.44
-   5 HU      2010           0.64
-   6 PL      2010           0.39
+   5 HU      2010           0.64 ...
     ```
 
 8. You can now plot the data:

@@ -1,6 +1,6 @@
 # README
 
-__Data source:__ [`datasets::anscombe`][anscombe], which cites Tufte (1989) as its source, and Anscombe (1973) as the initial source:
+__Data source:__ [`datasets::anscombe`][anscombe] (R package by the R Core Team), which cites Tufte (1989) as its source, and Anscombe (1973) as the initial source:
 
 > Tufte, Edward R. (1989). _The Visual Display of Quantitative Information_, Graphics Press, pp. 13–14.
 
@@ -8,7 +8,7 @@ __Data source:__ [`datasets::anscombe`][anscombe], which cites Tufte (1989) as i
 
 [anscombe]: https://stat.ethz.ch/R-manual/R-devel/library/datasets/html/anscombe.html
 
-The R code to produce the 'tidy' version of the dataset was not preserved, but probably looked somewhat like this:
+The R code to produce the ‘tidy’ version of the dataset was not preserved, but probably looked somewhat like this:
 
 ```r
 library(tidyverse)
@@ -20,3 +20,16 @@ datasets::anscombe %>%
   tidyr::unnest(everything()) %>%
   readr::write_tsv("data/anscombe.tsv")
 ```
+
+## Rationale
+
+The point of this 'bonus' folder is to show you the existence of [different plotting systems][peng1] in R. We cover only the `ggplot2` one in class, called so in reference to the ‘grammar of graphics’ logic that it follows, but there are at least two other systems:
+
+- The ['base'][peng2] system, which comes with R.
+- The ['lattice'][lattice] system, provided by the `lattice` package.
+
+[peng1]: https://bookdown.org/rdpeng/exdata/plotting-systems.html
+[peng2]: https://bookdown.org/rdpeng/exdata/the-base-plotting-system-1.html
+[lattice]: https://jtr13.github.io/cc21fall1/introduction-to-the-lattice-package.html
+
+You'll be fine learning just the `ggplot2` one, which has also been ported to the Python language.

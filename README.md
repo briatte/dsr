@@ -3,10 +3,11 @@
 > [François Briatte](https://f.briatte.org/)  
 > Spring ~~2017~~ 2023. __Work in progress.__
 
-An introduction to data science with [R][r], [RStudio][rstudio], and the `tidyverse` packages.
+An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyverse`][tidyverse] packages, aimed at social scientists with little to no training in statistical computing and related topics.
 
 [r]: https://www.r-project.org/
 [rstudio]: https://posit.co/products/open-source/rstudio/
+[tidyverse]: https://www.tidyverse.org/
 
 `>` __[Syllabus][syllabus]__
 
@@ -17,6 +18,8 @@ This repo contains files from an old course project that took 5 years to actuall
 A provisional outline follows -- not the full syllabus, only a recap of the main topics covered in each session, plus short descriptions of what happens during those.
 
 This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and most links are not yet active.__
+
+__Exercise answers and solutions__ are not included either, but are distributed in class and are available on request by email.
 
 # Handbooks
 
@@ -145,6 +148,8 @@ Plots, mostly with the `ggplot2` package.
 
 Descriptive and inferential statistics, the frequentist way (no time for Bayesian ones, I'm afraid), plus a session on dimensionality reduction.
 
+Ideally, this section would also include a session on panel data (fixed and random effects, standard error clustering) and hierarchical data (mixed/multilevel models).
+
 ## 5. Description
 
 Also covering sampling, and possibly bootstrap resampling if time permits.
@@ -225,7 +230,7 @@ Dimensionality reduction, clustering, etc.
 
 # Part 3. Extras
 
-Statistical and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
+Statistical learning and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
 
 [ml]: https://conf20-intro-ml.netlify.app/
 
@@ -274,7 +279,7 @@ Last, this course and all the other ones mentioned above took place at [Sciences
 I would love it if the present course were as good as those listed below, but cannot guarantee it.
 
 - Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
-- Jenny Bryan, [Data Wrangling, Exploration, and Analysis with R](https://stat545.com/) (formerly at University of British Columbia, c. 2019)
+- Jenny Bryan, [Data Wrangling, Exploration, and Analysis with R](https://stat545.com/) (fml. University of British Columbia, c. 2019)
 - Mine Çetinkaya-Rundel, [Intro to Data Science](http://www2.stat.duke.edu/courses/Spring18/Sta199/) (Duke University, 2018)
 - Friedrich Geiecke, [Data for Data Scientists](https://lse-my472.github.io/) (London School of Economics and Political Science, 2022)
 - Kieran Healy, [Data Wrangling](https://github.com/kjhealy/data_wrangling) (Statistical Horizons, 2022)
@@ -284,3 +289,4 @@ I would love it if the present course were as good as those listed below, but ca
 - Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
 - Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
 - Cosma Shalizi, [Modern Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/) (Carnegie Mellon University, 2015)
+- Ista Zahn _et al._, [Data Science Workshops](https://iqss.github.io/dss-workshops/) (Harvard University, 2021)
