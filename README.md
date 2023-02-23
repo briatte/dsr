@@ -152,29 +152,26 @@ Ideally, this section would also include a session on panel data (fixed and rand
 
 ## 5. Description
 
-Also covering sampling, and possibly bootstrap resampling if time permits.
+Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__  
-`>` Demo 1: __[...][s5-1]__  
-`>` Demo 2: __[...][s5-2]__  
-`>` Exercise 5: __[...][ex05]__
+`>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5]__  
+`>` Exercise 5: __[Trust in Islamist parties][ex05]__ (graded homework)
 
-[s5-1]: /
-[s5-2]: /
-[ex05]: /
+[s5]: https://github.com/briatte/dsr/tree/master/dsr-05
+[ex05]: https://github.com/briatte/dsr/tree/master/exercise-05
 
 ## 6. Association
 
-Also covering surveys, and (if time permits) how to handle survey weights.
+Association tests to compare means and proportions. Also covering, as an aside, surveys, and how to handle survey weights.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
-`>` Demo 1: __[...][s6-1]__  
-`>` Demo 2: __[...][s6-2]__  
-`>` Exercise 6: __[...][ex06]__
+`>` Demo 1: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
+`>` Bonus: __[...][s6-2]__  
+`>` No exercise this week: focus on readings, graded homework, and bonus above
 
-[s6-1]: /
+[s6-1]: https://github.com/briatte/dsr/tree/master/dsr-06
 [s6-2]: /
-[ex06]: /
 
 ## 7. Correlation
 
