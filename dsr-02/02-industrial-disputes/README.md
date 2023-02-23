@@ -5,6 +5,8 @@ John D. Stephens, _[Comparative Welfare States Data Set][cws]_, University of No
 
 [cws]: https://www.lisdatacenter.org/news-and-events/comparative-welfare-states-dataset-2020/
 
-Make sure to read the [codebook of the dataset][codebook] to gain a better understanding of how the variables we use were measured.
+## Documentation
+
+The [codebook][codebook] of the dataset is available online. Make sure to read it to gain a firm understanding of how the data were assembled and measured.
 
 [codebook]: https://www.lisdatacenter.org/wp-content/uploads/CWS-codebook-2020.pdf
