@@ -25,18 +25,29 @@ __Exercise answers and solutions__ are not included either, but are distributed 
 
 Early in the course, we will rely on R-focused handbooks, all of which are readable online:
 
-- Irizarry, _[Introduction to Data Science](http://rafalab.dfci.harvard.edu/dsbook/)_, 2022
-- Rodrigues, _[Modern R with the tidyverse](https://modern-rstats.eu/)_, 2022
-- Wickham and Grolemund, _[R for Data Science](https://r4ds.hadley.nz/)_, 2nd ed., 2023
+- Irizarry, _[Introduction to Data Science][irizarry]_, 2022
+- Rodrigues, _[Modern R with the tidyverse][rodrigues]_, 2022
+- Wickham and Grolemund, _[R for Data Science][r4ds]_, 2nd ed., 2023
+
+[irizarry]: http://rafalab.dfci.harvard.edu/dsbook/
+[rodrigues]: https://modern-rstats.eu/
+[r4ds]: https://r4ds.hadley.nz/
 
 I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets), as well as reading from a few additional, more focused handbooks:
 
-- Elff, _[Data Management in R](https://www.elff.eu/book/data-management-r/)_, 2020
-- Healy, _[Data Visualization. A Practical Introduction](https://socviz.co/)_, 2019
+- Elff, _[Data Management in R][elff]_, 2020
+- Healy, _[Data Visualization. A Practical Introduction][socviz]_, 2019
 
-Later in the course, we will continue with some of those handbooks, but also refer to even more reseach-focused ones, plus a few additional references for good measure.
+[elff]: https://www.elff.eu/book/data-management-r/
+[socviz]: https://socviz.co/
 
-All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+Later in the course, we will continue with some of those handbooks, but also refer to even more reseach-focused ones:
+
+- Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
+
+[llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
+
+… plus a few additional references for good measure. All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
 
 # Outline
 
@@ -168,7 +179,7 @@ Association tests to compare means and proportions. Also covering, as an aside, 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
 `>` Demo 1: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
 `>` Bonus: __[...][s6-2]__  
-`>` No exercise this week: focus on readings, graded homework, and bonus above
+`>` No exercise this week -- catch up on all previously distributed material
 
 [s6-1]: https://github.com/briatte/dsr/tree/master/dsr-06
 [s6-2]: /
