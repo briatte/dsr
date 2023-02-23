@@ -9,7 +9,7 @@ An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyv
 [rstudio]: https://posit.co/products/open-source/rstudio/
 [tidyverse]: https://www.tidyverse.org/
 
-`>` __[Syllabus][syllabus]__
+`>` __[Syllabus][syllabus]__ (very rough first draft)
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
 
