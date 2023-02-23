@@ -41,13 +41,15 @@ I will also recommend downloading and using [R cheatsheets](https://github.com/r
 [elff]: https://www.elff.eu/book/data-management-r/
 [socviz]: https://socviz.co/
 
-Later in the course, we will continue with some of those handbooks, but also refer to even more reseach-focused ones:
+Later in the course, we will continue with some of those handbooks, but will also refer to even more reseach-focused ones for their statistical parts:
 
 - Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
 
 [llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
 
-… plus a few additional references for good measure. All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+… plus a few additional references for good measure.
+
+All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
 
 # Outline
 
