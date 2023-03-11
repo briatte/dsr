@@ -19,7 +19,7 @@ A provisional outline follows -- not the full syllabus, only a recap of the main
 
 This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and most links are not yet active.__
 
-__Exercise answers and solutions__ are not included either, but are distributed in class and are available on request by email.
+__Exercise solutions__ are not included either, but are distributed in class and are available on request by email.
 
 # Handbooks
 
@@ -83,9 +83,10 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Objects and assignment: `<-`
   - Package installation
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-01-software.pdf)__  
+`>` __[Slides][s1]__  
 `>` Exercise 1: __[Generative art][ex01]__
 
+[s1]: https://f.briatte.org/teaching/slides-dsr-01-software.pdf
 [ex01]: https://github.com/briatte/dsr/tree/master/exercise-01
 
 ## 2. Workflow
@@ -100,11 +101,12 @@ Software setup, first steps with coding, handling data, and plotting things.
   - R has many packages and sub-syntaxes: base, `tidyverse`, `ggplot2`, etc.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf)__  
+`>` __[Slides][s2]__  
 `>` Demo 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
 `>` Demo 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
 `>` Exercise 2: __[Weird R syntax][ex02]__
 
+[s2]: https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
 [s2-2]: https://github.com/briatte/dsr/tree/master/dsr-02/02-industrial-disputes
 [ex02]: https://github.com/briatte/dsr/tree/master/exercise-02
@@ -133,11 +135,12 @@ Data wrangling, mostly with the `dplyr` package.
   - missing values: `is.na`, `na_if`, `drop_na`
   - manipulating text with the `stringr` package (brief intro)
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-03-data.pdf)__  
+`>` __[Slides][s3]__  
 `>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
 `>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer 2017)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
 
+[s3]: https://f.briatte.org/teaching/slides-dsr-03-data.pdf
 [s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
 [s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-eu-mood
 [ex03]: https://github.com/briatte/dsr/tree/master/exercise-03
@@ -146,12 +149,13 @@ Data wrangling, mostly with the `dplyr` package.
 
 Plots, mostly with the `ggplot2` package.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf)__  
+`>` __[Slides][s4]__  
 `>` Demo 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
 `>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__  
 `>` Bonus: __[Anscombe's quartet][s4-3]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
+[s4]: https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
 [s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
 [s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
@@ -167,11 +171,12 @@ Ideally, this section would also include a session on panel data (fixed and rand
 
 Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-05-description.pdf)__  
-`>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5]__  
+`>` __[Slides][s5]__  
+`>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5-1]__  
 `>` Exercise 5: __[Trust in Islamist parties][ex05]__ (graded homework)
 
-[s5]: https://github.com/briatte/dsr/tree/master/dsr-05
+[s5]: https://f.briatte.org/teaching/slides-dsr-05-description.pdf
+[s5-1]: https://github.com/briatte/dsr/tree/master/dsr-05
 [ex05]: https://github.com/briatte/dsr/tree/master/exercise-05
 
 ## 6. Association
