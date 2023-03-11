@@ -37,9 +37,9 @@ library(rvest)
 library(tidyverse)
 
 h <- "https://en.wikipedia.org/wiki/Enlargement_of_the_European_Union" %>% 
-  read_html()
+  rvest::read_html()
 
-html_table(h) %>% 
+rvest::html_table(h) %>% 
   pluck(3) %>% 
   select(country = Applicant, accession = `Accession / failure rationale`) %>% 
   filter(!str_detect(accession, "Frozen|Negotiating|Rejected|Withdrawn")) %>% 
