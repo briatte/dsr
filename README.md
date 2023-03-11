@@ -136,8 +136,8 @@ Data wrangling, mostly with the `dplyr` package.
   - manipulating text with the `stringr` package (brief intro)
 
 `>` __[Slides][s3]__  
-`>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton 2021)  
-`>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer 2017)  
+`>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton)  
+`>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
 
 [s3]: https://f.briatte.org/teaching/slides-dsr-03-data.pdf
@@ -150,7 +150,7 @@ Data wrangling, mostly with the `dplyr` package.
 Plots, mostly with the `ggplot2` package.
 
 `>` __[Slides][s4]__  
-`>` Demo 1: __[Economic growth and public debt][s4-1]__ ('Reinhart and Rogoff')  
+`>` Demo 1: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
 `>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__  
 `>` Bonus: __[Anscombe's quartet][s4-3]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
@@ -192,20 +192,19 @@ Association tests to compare means and proportions. ~~Also covering, as an aside
 
 ## 7. Correlation
 
-Also introducing least squares, and possibly LO(W)ESS.
+Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf)__  
-`>` Demo 1: __[...][s7-1]__  
-`>` Demo 2: __[...][s7-2]__  
-`>` Exercise 7: __[...][ex07]__
+`>` __[Slides][s7]__  
+`>` Demo: __[Social democratic capitalism][s7-1]__ (Kenworthy)  
+`>` Exercise 7: __[US Republican vote shares and life expectancy][ex07]__ (Case and Deaton)
 
-[s7-1]: /
-[s7-2]: /
+[s7]: https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf
+[s7-1]: https://github.com/briatte/dsr/tree/master/dsr-07
 [ex07]: /
 
 ## 8. Regression
 
-Linear regression, the full package: dummies, interactions, diagnostics, marginal effects. All in one session, if things go well.
+Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
 `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__  
 `>` Demo 1: __[...][s8-1]__  
