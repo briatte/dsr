@@ -77,7 +77,7 @@ __Answer Questions 6.1 and 6.2__ at the end of the section.
 ### 7. Recode variables
 
 1. Recode `age` into the following age groups: __16-24, 25-34, 35-44, 45-54, 55-64, 65+__.
-2. Recode variable __Q102b item 12__ as a new dummy variable called `trust`, making it equal to `1` if the respondent stated having 'a great deal' or 'quite a lot' of trust in Islamist parties, and `0` if he or she declared having 'not a lot' of trust or 'no trust at all.'
+2. Recode variable __Q201b item 12__ as a new dummy variable called `trust`, making it equal to `1` if the respondent stated having 'a great deal' or 'quite a lot' of trust in Islamist parties, and `0` if he or she declared having 'not a lot' of trust or 'no trust at all.'
 3. Compute percentages of `trust` in Islamist parties by age group, and find a way to determine which group reported the highest level (percentage) of trust in those parties.
 4. Find a way to compare the level of trust in Islamist parties of males and females, using the same definition of that level as above, and compute the __difference between females and males__, in _percentage points_.
 
