@@ -181,15 +181,14 @@ Also covering sampling, and possibly bootstrap resampling if time permits (which
 
 ## 6. Association
 
-Association tests to compare means and proportions. Also covering, as an aside, surveys, and how to handle survey weights.
+Association tests to compare means and proportions. ~~Also covering, as an aside, surveys, and how to handle survey weights.~~
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-06-association.pdf)__  
-`>` Demo 1: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
-`>` Bonus: __[...][s6-2]__  
+`>` __[Slides][s6]__  
+`>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
 `>` No exercise this week -- catch up on all previously distributed material
 
+[s6]: https://f.briatte.org/teaching/slides-dsr-06-association.pdf
 [s6-1]: https://github.com/briatte/dsr/tree/master/dsr-06
-[s6-2]: /
 
 ## 7. Correlation
 
