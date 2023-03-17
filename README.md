@@ -287,6 +287,20 @@ Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timoth
 
 Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
 
+## Dependencies
+
+```r
+install.packages("remotes")
+
+# required
+pkgs <- c("broom", "countrycode", "ggmosaic", "moments", "sf", "tidyverse")
+remotes::install_cran(pkgs)
+
+# optional (e.g. used to prepare the course datasets)
+xtra <- c("e1071", "rvest", "WDI")
+remotes::install_cran(xtra)
+```
+
 ## Elsewhere
 
 I would love it if the present course were as good as those listed below, but cannot guarantee it.
