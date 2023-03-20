@@ -88,7 +88,7 @@ round(cor(fig811, use = "complete"), 2) # listwise case deletion
 # ------------------------------------------------------------------------------
 
 # Fig. 2.23: public social expenditure in Denmark, 1890-2016
-fig223 <- readr::read_tsv("data/sdc-fig2.23.tsv")
+fig223 <- readr::read_tsv("data/sdc-fig2.23.tsv") %>% 
   select(country, year, socex = publicsocexpends) %>% 
   drop_na(socex)
 
