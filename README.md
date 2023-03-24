@@ -194,7 +194,7 @@ Association tests to compare means and proportions. ~~Also covering, as an aside
 
 Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
-`>` __[Slides][s7]__  
+`>` ~~__[Slides][s7]__~~ (no slides this week)  
 `>` Demo: __[Social democratic capitalism][s7-1]__ (Kenworthy)  
 `>` Exercise 7: __[US Republican vote shares and life expectancy][ex07]__ (Case and Deaton)
 
@@ -206,13 +206,12 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-08-regression.pdf)__  
-`>` Demo 1: __[...][s8-1]__  
-`>` Demo 2: __[...][s8-2]__  
-`>` Exercise 8: __[...][ex08]__
+`>` __[Slides][s8]__  
+`>` Demo 1: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
+`>` Exercise 8: __[Growth forecasts and fiscal consolidation][ex08]__ (IMF/Giles)
 
-[s8-1]: /
-[s8-2]: /
+[s8]: https://f.briatte.org/teaching/slides-dsr-08-regression.pdf
+[s8-1]: https://github.com/briatte/dsr/tree/master/dsr-08
 [ex08]: /
 
 ## 9. Nonlinearity
