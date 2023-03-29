@@ -214,7 +214,7 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 [s8]: https://f.briatte.org/teaching/slides-dsr-08-regression.pdf
 [s8-1]: https://github.com/briatte/dsr/tree/master/dsr-08
-[ex08]: /
+[ex08]: https://github.com/briatte/dsr/tree/master/exercise-08
 
 ## 9. Nonlinearity
 
