@@ -208,7 +208,7 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
-`>` __[Slides][s8]__  
+<!-- `>` __[Slides][s8]__   -->
 `>` Demo 1: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
 `>` Exercise 8: __[Growth forecasts and fiscal consolidation][ex08]__ (IMF/Giles)
 
@@ -220,7 +220,7 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__  
+<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__   -->
 `>` Demo 1: __[...][s9-1]__  
 `>` Demo 2: __[...][s9-2]__  
 `>` Exercise 9: __[...][ex09]__
@@ -233,7 +233,7 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 
 Dimensionality reduction, clustering, etc.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__  
+<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__   -->
 `>` Demo 1: __[...][s10-1]__  
 `>` Demo 2: __[...][s10-2]__  
 `>` Exercise 10: __[...][ex10]__
@@ -254,7 +254,7 @@ Ideally, we'd still also find time for an extra last session to wrap up and to i
 
 Students manifested an interest in that.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__  
+<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__   -->
 `>` Demo 1: __[...][s11-1]__  
 `>` Demo 2: __[...][s11-2]__  
 `>` Exercise 11: __[...][ex11]__
@@ -267,7 +267,7 @@ Students manifested an interest in that.
 
 Students manifested an interest in that.
 
-`>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__  
+<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__   -->
 `>` Demo 1: __[...][s12-1]__  
 `>` Demo 2: __[...][s12-2]__  
 `>` Exercise 12: __[...][ex12]__
