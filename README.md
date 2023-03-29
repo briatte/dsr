@@ -294,7 +294,8 @@ Last, this course and all the other ones mentioned above took place at [Sciences
 install.packages("remotes")
 
 # required
-pkgs <- c("broom", "countrycode", "ggmosaic", "moments", "sf", "tidyverse")
+pkgs <- c("broom", "countrycode", "ggmosaic", "ggrepel", "moments", 
+          "performance", "sf", "texreg", "tidyverse")
 remotes::install_cran(pkgs)
 
 # optional (e.g. used to prepare the course datasets)
