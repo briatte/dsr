@@ -83,7 +83,7 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Objects and assignment: `<-`
   - Package installation
 
-`>` __[Slides][s1]__  
+<!-- `>` __[Slides][s1]__   -->
 `>` Exercise 1: __[Generative art][ex01]__
 
 [s1]: https://f.briatte.org/teaching/slides-dsr-01-software.pdf
@@ -101,7 +101,7 @@ Software setup, first steps with coding, handling data, and plotting things.
   - R has many packages and sub-syntaxes: base, `tidyverse`, `ggplot2`, etc.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
-`>` __[Slides][s2]__  
+<!-- `>` __[Slides][s2]__   -->
 `>` Demo 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
 `>` Demo 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
 `>` Exercise 2: __[Weird R syntax][ex02]__
@@ -135,7 +135,7 @@ Data wrangling, mostly with the `dplyr` package.
   - missing values: `is.na`, `na_if`, `drop_na`
   - manipulating text with the `stringr` package (brief intro)
 
-`>` __[Slides][s3]__  
+<!-- `>` __[Slides][s3]__   -->
 `>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton)  
 `>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
@@ -149,7 +149,7 @@ Data wrangling, mostly with the `dplyr` package.
 
 Plots, mostly with the `ggplot2` package.
 
-`>` __[Slides][s4]__  
+<!-- `>` __[Slides][s4]__   -->
 `>` Demo 1: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
 `>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__  
 `>` Bonus: __[Anscombe's quartet][s4-3]__  
@@ -171,7 +171,7 @@ Ideally, this section would also include a session on panel data (fixed and rand
 
 Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
-`>` __[Slides][s5]__  
+<!-- `>` __[Slides][s5]__   -->
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5-1]__  
 `>` Exercise 5: __[Trust in Islamist parties][ex05]__ (graded homework)
 
@@ -183,7 +183,7 @@ Also covering sampling, and possibly bootstrap resampling if time permits (which
 
 Association tests to compare means and proportions. ~~Also covering, as an aside, surveys, and how to handle survey weights.~~
 
-`>` __[Slides][s6]__  
+<!-- `>` __[Slides][s6]__   -->
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
 `>` No exercise this week -- catch up on all previously distributed material
 
@@ -194,7 +194,7 @@ Association tests to compare means and proportions. ~~Also covering, as an aside
 
 Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
-`>` ~~__[Slides][s7]__~~ (no slides this week)  
+<!-- `>` ~~__Slides__~~ (no slides this week)   -->
 `>` Demo: __[Social democratic capitalism][s7-1]__ (Kenworthy)  
 `>` Exercise 7: __[US Republican vote shares and life expectancy][ex07]__ (Case and Deaton)
 
