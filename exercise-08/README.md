@@ -7,7 +7,7 @@ This exercise focuses on estimating, manipulating and interpreting (simple) line
 By some weird twist of fate that might or might not be related to your wearing of your Noam Chomsky t-shirt during job interviews, you are interning at the _[Financial Times][ft]_ (FT), under the auspices of [Chris Giles][cg].
 
 [ft]: https://www.ft.com/
-[cg]: https://blogs.ft.com/money-supply/author/chrisgiles/
+[cg]: https://www.ft.com/chris-giles
 
 Giles has just released a story titled "[Robustness of IMF data scrutinised][ft-article]" (October 12, 2012), in which he tries, and fails, to replicate some of the results published in the [World Economic Outlook 2012][weo12] report of the International Monetary Fund (IMF).
 
