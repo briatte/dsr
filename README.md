@@ -43,8 +43,10 @@ I will also recommend downloading and using [R cheatsheets](https://github.com/r
 
 Later in the course, we will continue with some of those handbooks, but will also refer to even more reseach-focused ones for their statistical parts:
 
+- Hanck _et al._, _[Introduction to Econometrics with R][hanck]_, 2023
 - Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
 
+[hanck]: https://www.econometrics-with-r.org/
 [llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
 
 … plus a few additional references for good measure.
