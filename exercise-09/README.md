@@ -47,27 +47,21 @@ __Answer Questions 3.1 and 3.2__ at the end of that section, with code to show h
 
 ### 4. Model a linear relationship
 
-Predict the number of days from the first case of Covid-19 to a national lockdown from the natural logarithm of population size.
+Predict the number of days from the first case of Covid-19 to a national lockdown, using (i) the number of Covid-19 cases that had been reported when lockdown was adopted, and (ii) the population size of the country.
 
-Write your code in Section 4 of the answers script, and __answer Questions 4.1 and 4.2__ in that section. Round non-integer numbers to 2 digits max.
+Use the distribution of both predictors to determine whether they might benefit from a logarithmic transformation, and if relevant, estimate several models, and select the one that performs best.
+
+Write your code in Section 4 of the answers script, and __answer Questions 4.1 and 4.2__ in that section, writing your answers at the top of the script as short paragraphs of maximum 3 lines. Round any non-integer numbers to 2 digits max.
 
 ### 5. Diagnose a linear regression model
 
-According to the model that you just wrote, in which three countries is population size the least predictive of time to national lockdown?
-
-Write your code in Section 5 of the answers script, and write in your answer at the top of the script.
-
-### 6. Formulate a prediction
-
-According to the model, by how much time would have national lockdowns be delayed if the population sizes of the sample countries had been half larger?
-
-Write your code in Section 6 of the answers script, and write in your answer at the top of the script. Round non-integer numbers to 1 digit.
+Run further diagnostics on the best linear model that you identified at Step 4, and __answer Questions 5.1 and 5.2__ at the end of that section, with code to show how you obtained your results. Round non-integer numbers to 2 digits max.
 
 ## Submission instructions
 
 Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-09-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
 
-Please send me that email __at most 7 days after the class during which you received this exercise__.
+Please send me that email __at most 10 days after the class during which you received this exercise__.
 
 You do _not_ need to also attach the data and/or the rest of the `exercise-09` folder -- the answers will be enough.
 
