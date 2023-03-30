@@ -209,7 +209,7 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
 <!-- `>` __[Slides][s8]__   -->
-`>` Demo 1: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
+`>` Demo: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
 `>` Exercise 8: __[Growth forecasts and fiscal consolidation][ex08]__ (IMF/Giles)
 
 [s8]: https://f.briatte.org/teaching/slides-dsr-08-regression.pdf
@@ -220,14 +220,13 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
 
-<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf)__   -->
-`>` Demo 1: __[...][s9-1]__  
-`>` Demo 2: __[...][s9-2]__  
-`>` Exercise 9: __[...][ex09]__
+<!-- `>` __[Slides][s9]__   -->
+`>` Demo: __[Opposition to abortion in Canada][s9-1]__ (CES 2021)  
+`>` Exercise 9: __[Predicting Covid-19 lockdowns][ex09]__ (graded homework)
 
-[s9-1]: /
-[s9-2]: /
-[ex09]: /
+[s9]: https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf
+[s9-1]: https://github.com/briatte/dsr/tree/master/dsr-09
+[ex09]: https://github.com/briatte/dsr/tree/master/exercise-09
 
 ## 10. Classification
 
