@@ -317,4 +317,5 @@ I would love it if the present course were as good as those listed below, but ca
 - Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
 - Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
 - Cosma Shalizi, [Modern Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/) (Carnegie Mellon University, 2015)
+- Omar Wasow, [Applied Quantitative Analysis](http://pol346.com/) (Princeton University, 2021)
 - Ista Zahn _et al._, [Data Science Workshops](https://iqss.github.io/dss-workshops/) (Harvard University, 2021)
