@@ -34,3 +34,16 @@ Hints:
 ## Expected result
 
 ![](preston-curve.png)
+
+## Side note
+
+The graph above shows the outlier status of the United States as a country, but even at the individual level, the life expectancy of US residents is starkingly lower than it should be (given US income levels).
+
+John Burn-Murdoch, from the _Financial Times_, has an [article][jbm22] and a [well-illustrated Twitter thread][jbm22-tweets] on the topic. Quoting from it:
+
+> Beyond age 70, US mortality/survival rates are very similar to other rich countries. But between teenage years and early middle age there is a vast gulf... More years of American lives were erased by drugs, guns & road deaths in 2021 alone than from Covid during the whole pandemic.
+
+[jbm22]: https://www.ft.com/content/653bbb26-8a22-4db3-b43d-c34a0b774303
+[jbm22-tweets]: https://twitter.com/jburnmurdoch/status/1641799627128143873
+
+I recommend taking a look at the whole thing.
