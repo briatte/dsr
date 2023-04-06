@@ -87,10 +87,4 @@ library(tidyverse)
 #                cases and population size the least predictive of time to
 #                national lockdown?
 
-# ------------------------------------------------------------------------------
-# 6. Formulate a prediction
-# ------------------------------------------------------------------------------
-
-
-
 # You are done -- thank you for your efforts!
