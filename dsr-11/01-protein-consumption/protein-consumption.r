@@ -1,5 +1,8 @@
-# QUANTI2 Session 12 -- data reduction
+# ------------------------------------------------------------------------------
+# Protein consumption in European countries, 1973
+#
 # Example data from Zumel and Mount 2019, ch. 9
+# ------------------------------------------------------------------------------
 
 library(car)
 library(corrr)
@@ -9,7 +12,8 @@ library(ggfortify)
 library(plotly)
 library(tidyverse)
 
-# example data: country-level protein consumption, c. 1973
+# ------------------------------------------------------------------------------
+# Step 1: import the data
 # ------------------------------------------------------------------------------
 
 d <- read_tsv("data/protein.txt") %>%
@@ -30,11 +34,12 @@ pivot_longer(d, -Country) %>%
   geom_tile() +
   scale_fill_viridis_b()
 
+# ------------------------------------------------------------------------------
+# Step 2: correlations
+# ------------------------------------------------------------------------------
+
 # scatterplot matrix
 car::scatterplotMatrix(select(d, -Country), smooth = FALSE)
-
-# correlations
-# ------------------------------------------------------------------------------
 
 # pairwise correlations
 cor(select(d, -Country), use = "pairwise.complete.obs")
@@ -60,7 +65,8 @@ select(d, -Country) %>%
 # correlation network
 corrr::network_plot(r, curved = FALSE)
 
-# hierarchical clustering
+# ------------------------------------------------------------------------------
+# Step 3: hierarchical clustering
 # ------------------------------------------------------------------------------
 
 # rescale the features
@@ -95,7 +101,8 @@ factoextra::fviz_dend(clusters_d, k = 5, rect = TRUE)
 # base R heatmap for dendrograms on both sides
 heatmap(rescaled_d)
 
-# k-means
+# ------------------------------------------------------------------------------
+# Step 4: k-means
 # ------------------------------------------------------------------------------
 
 # use the rescaled data

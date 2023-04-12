@@ -1,12 +1,16 @@
-# QUANTI2 Session 12 -- data reduction
+# ------------------------------------------------------------------------------
+# Feelings towards French politicians, 2017
+#
 # Most PCA code from Waggoner 2021, ch. 2
+# ------------------------------------------------------------------------------
 
+library(corrr)
 library(factoextra)
 library(ggrepel)
-library(corrr)
 library(tidyverse)
 
-# example data: CNEP electoral survey for France, 2017
+# ------------------------------------------------------------------------------
+# Step 1: import the data (CNEP French survey)
 # ------------------------------------------------------------------------------
 
 d <- haven::read_sav("data/CN4France2017.Fin-27j6q27.zip")
@@ -25,7 +29,8 @@ names(p) <- sapply(names(p), function(x) attr(p[[x]], "label"))
 names(p) <- str_remove(names(p), ".*group - ")
 # View(p)
 
-# correlations
+# ------------------------------------------------------------------------------
+# Step 2: correlations
 # ------------------------------------------------------------------------------
 
 # heatmap
@@ -37,7 +42,8 @@ cor(p, use = "pairwise.complete.obs") %>%
 cor(p, use = "pairwise.complete.obs") %>%
   corrr::network_plot(curved = FALSE)
 
-# principal components
+# ------------------------------------------------------------------------------
+# Step 3: principal components
 # ------------------------------------------------------------------------------
 
 pca_fit <- p %>%
