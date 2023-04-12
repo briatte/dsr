@@ -23,7 +23,7 @@ datasets::anscombe %>%
 
 ## Rationale
 
-The point of this 'bonus' folder is to show you the existence of [different plotting systems][peng1] in R. We cover only the `ggplot2` one in class, called so in reference to the ‘grammar of graphics’ logic that it follows, but there are at least two other systems:
+The point of this demo is to show you the existence of [different plotting systems][peng1] in R. We cover only the `ggplot2` one in class, called so in reference to the ‘grammar of graphics’ logic that it follows, but there are at least two other systems:
 
 - The ['base'][peng2] system, which comes with R.
 - The ['lattice'][lattice] system, provided by the `lattice` package.
