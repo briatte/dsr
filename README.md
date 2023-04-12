@@ -298,6 +298,10 @@ pkgs <- c("broom", "countrycode", "ggmosaic", "ggrepel", "moments",
           "performance", "sf", "texreg", "tidyverse")
 remotes::install_cran(pkgs)
 
+# required for Session 11
+s11 <- c("car", "corrr", "factoextra", "ggcorrplot", "ggfortify", "plotly")
+remotes::install_cran(s11)
+
 # optional (e.g. used to prepare the course datasets)
 xtra <- c("e1071", "rvest", "WDI")
 remotes::install_cran(xtra)
