@@ -64,7 +64,7 @@ All readings, and what to read at which stage of the course, appear in the [cour
 7. [Correlation](#7-correlation)
 8. [Regression](#8-regression)
 9. [Nonlinearity](#9-nonlinearity)
-10. [Surveys](#11-surveys)
+10. [Surveys](#10-surveys)
 11. [Classification](#11-classification)
 12. [Extensions](#12-extensions)
 
