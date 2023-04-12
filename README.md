@@ -153,14 +153,12 @@ Plots, mostly with the `ggplot2` package.
 
 <!-- `>` __[Slides][s4]__   -->
 `>` Demo 1: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
-`>` Demo 2: __[Mapping life expectancy worldwide][s4-2]__  
-`>` Bonus: __[Anscombe's quartet][s4-3]__  
+`>` Demo 2: __[Anscombe's quartet][s4-2]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
 [s4]: https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
-[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
-[s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
+[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-anscombe
 [ex04]: https://github.com/briatte/dsr/tree/master/exercise-04
 
 # Part 2. Essentials
@@ -202,7 +200,7 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
 [s7]: https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf
 [s7-1]: https://github.com/briatte/dsr/tree/master/dsr-07
-[ex07]: /
+[ex07]: https://github.com/briatte/dsr/tree/master/exercise-07
 
 ## 8. Regression
 
@@ -228,15 +226,18 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 [s9-1]: https://github.com/briatte/dsr/tree/master/dsr-09
 [ex09]: https://github.com/briatte/dsr/tree/master/exercise-09
 
-## 10. Classification
+## 10. Surveys
 
-Dimensionality reduction, clustering, etc.
+Work in progress.
 
-<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-10-classification.pdf)__   -->
-`>` Demo 1: __[...][s10-1]__  
-`>` Demo 2: __[...][s10-2]__  
-`>` Exercise 10: __[...][ex10]__
+(Due to Sessions 8 and 9 taking too much time to cover in only 4 hours, we took an extra session here to correct Exercise 8 and revise linear regression, but ideally, this session would also cover survey weighting.)
 
+<!-- `>` __[Slides][s10]__   -->
+`>` Demo 1: __[..][s10-1]__  
+`>` Demo 2: __[..][s10-2]__  
+`>` Exercise 10: __[..][ex10]__
+
+[s10]: https://f.briatte.org/teaching/slides-dsr-10-surveys.pdf
 [s10-1]: /
 [s10-2]: /
 [ex10]: /
@@ -249,31 +250,31 @@ Statistical learning and [machine learning][ml] could go there, as well as APIs 
 
 Ideally, we'd still also find time for an extra last session to wrap up and to introduce tools that are not covered here. By order of priority: SQL, Git/GitHub, R Markdown, and possibly some JavaScript visualization libraries.
 
-## 11. Text
+## 11. Classification
 
-Students manifested an interest in that.
+Dimensionality reduction, principal components, clustering, etc.
 
-<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-11-text.pdf)__   -->
-`>` Demo 1: __[...][s11-1]__  
-`>` Demo 2: __[...][s11-2]__  
-`>` Exercise 11: __[...][ex11]__
+<!-- `>` __[Slides][s11]__   -->
+`>` Demo 1: __[Protein consumption in European countries, 1973][s11-1]__  
+`>` Demo 2: __[Feelings towards politicians in France][s11-2]__ (CNEP 2017)  
+`>` No exercise this week -- catch up on all previously distributed material
 
-[s11-1]: /
-[s11-2]: /
-[ex11]: /
+[s11]: https://f.briatte.org/teaching/slides-dsr-10-classification.pdf
+[s11-1]: https://github.com/briatte/dsr/tree/master/dsr-11/01-protein-consumption
+[s11-2]: https://github.com/briatte/dsr/tree/master/dsr-11/02-political-thermometer
 
-## 12. Maps
+## 12. Extensions
 
-Students manifested an interest in that.
+Students manifested an interest in text and maps, so let's cover this, plus a few bonus tools like databases, version control and dynamic documents.
 
-<!-- `>` __[Slides](https://f.briatte.org/teaching/slides-dsr-12-maps.pdf)__   -->
-`>` Demo 1: __[...][s12-1]__  
-`>` Demo 2: __[...][s12-2]__  
-`>` Exercise 12: __[...][ex12]__
+<!-- `>` __[Slides][s12]__   -->
+`>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
+`>` Demo 2: __[Greta Thunberg's vocabulary][s12-2]__  
+`>` Final exercise -- to be distributed in class
 
-[s12-1]: /
-[s12-2]: /
-[ex12]: /
+[s12]: https://f.briatte.org/teaching/slides-dsr-12-extensions.pdf
+[s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-life-expectancy
+[s12-2]: https://github.com/briatte/dsr/tree/master/dsr-12/02-greta-thunberg
 
 * * *
 
