@@ -29,18 +29,6 @@ str_split(thunberg_text, "\\.") %>%
   # remove extra whitespace
   str_squish()
 
-#### TODO: REMOVE?
-
-thunberg_df <- data.frame(text = thunberg_text) %>% 
-  mutate(text_full = str_split(text, '\\n')) %>% 
-  unnest(text_full)
-
-speech_text <- thunberg_df %>% # Get the full speech
-  select(text_full) %>% # Only keep the text
-  slice(4:18) # Filter by row number
-
-speech_text
-
 # ------------------------------------------------------------------------------
 # Prelude 2: tokenize and remove stop words (taken from ESM 244 Lab Week 8)
 # ------------------------------------------------------------------------------
@@ -49,32 +37,27 @@ sentences <- str_split(thunberg_text, "\\.") %>%
   unlist() %>% 
   str_replace_all("\\n+", " ") %>% 
   str_squish()
+
 sentences
-sentences %>% 
+
+# tokenize words
+words <- sentences %>% 
   as_tibble_col(column_name = "sentence") %>% 
-  tidytext::unnest_tokens(word, sentence)
+  tidytext::unnest_tokens(word, sentence, token = "words")
 
-sep_words <- speech_text %>% 
-  tidytext::unnest_tokens(word, text_full)
-
-sep_words
-
-word_counts <- sep_words %>% 
-  count(word, sort = TRUE)
-
-word_counts
+words
 
 # stop words, loaded by {tidytext}
 data(stop_words) 
 stop_words
 
-words_stop <- sep_words %>% 
-  anti_join(stop_words) # Remove the stop words
+# remove stop words from text
+words <- words %>% 
+  anti_join(stop_words, by = "word")
 
-word_count <- words_stop %>% 
-  count(word, sort = TRUE) # Count words and arrange
-
-word_count %>% arrange(-n)
+# identify most frequent words
+words %>% 
+  count(word, sort = TRUE)
 
 # ------------------------------------------------------------------------------
 # Step 1: import a multi-text corpus
@@ -252,6 +235,8 @@ bigrams_frequency
 bigrams_network <- bigrams_frequency %>%
   filter(!is.na(word1), !is.na(word2), n > 1, n < 20) %>%
   igraph::graph_from_data_frame()
+
+bigrams_network
 
 # network of most common 2-word (bigram) associations
 ggraph(bigrams_network, layout = "kk") +
