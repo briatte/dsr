@@ -269,12 +269,13 @@ Students manifested an interest in text and maps, so let's cover this, plus a fe
 
 <!-- `>` __[Slides][s12]__   -->
 `>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
-`>` Demo 2: __[Greta Thunberg's vocabulary][s12-2]__  
 `>` Final exercise -- to be distributed in class
+`>` Demo 2: __[Mining into Greta Thunberg's speeches][s12-2]__  
 
 [s12]: https://f.briatte.org/teaching/slides-dsr-12-extensions.pdf
 [s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-life-expectancy
 [s12-2]: https://github.com/briatte/dsr/tree/master/dsr-12/02-greta-thunberg
+[ex12]: https://github.com/briatte/dsr/tree/master/exercise-12
 
 * * *
 
@@ -295,14 +296,18 @@ install.packages("remotes")
 
 # required
 pkgs <- c("broom", "countrycode", "ggmosaic", "ggrepel", "moments", 
-          "performance", "sf", "texreg", "tidyverse")
+          "performance", "texreg", "tidyverse")
 remotes::install_cran(pkgs)
 
-# required for Session 11
+# required for Session 11 only
 s11 <- c("car", "corrr", "factoextra", "ggcorrplot", "ggfortify", "plotly")
 remotes::install_cran(s11)
 
-# optional (e.g. used to prepare the course datasets)
+# required for Session 12 only
+s12 <- c("sf", "igraph", "ggraph", "pdftools", "tidytext")
+remotes::install_cran(s12)
+
+# optional (used to prepare the course datasets)
 xtra <- c("e1071", "rvest", "WDI")
 remotes::install_cran(xtra)
 ```
