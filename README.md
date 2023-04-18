@@ -269,8 +269,8 @@ Students manifested an interest in text and maps, so let's cover this, plus a fe
 
 <!-- `>` __[Slides][s12]__   -->
 `>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
-`>` Final exercise -- to be distributed in class
 `>` Demo 2: __[Mining into Greta Thunberg's speeches][s12-2]__  
+`>` Exercise 12: __[data science skills][ex12]__
 
 [s12]: https://f.briatte.org/teaching/slides-dsr-12-extensions.pdf
 [s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-life-expectancy
