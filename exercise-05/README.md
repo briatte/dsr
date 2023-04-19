@@ -18,6 +18,7 @@ Some further important coding requirements:
 - Consequently, it should use __as few packages__ as possible.
 - Concision (coding/writing that is __short__ and __clear__) is _very much_ valued.
 - Comment lines should _not_ go over 80 characters per line.
+- Include the code to load packages, but _not_ the code to install them.
 - There will be grades assigned to all requirements above.
 
 ## Scenario
