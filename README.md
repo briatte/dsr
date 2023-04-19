@@ -235,12 +235,14 @@ Work in progress.
 <!-- `>` __[Slides][s10]__   -->
 `>` Demo 1: __[..][s10-1]__  
 `>` Demo 2: __[..][s10-2]__  
-`>` Exercise 10: __[..][ex10]__
+`>` Exercise 10: __[Economic insecurity and religious reassurance][ex10]__ (ESS)
 
 [s10]: https://f.briatte.org/teaching/slides-dsr-10-surveys.pdf
 [s10-1]: /
 [s10-2]: /
-[ex10]: /
+[ex10]: https://github.com/briatte/dsr/tree/master/exercise-11
+
+(Exercise 10 is currently listed as Exercise 11, but will become Exercise 10 in future iterations.)
 
 # Part 3. Extras
 
@@ -265,7 +267,7 @@ Dimensionality reduction, principal components, clustering, etc.
 
 ## 12. Extensions
 
-Students manifested an interest in text and maps, so let's cover this, plus a few bonus tools like databases, version control and dynamic documents.
+Students manifested an interest in text and maps, so let's cover this, plus mentions to other things like databases, version control and dynamic documents.
 
 <!-- `>` __[Slides][s12]__   -->
 `>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
