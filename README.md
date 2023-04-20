@@ -13,45 +13,7 @@ An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyv
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
 
-This repo contains files from an old course project that took 5 years to actually get taught. I'm giving it a go this semester, so all old content is gone, and will be replaced, if everything goes well, by some new sessions.
-
-A provisional outline follows -- not the full syllabus, only a recap of the main topics covered in each session, plus short descriptions of what happens during those.
-
-This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides are hosted elsewhere, and most links are not yet active.__
-
-__Exercise solutions__ are not included either, but are distributed in class and are available on request by email.
-
-# Handbooks
-
-Early in the course, we will rely on R-focused handbooks, all of which are readable online:
-
-- Irizarry, _[Introduction to Data Science][irizarry]_, 2022
-- Rodrigues, _[Modern R with the tidyverse][rodrigues]_, 2022
-- Wickham and Grolemund, _[R for Data Science][r4ds]_, 2nd ed., 2023
-
-[irizarry]: http://rafalab.dfci.harvard.edu/dsbook/
-[rodrigues]: https://modern-rstats.eu/
-[r4ds]: https://r4ds.hadley.nz/
-
-I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets), as well as reading from a few additional, more focused handbooks:
-
-- Elff, _[Data Management in R][elff]_, 2020
-- Healy, _[Data Visualization. A Practical Introduction][socviz]_, 2019
-
-[elff]: https://www.elff.eu/book/data-management-r/
-[socviz]: https://socviz.co/
-
-Later in the course, we will continue with some of those handbooks, but will also refer to even more reseach-focused ones for their statistical parts:
-
-- Hanck _et al._, _[Introduction to Econometrics with R][hanck]_, 2023
-- Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
-
-[hanck]: https://www.econometrics-with-r.org/
-[llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
-
-… plus a few additional references for good measure.
-
-All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides and exercise solutions are not included.__
 
 # Outline
 
@@ -67,6 +29,11 @@ All readings, and what to read at which stage of the course, appear in the [cour
 10. [Surveys](#10-surveys)
 11. [Classification](#11-classification)
 12. [Extensions](#12-extensions)
+
+- [Handbooks](#handbooks)
+- [Dependencies](#dependencies)
+- [Credits](#credits)
+- [Elsewhere](#elsewhere)
 
 # Part 1. Basics
 
@@ -181,7 +148,7 @@ Also covering sampling, and possibly bootstrap resampling if time permits (which
 
 ## 6. Association
 
-Association tests to compare means and proportions. ~~Also covering, as an aside, surveys, and how to handle survey weights.~~
+Association tests to compare means and proportions.
 
 <!-- `>` __[Slides][s6]__   -->
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
@@ -228,9 +195,7 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 
 ## 10. Surveys
 
-Work in progress.
-
-(Due to Sessions 8 and 9 taking too much time to cover in only 4 hours, we took an extra session here to correct Exercise 8 and revise linear regression, but ideally, this session would also cover survey weighting.)
+Surveys, and how to handle survey weights. __Work in progress.__
 
 <!-- `>` __[Slides][s10]__   -->
 `>` Demo 1: __[..][s10-1]__  
@@ -265,7 +230,7 @@ Dimensionality reduction, principal components, clustering, etc.
 
 ## 12. Extensions
 
-Students manifested an interest in text and maps, so let's cover this, plus mentions to other things like databases, version control and dynamic documents.
+Students manifested an interest in text and maps, so let's cover this, plus mentions of other things like databases, version control and dynamic documents.
 
 <!-- `>` __[Slides][s12]__   -->
 `>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
@@ -279,17 +244,39 @@ Students manifested an interest in text and maps, so let's cover this, plus ment
 
 * * *
 
-# Credits
+# Handbooks
 
-The last time I had a chance to build such a course was [ten years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
+Early in the course, we will rely on R-focused handbooks, all of which are readable online:
 
-In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
+- Irizarry, _[Introduction to Data Science][irizarry]_, 2022
+- Rodrigues, _[Modern R with the tidyverse][rodrigues]_, 2022
+- Wickham and Grolemund, _[R for Data Science][r4ds]_, 2nd ed., 2023
 
-Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, several years before it actually ran for the first time.
+[irizarry]: http://rafalab.dfci.harvard.edu/dsbook/
+[rodrigues]: https://modern-rstats.eu/
+[r4ds]: https://r4ds.hadley.nz/
 
-Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
+I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets), as well as reading from a few additional, more focused handbooks:
 
-## Dependencies
+- Elff, _[Data Management in R][elff]_, 2020
+- Healy, _[Data Visualization. A Practical Introduction][socviz]_, 2019
+
+[elff]: https://www.elff.eu/book/data-management-r/
+[socviz]: https://socviz.co/
+
+Later in the course, we will continue with some of those handbooks, but will also refer to even more reseach-focused ones for their statistical parts:
+
+- Hanck _et al._, _[Introduction to Econometrics with R][hanck]_, 2023
+- Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
+
+[hanck]: https://www.econometrics-with-r.org/
+[llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
+
+… plus a few additional references for good measure.
+
+All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+
+# Dependencies
 
 ```r
 install.packages("remotes")
@@ -312,7 +299,17 @@ xtra <- c("e1071", "rvest", "WDI")
 remotes::install_cran(xtra)
 ```
 
-## Elsewhere
+# Credits
+
+The last time I had a chance to build such a course was [ten years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
+
+In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
+
+Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, several years before it actually ran for the first time.
+
+Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
+
+# Elsewhere
 
 I would love it if the present course were as good as those listed below, but cannot guarantee it.
 
