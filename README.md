@@ -107,7 +107,7 @@ Data wrangling, mostly with the `dplyr` package.
 <!-- `>` __[Slides][s3]__   -->
 `>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton)  
 `>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer)  
-`>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (EB)
+`>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (Eurobarometer)
 
 [s3]: https://f.briatte.org/teaching/slides-dsr-03-data.pdf
 [s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
