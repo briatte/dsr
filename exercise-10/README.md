@@ -1,4 +1,4 @@
-# DSR: Exercise 11 (graded)
+# DSR: Exercise 10 (graded)
 
 This exercise focuses on fitting and interpreting _multiple_ linear regression models.
 
@@ -73,13 +73,13 @@ __Answer Questions 6.1 and 6.2__ at the end of that section. Note that Question 
 
 ## Submission instructions
 
-Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-11-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
+Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-10-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
 
 Please send me that email __at most 10 days after the class during which you received this exercise__.
 
-You do _not_ need to also attach the data and/or the rest of the `exercise-11` folder -- the answers will be enough.
+You do _not_ need to also attach the data and/or the rest of the `exercise-10` folder -- the answers will be enough.
 
-Use the email subject __"DSR: Answers to Exercise 11, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
+Use the email subject __"DSR: Answers to Exercise 10, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 Make sure to complete the rest of the code header with your feedback.
 

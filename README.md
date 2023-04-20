@@ -240,9 +240,7 @@ Work in progress.
 [s10]: https://f.briatte.org/teaching/slides-dsr-10-surveys.pdf
 [s10-1]: /
 [s10-2]: /
-[ex10]: https://github.com/briatte/dsr/tree/master/exercise-11
-
-(Exercise 10 is currently listed as Exercise 11, but will become Exercise 10 in future iterations.)
+[ex10]: https://github.com/briatte/dsr/tree/master/exercise-10
 
 # Part 3. Extras
 
