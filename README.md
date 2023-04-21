@@ -32,7 +32,8 @@ This folder contains the code, data and documentation of the examples used eithe
 11. [Classification](#11-classification)
 12. [Extensions](#12-extensions)
 
-- [Readings](#readings)
+Bonus sections:
+
 - [Dependencies](#dependencies)
 - [Credits](#credits)
 - [Elsewhere](#elsewhere)
