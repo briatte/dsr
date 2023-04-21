@@ -30,7 +30,7 @@ This folder contains the code, data and documentation of the examples used eithe
 11. [Classification](#11-classification)
 12. [Extensions](#12-extensions)
 
-- [Handbooks](#handbooks)
+- [Readings](#readings)
 - [Dependencies](#dependencies)
 - [Credits](#credits)
 - [Elsewhere](#elsewhere)
@@ -244,37 +244,11 @@ Students manifested an interest in text and maps, so let's cover this, plus ment
 
 * * *
 
-# Handbooks
+# Readings
 
-Early in the course, we will rely on R-focused handbooks, all of which are readable online:
+All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus], as well as on an online [wiki page][readings].
 
-- Irizarry, _[Introduction to Data Science][irizarry]_, 2022
-- Rodrigues, _[Modern R with the tidyverse][rodrigues]_, 2022
-- Wickham and Grolemund, _[R for Data Science][r4ds]_, 2nd ed., 2023
-
-[irizarry]: http://rafalab.dfci.harvard.edu/dsbook/
-[rodrigues]: https://modern-rstats.eu/
-[r4ds]: https://r4ds.hadley.nz/
-
-I will also recommend downloading and using [R cheatsheets](https://github.com/rstudio/cheatsheets), as well as reading from a few additional, more focused handbooks:
-
-- Elff, _[Data Management in R][elff]_, 2020
-- Healy, _[Data Visualization. A Practical Introduction][socviz]_, 2019
-
-[elff]: https://www.elff.eu/book/data-management-r/
-[socviz]: https://socviz.co/
-
-Later in the course, we will continue with some of those handbooks, but will also refer to even more reseach-focused ones for their statistical parts:
-
-- Hanck _et al._, _[Introduction to Econometrics with R][hanck]_, 2023
-- Llaudet and Imai, _[Data Analysis for Social Science][llaudet-imai]_, 2022
-
-[hanck]: https://www.econometrics-with-r.org/
-[llaudet-imai]: https://press.princeton.edu/books/hardcover/9780691199429/data-analysis-for-social-science
-
-… plus a few additional references for good measure.
-
-All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus].
+[readings]: https://github.com/briatte/dsr/wiki/readings
 
 # Dependencies
 
