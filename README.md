@@ -1,7 +1,7 @@
 # `>` Introduction to Data Science with R
 
 > [François Briatte](https://f.briatte.org/)  
-> Spring ~~2017~~ 2023. __Work in progress.__
+> Spring 2023. __Work in progress.__
 
 An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyverse`][tidyverse] packages, aimed at social scientists with little to no training in statistical computing and related topics.
 
@@ -305,7 +305,7 @@ The last time I had a chance to build such a course was [ten years ago, with Iva
 
 In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
 
-Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, several years before it actually ran for the first time.
+Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, six years before it actually ran for the first time.
 
 Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
 
