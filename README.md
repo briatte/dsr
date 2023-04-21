@@ -311,18 +311,4 @@ Last, this course and all the other ones mentioned above took place at [Sciences
 
 # Elsewhere
 
-I would love it if the present course were as good as those listed below, but cannot guarantee it.
-
-- Chris Adolph, [Visualizing Data and Models](https://faculty.washington.edu/cadolph/index.php?page=22) (University of Washington, 2023)
-- Jenny Bryan, [Data Wrangling, Exploration, and Analysis with R](https://stat545.com/) (fml. University of British Columbia, c. 2019)
-- Mine Çetinkaya-Rundel, [Intro to Data Science](http://www2.stat.duke.edu/courses/Spring18/Sta199/) (Duke University, 2018)
-- Friedrich Geiecke, [Data for Data Scientists](https://lse-my472.github.io/) (London School of Economics and Political Science, 2022)
-- Kieran Healy, [Data Wrangling](https://github.com/kjhealy/data_wrangling) (Statistical Horizons, 2022)
-- Andrew Heiss, [Data Visualization](https://datavizs22.classes.andrewheiss.com/) (Georgia State University, 2022)
-- Grant McDermott, [Data Science for Economists](https://github.com/uo-ec607/) (University of Oregon, 2021)
-- Gaston Sanchez [Data Visualization](https://www.gastonsanchez.com/#tutorials) (University of California, Berkeley, n.d.)
-- Cosma Shalizi, [Undergraduate Advanced Data Analysis](https://www.stat.cmu.edu/~cshalizi/uADA/19/) (Carnegie Mellon University, 2019)
-- Cosma Shalizi, [Statistical Computing](https://www.stat.cmu.edu/~cshalizi/statcomp/14/) (Carnegie Mellon University, 2014)
-- Cosma Shalizi, [Modern Regression](https://www.stat.cmu.edu/~cshalizi/mreg/15/) (Carnegie Mellon University, 2015)
-- Omar Wasow, [Applied Quantitative Analysis](http://pol346.com/) (Princeton University, 2021)
-- Ista Zahn _et al._, [Data Science Workshops](https://iqss.github.io/dss-workshops/) (Harvard University, 2021)
+Most of this course is available [on GitHub](https://github.com/briatte/dsr), where a wiki page lists [other similar courses](https://github.com/briatte/dsr/wiki/elsewhere). I would love it if the present course were as good as those listed there, but cannot guarantee it.
