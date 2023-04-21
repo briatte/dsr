@@ -10,8 +10,10 @@ An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyv
 [tidyverse]: https://www.tidyverse.org/
 
 `>` __[Syllabus][syllabus]__ (very rough first draft)
+`>` __[Readings list][readings]__ (draft roadmap)
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
+[readings]: https://github.com/briatte/dsr/wiki/readings
 
 This folder contains the code, data and documentation of the examples used either during the practice sessions in class, or distributed as homework exercises. __Slides and exercise solutions are not included.__
 
@@ -241,12 +243,6 @@ Students manifested an interest in text and maps, so let's cover this, plus ment
 [ex12]: https://github.com/briatte/dsr/tree/master/exercise-12
 
 * * *
-
-# Readings
-
-All readings, and what to read at which stage of the course, appear in the [course syllabus][syllabus], as well as on an online [wiki page][readings].
-
-[readings]: https://github.com/briatte/dsr/wiki/readings
 
 # Dependencies
 
