@@ -198,13 +198,11 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 Surveys, and how to handle survey weights. __Work in progress.__
 
 <!-- `>` __[Slides][s10]__   -->
-`>` Demo 1: __[..][s10-1]__  
-`>` Demo 2: __[..][s10-2]__  
+`>` Demo: __[..][s10-1]__  
 `>` Exercise 10: __[Economic insecurity and religious reassurance][ex10]__ (ESS)
 
 [s10]: https://f.briatte.org/teaching/slides-dsr-10-surveys.pdf
 [s10-1]: /
-[s10-2]: /
 [ex10]: https://github.com/briatte/dsr/tree/master/exercise-10
 
 # Part 3. Extras
