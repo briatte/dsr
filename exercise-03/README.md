@@ -11,7 +11,7 @@ This is _not_ an easy exercise: work with your group, and get ready to spend a c
 
 ## Prerequisites
 
-- Prior to completing the following exercise, open RStudio and set the `dsr-03-exercise` folder as the working directory.
+- Prior to completing the following exercise, open RStudio and set the `exercise-03` folder as the working directory.
 
 - Also check that you have installed the packages used in previous classes, as they will probably come in handy.
 
