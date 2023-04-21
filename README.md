@@ -278,12 +278,14 @@ All readings, and what to read at which stage of the course, appear in the [cour
 
 # Dependencies
 
+The course runs on R 4.x and depends on the following packages:
+
 ```r
 install.packages("remotes")
 
 # required
-pkgs <- c("broom", "countrycode", "ggmosaic", "ggrepel", "moments", 
-          "performance", "texreg", "tidyverse")
+pkgs <- c("broom", "countrycode", "e1071", "ggmosaic", "ggeffects", "ggrepel", 
+          "moments", "performance", "texreg", "tidyverse", "WDI")
 remotes::install_cran(pkgs)
 
 # required for Session 11 only
@@ -295,7 +297,7 @@ s12 <- c("sf", "igraph", "ggraph", "pdftools", "tidytext")
 remotes::install_cran(s12)
 
 # optional (used to prepare the course datasets)
-xtra <- c("e1071", "rvest", "WDI")
+xtra <- c("rvest")
 remotes::install_cran(xtra)
 ```
 
