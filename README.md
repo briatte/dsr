@@ -142,7 +142,7 @@ Ideally, this section would also include a session to demo, or at least mention,
 - Ordinal, multinomial and count data, à la [Long and Freese][long-freese14], but using R instead of Stata
 - Event/duration data through event history/survival analysis, using [Mills 2010][mills10] or something more recent
 - Panel data (fixed and random effects, standard error clustering) and other [Wooldrige-type econometrics][heiss20]
-- Hierarchical data (mixed/multilevel models), with ample reference to [Gelman _et al._ 2022][raos] and Bayesian estimators
+- Hierarchical data (mixed/multilevel models), using [Gelman _et al._ 2022][raos] and Bayesian estimators
 - [Natural experiments][dunning12], regression-discontinuity designs (RDD) and instrumental-variables designs
 
 [dunning12]: https://www.cambridge.org/gb/academic/subjects/social-science-research-methods/qualitative-methods/natural-experiments-social-sciences-design-based-approach
@@ -226,7 +226,7 @@ Surveys, and how to handle survey weights, with the `{survey}` and `{srvyr}` pac
 
 # Part 3. Extras
 
-[Statistical learning][csl] and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things like JavaScript visualization libraries, but there are only two extra sessions.
+[Statistical learning][csl] and [machine learning][ml] could go here, as well as APIs and Web scraping, networks, big data and more things like JavaScript visualization libraries, but there are only two extra sessions.
 
 [csl]: https://allmodelsarewrong.github.io/
 [ml]: https://conf20-intro-ml.netlify.app/
