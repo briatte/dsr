@@ -3,14 +3,14 @@
 > [François Briatte](https://f.briatte.org/)  
 > Spring 2023. __Work in progress.__
 
-An introduction to data science with [R][r], [RStudio][rstudio], and the [`tidyverse`][tidyverse] packages, aimed at social scientists with little to no training in statistical computing and related topics.
+An introduction to data science with [R][r], [RStudio][rstudio], and the [`{tidyverse}`][tidyverse] packages, aimed at social scientists with little to no training in statistical computing and related topics.
 
 [r]: https://www.r-project.org/
 [rstudio]: https://posit.co/products/open-source/rstudio/
 [tidyverse]: https://www.tidyverse.org/
 
 `>` __[Syllabus][syllabus]__ (very rough first draft)  
-`>` __[Readings list][readings]__ (draft roadmap)
+`>` __[Readings][readings]__ (draft roadmap)
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
 [readings]: https://github.com/briatte/dsr/wiki/readings
@@ -70,7 +70,7 @@ Software setup, first steps with coding, handling data, and plotting things.
 - More R syntax essentials
   - Code spanning multiple lines, and pipes: `%>%`, `|>`
   - Data frames, variables and values
-  - R has many packages and sub-syntaxes: base, `tidyverse`, `ggplot2`, etc.
+  - R has many packages and sub-syntaxes: base, `{tidyverse}`, `{ggplot2}`, etc.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
 <!-- `>` __[Slides][s2]__   -->
@@ -85,13 +85,13 @@ Software setup, first steps with coding, handling data, and plotting things.
 
 ## 3. Data
 
-Data wrangling, mostly with the `dplyr` package.
+Data wrangling, mostly with the `{dplyr}` package.
 
 - Data I/O
-  - reading/writing datasets with `readr`, `haven` and `readxl`
+  - reading/writing datasets with `{readr}`, `{haven}` and `{readxl}`
   - inspecting datasets: `head`, `str`, `View`, `glimpse`
   - passing mentions -- strings, factors, dates and special formats
-  - passing mentions -- SQL databases, data engineering
+  - passing mentions -- [SQL and databases][db], and data engineering
 - Data manipulation on a single dataset
   - selecting variables: `$`, `select` and `` $`special cases` ``
   - sorting (ordering): `arrange`
@@ -104,8 +104,8 @@ Data wrangling, mostly with the `dplyr` package.
 - Recoding and transforming values: `mutate`
   - 'if/else' recodes: `if_else`
   - type coercion/conversion: `as.numeric`, `as.integer` etc.
-  - missing values: `is.na`, `na_if`, `drop_na`
-  - manipulating text with the `stringr` package (brief intro)
+  - handling missing values: `is.na`, `na_if`, `drop_na`
+  - handling text with `{stringr}` and regular expressions, a.k.a. regex
 
 <!-- `>` __[Slides][s3]__   -->
 `>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton)  
@@ -117,9 +117,11 @@ Data wrangling, mostly with the `dplyr` package.
 [s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-eu-mood
 [ex03]: https://github.com/briatte/dsr/tree/master/exercise-03
 
+[db]: https://solutions.posit.co/connections/db/
+
 ## 4. Visualization
 
-Plots, mostly with the `ggplot2` package.
+Plots, mostly with the `{ggplot2}` package.
 
 <!-- `>` __[Slides][s4]__   -->
 `>` Demo 1: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
@@ -133,9 +135,21 @@ Plots, mostly with the `ggplot2` package.
 
 # Part 2. Essentials
 
-Descriptive and inferential statistics, the frequentist way (no time for Bayesian ones, I'm afraid), plus a session on dimensionality reduction.
+Descriptive and inferential statistics, the frequentist way (no time for Bayesian ones, I'm afraid).
 
-Ideally, this section would also include a session on panel data (fixed and random effects, standard error clustering) and hierarchical data (mixed/multilevel models).
+Ideally, this section would also include a session to demo, or at least mention, the following:
+
+- Ordinal, multinomial and count data, à la [Long and Freese][long-freese14], but using R instead of Stata
+- Event/duration data through event history/survival analysis, using [Mills 2010][mills10] or something more recent
+- Panel data (fixed and random effects, standard error clustering) and other [Wooldrige-type econometrics][heiss20]
+- Hierarchical data (mixed/multilevel models), with ample reference to [Gelman _et al._ 2022][raos] and Bayesian estimators
+- [Natural experiments][dunning12], regression-discontinuity designs (RDD) and instrumental-variables designs
+
+[dunning12]: https://www.cambridge.org/gb/academic/subjects/social-science-research-methods/qualitative-methods/natural-experiments-social-sciences-design-based-approach
+[heiss20]: http://www.urfie.net/
+[long-freese14]: https://www.stata.com/bookstore/regression-models-categorical-dependent-variables/
+[mills10]: https://www.melindacmills.com/teaching-materials
+[raos]: https://avehtari.github.io/ROS-Examples/
 
 ## 5. Description
 
@@ -186,7 +200,9 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 ## 9. Nonlinearity
 
-Focusing mostly on logistic regression, but hoping to also introduce splines and more fun stuff.
+Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also introduce more fun stuff~~ with no time to say more about other generalized models, splines or [smoothers][csl-smooth].
+
+[csl-smooth]: https://allmodelsarewrong.github.io/kernel-smoothers.html
 
 <!-- `>` __[Slides][s9]__   -->
 `>` Demo: __[Opposition to abortion in Canada][s9-1]__ (CES 2021)  
@@ -198,7 +214,7 @@ Focusing mostly on logistic regression, but hoping to also introduce splines and
 
 ## 10. Surveys
 
-Surveys, and how to handle survey weights. __Work in progress.__
+Surveys, and how to handle survey weights, with the `{survey}` and `{srvyr}` packages. __Not yet online, work in progress.__
 
 <!-- `>` __[Slides][s10]__   -->
 `>` Demo: __[..][s10-1]__  
@@ -210,15 +226,14 @@ Surveys, and how to handle survey weights. __Work in progress.__
 
 # Part 3. Extras
 
-Statistical learning and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things, but there are only two extra sessions.
+[Statistical learning][csl] and [machine learning][ml] could go there, as well as APIs and Web scraping, networks, big data and more things like JavaScript visualization libraries, but there are only two extra sessions.
 
+[csl]: https://allmodelsarewrong.github.io/
 [ml]: https://conf20-intro-ml.netlify.app/
-
-Ideally, we'd still also find time for an extra last session to wrap up and to introduce tools that are not covered here. By order of priority: SQL, Git/GitHub, R Markdown, and possibly some JavaScript visualization libraries.
 
 ## 11. Classification
 
-Dimensionality reduction, principal components, clustering, etc.
+Dimensionality reduction, principal components, clustering and partitioning, using `{factoextra}` and related packages for visualising the results.
 
 <!-- `>` __[Slides][s11]__   -->
 `>` Demo 1: __[Protein consumption in European countries, 1973][s11-1]__  
@@ -231,7 +246,11 @@ Dimensionality reduction, principal components, clustering, etc.
 
 ## 12. Extensions
 
-Students manifested an interest in text and maps, so let's cover this, plus mentions of other things like databases, version control and dynamic documents.
+Students manifested an interest in maps and text, so let's cover this, using `{sf}` and `{tidytext}` respectively, plus mentions of other things like databases (again), [version control][git-r] with Git/GitHub, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
+
+[git-r]: https://happygitwithr.com/
+[rmarkdown]: https://rmarkdown.rstudio.com/
+[quarto]: https://quarto.org/
 
 <!-- `>` __[Slides][s12]__   -->
 `>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
@@ -272,9 +291,11 @@ remotes::install_cran(xtra)
 
 # Credits
 
-The last time I had a chance to build such a course was [ten years ago, with Ivaylo Petev](https://f.briatte.org/teaching/ida/). Some of the inspiration for this course dates back to that time.
+The last time I had a chance to build such a course was [ten years ago](https://f.briatte.org/teaching/ida/), with [Ivaylo D. Petev](https://www.ipetev.org/). Some of the inspiration for this course dates back to that time.
 
 In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
+
+Some thanks go to [Kim Antunez](https://antuki.github.io/apropos/), who will be soon teaching her own version of this course, and who suggested some of the readings that made it to my own list.
 
 Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, six years before it actually ran for the first time.
 
