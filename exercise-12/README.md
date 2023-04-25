@@ -16,11 +16,12 @@ You are a social science student interested in aplying to positions that list va
 
 ## Instructions
 
-- List the specific __coding skills__ that you deem most useful to performing data science for people with your profile.
-- Discuss some of the __course readings__, explaining how you believe they helped (or not) with learning those skills.
+- List the specific __coding skills__ that you deem most useful to performing data science for people with _your_ profile.
+- List the __practical heuristics__ that you developed throughout the term in order to find solutions to your coding problems.
+- Discuss _some_ of the __course readings__, explaining how you believe they helped (or not) with learning those skills.
 - If you identified particularly __relevant packages__ outside those cited in the course material, mention them.
 
-Please limit your answer to a __single page__ of roughly __3-4 paragraphs__ at most.
+Please limit your answer to a __single page__ of roughly __4-5 paragraphs__ at most.
 
 ## Submission instructions
 
