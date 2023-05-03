@@ -143,13 +143,14 @@ Ideally, this section would also include a session to demo, or at least mention,
 - Event/duration data through event history/survival analysis, using [Mills 2010][mills10] or something more recent
 - Panel data (fixed and random effects, standard error clustering) and other [Wooldrige-type econometrics][heiss20]
 - Hierarchical data (mixed/multilevel models), using [Gelman _et al._ 2022][raos] and Bayesian estimators
-- [Natural experiments][dunning12], regression-discontinuity designs (RDD) and instrumental-variables designs
+- [Natural experiments][dunning12] and [causal inference][varian15] via regression-discontinuity (RDD), 'diff-in-diff' and instrumental-variables designs
 
 [dunning12]: https://www.cambridge.org/gb/academic/subjects/social-science-research-methods/qualitative-methods/natural-experiments-social-sciences-design-based-approach
 [heiss20]: http://www.urfie.net/
 [long-freese14]: https://www.stata.com/bookstore/regression-models-categorical-dependent-variables/
 [mills10]: https://www.melindacmills.com/teaching-materials
 [raos]: https://avehtari.github.io/ROS-Examples/
+[varian15]: https://people.ischool.berkeley.edu/~hal/Papers/2015/cause03.pdf
 
 ## 5. Description
 
