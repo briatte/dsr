@@ -124,13 +124,15 @@ Data wrangling, mostly with the `{dplyr}` package.
 Plots, mostly with the `{ggplot2}` package.
 
 <!-- `>` __[Slides][s4]__   -->
-`>` Demo 1: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
-`>` Demo 2: __[Anscombe's quartet][s4-2]__  
+`>` Demo: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
+`>` Bonus 1: __[Mapping life expectancy worldwide][s4-2]__  
+`>` Bonus 2: __[Anscombe's quartet][s4-3]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
 [s4]: https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
-[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-anscombe
+[s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
+[s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
 [ex04]: https://github.com/briatte/dsr/tree/master/exercise-04
 
 # Part 2. Essentials
@@ -254,12 +256,12 @@ Students manifested an interest in maps and text, so let's cover this, using `{s
 [quarto]: https://quarto.org/
 
 <!-- `>` __[Slides][s12]__   -->
-`>` Demo 1: __[Mapping life expectancy worldwide][s12-1]__  
+`>` Demo 1: __[Mapping support for fossil fuel taxation][s12-1]__  
 `>` Demo 2: __[Mining into Greta Thunberg's speeches][s12-2]__  
 `>` Exercise 12: __[data science skills][ex12]__
 
 [s12]: https://f.briatte.org/teaching/slides-dsr-12-extensions.pdf
-[s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-life-expectancy
+[s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-fossil-fuels
 [s12-2]: https://github.com/briatte/dsr/tree/master/dsr-12/02-greta-thunberg
 [ex12]: https://github.com/briatte/dsr/tree/master/exercise-12
 
@@ -272,9 +274,9 @@ The course runs on R 4.x and depends on the following packages:
 ```r
 install.packages("remotes")
 
-# required
+# required for multiple sessions
 pkgs <- c("broom", "countrycode", "e1071", "ggmosaic", "ggeffects", "ggrepel", 
-          "moments", "performance", "texreg", "tidyverse", "WDI")
+          "moments", "performance", "sf", "texreg", "tidyverse", "WDI")
 remotes::install_cran(pkgs)
 
 # required for Session 11 only
@@ -282,12 +284,12 @@ s11 <- c("car", "corrr", "factoextra", "ggcorrplot", "ggfortify", "plotly")
 remotes::install_cran(s11)
 
 # required for Session 12 only
-s12 <- c("sf", "igraph", "ggraph", "pdftools", "tidytext")
-remotes::install_cran(s12)
+s12_maps <- c("gstat", "stars")
+s12_text <- c("igraph", "ggraph", "pdftools", "tidytext")
+remotes::install_cran(c(s12_maps, s12_text))
 
 # optional (used to prepare the course datasets)
 xtra <- c("rvest")
-remotes::install_cran(xtra)
 ```
 
 # Credits
