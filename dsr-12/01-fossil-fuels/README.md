@@ -4,7 +4,7 @@ An example of how to plot survey-weighted statistics onto a map, using inverse d
 
 ## Sources
 
-The survey data come from Round 8 of the [European Social Survey][ess].
+The survey data come from Round 8 (2016) of the [European Social Survey][ess].
 
 [ess]: https://www.europeansocialsurvey.org/
 
@@ -17,7 +17,7 @@ The full survey question for the example follows:
 > 4 -- Somewhat against  
 > 5 -- Strongly against
 
-The shapefiles used were produced by [EuroGeographics][egs] and were fetched [from Eurostat][shp].
+The shapefiles used were released by [EuroGeographics][egs] in 2016 and were fetched [from Eurostat][shp].
 
 [egs]: https://eurogeographics.org/
 [shp]: https://ec.europa.eu/eurostat/web/gisco/geodata/reference-data/administrative-units-statistical-units
@@ -31,12 +31,17 @@ The code is freely adapted from Edzer Pebesma and Roger Bivand's _[Spatial Data 
 ### R code to generate the `ESS8e02_2_extract` dataset
 
 ```r
-# nothing fancy here
+# nothing fancy happening here
 haven::read_dta("ESS8e02_2.dta/ESS8e02_2.dta") %>%
     select(cntry, region, regunit, idno, pspwght, inctxff) %>%
     readr::write_tsv("data/ESS8e02_2_extract.tsv")
 ```
 
-## End result
+## End result (and others maps)
+
+The final product of the script is not as detailed as what Anthony produced (see [this archived blog post](https://www.r-bloggers.com/2014/12/maps-and-the-art-of-survey-weighted-maintenance/)), but is decent enough:
+  
 
 ![](fossil-fuels.png)
+
+For even cooler maps of the sort, see ["Isarithmic Maps of Public Opinion Data"](https://dsparks.wordpress.com/2011/10/24/isarithmic-maps-of-public-opinion-data/) by David B. Sparks, who sadly never released the code to produce that brilliant encoding of local density into alpha transparency.

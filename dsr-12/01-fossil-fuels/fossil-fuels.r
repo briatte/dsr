@@ -73,8 +73,8 @@ head(arrange(ess_stats, -mean)) # high support
 tail(arrange(ess_stats, -mean)) # high opposition
 
 # small areas and possible issues with large SEs
-message(sum(ess_stats$n < 50), " regions with n < 50 observations")
-message(sum(ess_stats$mean_rse > 0.3), " regions with high relative SEs")
+warning(sum(ess_stats$n < 50), " regions with n < 50 observations")
+warning(sum(ess_stats$mean_rse > 0.3), " regions with high relative SEs")
 
 # merge survey data and map data ------------------------------------------
 
@@ -83,7 +83,7 @@ map_data <- left_join(ess_stats, shp_data, by = c("region" = "NUTS_ID"))
 # all ESS8 countries, using Lambert Azimuthal Equal Area projection
 # https://epsg.io/3035
 ggplot(map_data, aes(fill = mean)) +
-  geom_sf(aes(geometry = geometry), linewidth = 1/5) +
+  geom_sf(aes(geometry = geometry)) +
   scale_fill_viridis_b("%", option = "D") +
   coord_sf(crs = "EPSG:3035") +
   theme_void()
@@ -107,7 +107,7 @@ shp_europe <- filter(shp_data, NUTS_ID %in% unique(map_data$region)) %>%
 shp_centroids <- sf::st_centroid(shp_europe)
 
 ggplot(shp_europe) +
-  geom_sf(aes(fill = )) +
+  geom_sf() +
   geom_sf(data = shp_centroids) +
   theme_void()
 
@@ -126,6 +126,7 @@ shp_grid <- sf::st_bbox(shp_europe) %>%
 shp_idw <- gstat::idw(mean ~ 1, shp_centroids, shp_grid)
 shp_idw # `var1.pred` is the interpolated result
 
+# view final map
 ggplot() +
   stars::geom_stars(data = shp_idw, aes(fill = var1.pred, x = x, y = y)) +
   geom_sf(data = sf::st_cast(shp_europe, "MULTILINESTRING")) +
@@ -133,8 +134,13 @@ ggplot() +
                        breaks = range(shp_idw$var1.pred, na.rm = TRUE),
                        labels = c("Oppose", "Support")) +
   theme_void() +
-  theme(plot.background = element_rect(fill = "white", linewidth = NA))
+  theme(plot.background = element_rect(fill = "white", linewidth = NA)) +
+  labs(
+    title = "Increasing taxes taxes on fossil fuels to reduce climate change",
+    subtitle = "Data: European Social Survey Round 8, 2016"
+  )
 
-ggsave("fossil-fuels.png")
+# export as square image
+ggsave("fossil-fuels.png", width = 2100, height = 2100, units = "px")
 
 # kthxbye
