@@ -4,7 +4,7 @@ This exercise does not involve writing code, but instead focuses on reflecting u
 
 ## Scenario
 
-You are a social science student interested in aplying to positions that list various skill sets, including, but not limited to,
+You are a social science student interested in applying to positions that list various skill sets, including, but not limited to,
 
 - econometrics
 - data science
@@ -18,10 +18,24 @@ You are a social science student interested in aplying to positions that list va
 
 - List the specific __coding skills__ that you deem most useful to performing data science for people with _your_ profile.
 - List the __practical heuristics__ that you developed throughout the term in order to find solutions to your coding problems.
-- Discuss _some_ of the __course readings__, explaining how you believe they helped (or not) with learning those skills.
+- Discuss _some_ of the __course readings and videos__, explaining how they helped (or not) with learning those skills.
 - If you identified particularly __relevant packages__ outside those cited in the course material, mention them.
 
 Please limit your answer to a __single page__ of roughly __4-5 paragraphs__ at most.
+
+## Explainer
+
+As you have understood by now, this is a 'meta-exercise' that gives you a chance to submit feedback on the course content. It does _not_ replace the final (anonymous) feedback that you will be able to provide at the very end of the course.
+
+- The part on coding skills is about your own, personal experience with data science. I am interested in collecting a final round of information on your own profiles as social scientists in training, on how you interpret that training, and on what professional opportunities you intend to pursue.
+
+- The part on practical heuristics is a way for me to learn more on your problem-solving and Web search skills. When working on the course exercises, what useful resources did you discover beyond the course material? What was helpful to you, at your current level of practice?
+
+- The part on the course readings and videos is basically a way for me to collect feedback [on the course syllabus](https://twitter.com/emayfarris/status/1652652023597215749). It will help me calibrate the readings for future iterations of the course, and might also help me to amend the content of some of the course sessions to your needs and interests.
+
+- The part on R packages is one last way for me to understand what you found useful while working on the course exercises, and possibly on the assignments of other R-based courses that you might have taken in the past, or are taking right now. This part is optional (read the instructions again: '_If_…').
+
+Note: do not hesitate to speak both individually and as a group in your text, as in "collectively, we felt…" or as "one of us (Viktoria) also used…"
 
 ## Submission instructions
 
