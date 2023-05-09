@@ -304,6 +304,8 @@ Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timoth
 
 Last, this course and all the other ones mentioned above took place at [Sciences Po in Paris, France](https://www.sciencespo.fr/), where some more inspiration has come from [Emiliano Grossman](https://www.emilianogrossman.eu/) and many others.
 
+The ASCII art in some scripts is [by Patrick Gillespie](https://patorjk.com/software/taag/).
+
 # Elsewhere
 
 Most of this course is available [on GitHub](https://github.com/briatte/dsr), where a wiki page lists [other similar courses](https://github.com/briatte/dsr/wiki/elsewhere). I would love it if the present course were as good as those listed there, but cannot guarantee it.
