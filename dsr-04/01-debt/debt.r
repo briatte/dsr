@@ -1,9 +1,14 @@
-# ------------------------------------------------------------------------------
-# Reinhart and Rogoff, 'Growth in a time of debt' exercise
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# A simple example to show how to merge (join) datasets, along with some basic
-# data cleaning/preparation steps leading to some descriptive plots.
-# ------------------------------------------------------------------------------
+# Economic growth and public debt (Reinhart and Rogoff)
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(tidyverse)
 

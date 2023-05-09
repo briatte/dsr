@@ -1,15 +1,20 @@
-# ------------------------------------------------------------------------------
-# Visualizing the 'EU Mood' indicator
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# A demo of how to clean up, summarise and visualize a small dataset, using
-# functions from various {tidyverse} packages.
-# ------------------------------------------------------------------------------
+# Visualizing the 'EU mood' (Guinaudeau and Schnatterer)
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(countrycode)
-library(tidyverse) # {dplyr}, {ggplot2}, {readxl}, {stringr}, {tidyr}, etc.
+library(tidyverse)
 
 # ------------------------------------------------------------------------------
-# Load and clean up the data
+# Step 1: load and clean up the data
 # ------------------------------------------------------------------------------
 
 d <- readxl::read_excel("data/S0007123416000776sup001.xlsx", sheet = 2) %>%
@@ -44,7 +49,7 @@ d <- readxl::read_excel("data/S0007123416000776sup001.xlsx", sheet = 2) %>%
 # View(d)
 
 # ------------------------------------------------------------------------------
-# Summary statistics by decade
+# Step 2: get summary statistics by decade
 # ------------------------------------------------------------------------------
 
 # decade-level summary for all countries
@@ -74,7 +79,7 @@ group_by(d, country, decade) %>%
   print(n = 27)
 
 # ------------------------------------------------------------------------------
-# Visualization
+# Step 3: visualize
 # ------------------------------------------------------------------------------
 
 # get ISO3-C country codes
@@ -95,7 +100,5 @@ ggplot(d, aes(year, mood)) +
     axis.title = element_blank(),
     panel.grid = element_blank()
   )
-
-# ggsave("eu-mood.png")
 
 # have a nice day

@@ -1,4 +1,9 @@
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
 # Colonialism, democracy, life expectancy and wealth, Part 1
 #
 # An example inspired by research into the historical legacy of colonialism,
@@ -8,7 +13,10 @@
 # illustrates (1) how to handle labelled variables imported from Stata or SPSS
 # datasets, and (2) how to create factor variables. You might need to read from
 # your handbooks to make sure that you understand how factor variables work.
-# ------------------------------------------------------------------------------
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(haven)   # functions for working with Stata datasets
 library(MASS)    # functions for fitting distributions

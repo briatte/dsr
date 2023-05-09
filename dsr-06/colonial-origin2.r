@@ -1,9 +1,20 @@
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
 # Colonialism, democracy, life expectancy and wealth, Part 2
 #
-# A follow-up to what we did last week, using an extract of the same data. This
-# week, we focus on ways to explore the relationships between the variables.
-# ------------------------------------------------------------------------------
+# An example inspired by research into the historical legacy of colonialism,
+# using the Quality of Government cross-sectional dataset.
+#
+# N.B. Brush up on your introductory statistics course if you forgot all about
+# association tests! The course readings will help you with that.
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(ggmosaic)
 library(tidyverse)

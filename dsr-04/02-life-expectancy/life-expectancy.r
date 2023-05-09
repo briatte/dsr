@@ -1,6 +1,14 @@
-# ------------------------------------------------------------------------------
-# Simple choropleth maps, using World Bank data + shapefiles.
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# Mapping life expectancy worldwide
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(sf)
 library(tidyverse)
@@ -9,8 +17,7 @@ library(tidyverse)
 # Step 1: import the shapefile
 # ------------------------------------------------------------------------------
 
-geo <- "data/WB_countries_Admin0_lowres.geojson"
-geo <- sf::st_read(geo)
+geo <- sf::st_read("data/WB_countries_Admin0_lowres.geojson")
 
 # ------------------------------------------------------------------------------
 # Step 2: CRS projections and bounding boxes

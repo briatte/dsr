@@ -1,8 +1,17 @@
-# ------------------------------------------------------------------------------
-# Opposition to abortion in Canada, 2021
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# An example of how to model binary responses, a.k.a. probabilities.
-# ------------------------------------------------------------------------------
+# Opposition to abortion in Canada (CES 2021)
+#
+# An example of how to model binary responses, a.k.a. probabilities. At that
+# stage, you should _definitely_ be doing the cours readings…
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(broom)       # model summaries
 library(ggeffects)   # predicted probabilities

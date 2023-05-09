@@ -1,17 +1,14 @@
-# ------------------------------------------------------------------------------
-# Cholera deaths in London, 1854
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Inspiration:
-# https://freakonometrics.hypotheses.org/tag/cholera
+# Cholera deaths in London, 1854 (John Snow)
 #
-# Data sources:
-#
-# Fatalities:
-# https://cran.r-project.org/package=cholera (fatalities.unstacked)
-# Streets and pumps:
-# https://cran.r-project.org/package=HistData (Snow.streets and Snow.pumps)
-# ------------------------------------------------------------------------------
+# ============================= See README file for data sources and details ===
 
+# required packages
 library(tidyverse)
 
 # read in the cholera deaths data

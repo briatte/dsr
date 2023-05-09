@@ -1,10 +1,14 @@
-# ------------------------------------------------------------------------------
-# Industrial disputes and parliamentary left seat shares, 1960-2010
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Data: Comparative Welfare States (CWS) dataset, 2020
-# https://www.lisdatacenter.org/news-and-events/comparative-welfare-states-dataset-2020/
-# ------------------------------------------------------------------------------
+# Industrial disputes and left-wing seat shares (CWS 2020)
+#
+# ============================= See README file for data sources and details ===
 
+# required packages
 library(tidyverse)
 
 # load data

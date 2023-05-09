@@ -1,8 +1,14 @@
-# ------------------------------------------------------------------------------
-# Feelings towards French politicians, 2017
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Most PCA code from Waggoner 2021, ch. 2
-# ------------------------------------------------------------------------------
+# Feelings towards politicians in France (CNEP 2017)
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(corrr)
 library(factoextra)

@@ -1,8 +1,14 @@
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
 # Protein consumption in European countries, 1973
 #
-# Example data from Zumel and Mount 2019, ch. 9
-# ------------------------------------------------------------------------------
+# ============================= See README file for data sources and details ===
+
+# required packages (yes, there are a lot)
 
 library(car)
 library(corrr)

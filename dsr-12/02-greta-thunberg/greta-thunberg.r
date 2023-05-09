@@ -1,9 +1,14 @@
-# ------------------------------------------------------------------------------
-# Simple text mining, using a small corpus of Greta Thunberg speeches.
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Note: some code is taken from ESM 244 Lab Week 8 and from Text Mining with R.
-# Please see the README file for details.
-# ------------------------------------------------------------------------------
+# Mining into Greta Thunberg's speeches
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(igraph)
 library(ggraph)

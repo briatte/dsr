@@ -1,5 +1,10 @@
 # ==============================================================================
-# DSR Exercise 5
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# Trust in Islamist parties -- student answer script
 #
 # Group number:
 # Student 1:
@@ -24,11 +29,13 @@
 # Feedback on the exercise
 # ------------------------
 #
-# Feel free to replace this paragraph with your impressions on this exercise.
-# If your text goes beyond 80 characters per line, break it into multiple short
-# lines, as demonstrated in this example paragraph.
+# [Feel free to replace this paragraph with your impressions on this exercise.
+# If your text goes beyond 80 characters per line, break it into shorter lines,
+# as demonstrated in this example paragraph.]
 #
-# ==============================================================================
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(tidyverse)
 

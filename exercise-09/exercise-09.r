@@ -1,5 +1,10 @@
 # ==============================================================================
-# DSR Exercise 9
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# Predicting Covid-19 lockdowns -- student answer script
 #
 # Group number:
 # Student 1:
@@ -36,7 +41,9 @@
 # If your text goes beyond 80 characters per line, break it into shorter lines,
 # as demonstrated in this example paragraph.]
 #
-# ==============================================================================
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(tidyverse)
 

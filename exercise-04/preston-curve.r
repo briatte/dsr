@@ -1,6 +1,14 @@
-# ------------------------------------------------------------------------------
-# Exercise 4: Draw the Preston curve
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# Life expectancy and GDP per capita (Preston curve)
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(countrycode)
 library(tidyverse)

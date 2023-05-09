@@ -1,10 +1,16 @@
-# ------------------------------------------------------------------------------
-# Visualizing Anscombe's quartet
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# Anscombe's quartet
+#
+# ============================= See README file for data sources and details ===
 
-library(dplyr)
-library(ggplot2)
-library(readr)
+# required packages
+
+library(tidyverse)
 
 # read Anscombe's quartet data
 anscombe <- readr::read_tsv("data/anscombe.tsv")

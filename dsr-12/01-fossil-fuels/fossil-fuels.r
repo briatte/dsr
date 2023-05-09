@@ -1,9 +1,17 @@
-# ------------------------------------------------------------------------------
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
 # Mapping support for fossil fuel taxation
 #
 # A more complex data visualization example that combines survey weighting and
 # spatial interpolation.
-# ------------------------------------------------------------------------------
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(gstat)
 library(sf)

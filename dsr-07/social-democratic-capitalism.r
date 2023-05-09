@@ -1,10 +1,17 @@
-# ------------------------------------------------------------------------------
-# Social democratic capitalism
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Replication of selected figures from Lane Kenworthy's book, illustrating
-# linear (and nonlinear) correlation, and why linear correlation is not enough
-# for petty much any form of analysis.
-# ------------------------------------------------------------------------------
+# Social democratic capitalism (Kenworthy)
+#
+# Replicates selected figures from Lane Kenworthy's book, illustrating linear
+# (and nonlinear) correlation while doing so.
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(countrycode)
 library(tidyverse)

@@ -1,11 +1,19 @@
-# ------------------------------------------------------------------------------
-# First steps with R
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# 1. Do the homework first (seriously, you will need it)
+# Weird R syntax
 #
-# 2. Then go through the code and exercises below
-#    Feel free to skip those exercises marked as harder
-# ------------------------------------------------------------------------------
+# Instructions:
+#
+# 1. Do the homework/readings first (seriously, you will need it)
+#
+# 2. Then go through the code below and try answering the questions
+#    (Feel free to skip questions marked as harder.)
+#
+# ============================= See README file for data sources and details ===
 
 
 # packages ----------------------------------------------------------------
@@ -57,7 +65,7 @@ dplyr::nth(LETTERS, 5)
 # {tidyverse} package; there are thousands of packages, and they form a vast
 # network, with some packages depending on others to work
 
-# [EXERCISE]: what do you need to do in order for the following line of code to
+# [QUESTION]: what do you need to do in order for the following line of code to
 # work, and what does that line of code actually do?
 nth(LETTERS, 6)
 
@@ -70,7 +78,7 @@ FALSE == 0
 2^3 >= 2 * 2 * 2
 2^3 != 8 # note: `!` means `not` in computer languages
 
-# [EXERCISE]: compute my Body Mass Index (height 1.76, weight 67.5), and find
+# [QUESTION]: compute my Body Mass Index (height 1.76, weight 67.5), and find
 # out whether I am clinically overweight (BMI >= 25)
 
 
@@ -130,7 +138,7 @@ class("Nicolas Cage")
 # non-integer numbers (classes and types are not exactly the same thing)
 typeof(9/2)
 
-# [EXERCISE]: explain the results of the following lines (harder exercise)
+# [QUESTION]: explain the results of the following lines (harder exercise)
 as.character(x)
 as.integer(9/2)
 as.numeric("Nicolas Cage")
@@ -153,11 +161,11 @@ x_squared[ 1 ]
 x_squared[ 2 ]
 x_squared[ 3 ]
 
-# [EXERCISE]: explain the results of the following lines
+# [QUESTION]: explain the results of the following lines
 x_squared[ c(1, 3) ]
 which(x_squared < 5)
 
-# [EXERCISE]: explain the results of the following lines (harder exercise)
+# [QUESTION]: explain the results of the following lines (harder exercise)
 x_squared[ -1 ]
 x_squared[ c(1, 5, NA) ]
 
@@ -173,12 +181,12 @@ x_squared[ c(1, 5, NA) ]
 3^2 == 3 * 3
 9^(1/2) == sqrt(9)
 
-# [EXERCISE]: explain the results of the following lines
+# [QUESTION]: explain the results of the following lines
 logical_test <- c(1, 2, 3) == 3:1
 all(logical_test)
 any(logical_test)
 
-# [EXERCISE]: explain the results of the following lines (much harder exercise)
+# [QUESTION]: explain the results of the following lines (much harder exercise)
 c(1, 2, 3) >= 1:4 # hint: vector recycling
 c(1, 2, 3, "Nicolas Cage") * 2 # hint: type coercion
 paste(month.abb[ 1:5 ], strtrim(today(), 4)) # hint: stop smoking weed

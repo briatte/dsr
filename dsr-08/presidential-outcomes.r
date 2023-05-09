@@ -1,9 +1,17 @@
-# ------------------------------------------------------------------------------
-# Predicting U.S. presidential election outcomes from income growth
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
+#
+# U.S. presidential election outcomes and income growth (Bartels)
 #
 # An example of how to model electoral performance from just two political
 # fundamentals: economic growth and time in office.
-# ------------------------------------------------------------------------------
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 library(broom)       # model summaries
 library(ggrepel)
@@ -11,7 +19,7 @@ library(performance) # model performance
 library(tidyverse)
 library(texreg)      # regression tables
 
-# {ggplot2} global plot theme
+# set global {ggplot2} theme for all plots
 theme_set(theme_linedraw())
 
 # ------------------------------------------------------------------------------

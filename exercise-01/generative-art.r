@@ -1,8 +1,14 @@
-# ------------------------------------------------------------------------------
-# Generative art with R and {ggplot2}
+# ==============================================================================
+#  ____  _____ _____
+# |    \|   __| __  |  Data Science with R
+# |  |  |__   |    -|  Fall 2023
+# |____/|_____|__|__|
 #
-# Source: Antonio Sánchez Chinchón, @aschinchon on Twitter
-# ------------------------------------------------------------------------------
+# Generative aRt
+#
+# ============================= See README file for data sources and details ===
+
+# required packages
 
 # install.packages("tidyverse")
 library(tidyverse)
