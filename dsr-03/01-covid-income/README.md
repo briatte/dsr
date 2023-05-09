@@ -13,12 +13,28 @@ __Data source for Covid-19 deaths:__ "Daily vs. Total confirmed COVID-19 deaths 
 
 At the time of download, _Our World in Data_ was sourcing its raw data from the [COVID-19 Data Repository][jhu] by the Center for Systems Science and Engineering (CSSE) at Johns Hopkins University.
 
-[jhu]:  https://github.com/CSSEGISandData/COVID-19
+[jhu]: https://github.com/CSSEGISandData/COVID-19
 
 See the _Our World in Data_ website for an [updated Covid-19 dataset][owid-new].
 
 [owid-new]: https://ourworldindata.org/coronavirus
 
-__Data source for income and population:__ World Bank [World Development Indicators][wdi].
+__Data source for income and population:__ World Bank [World Development Indicators][wdi]. The indicators were downloaded manually in February 2021; more recent data can be downloaded through the [`WDI` package][wdi-package].
 
 [wdi]: https://databank.worldbank.org/source/world-development-indicators
+[wdi-package]: https://cran.r-project.org/package=WDI
+
+__Data source for OECD member states:__ C.J. Yetman, _`memberstates`: List of member states of various international organizations_, [R package version 0.0.0.9000][memberstates].
+
+[memberstates]: http://github.com/cjyetman/memberstates
+
+The code to extract and prepare the country code follows:
+
+```r
+library(countrycode)
+library(memberstates) # remotes::install_github("cjyetman/memberstates")
+
+memberstates::memberstates$oecd$iso3c %>%
+  countrycode::countrycode("iso3c", "wb") %>% 
+  dput()
+```
