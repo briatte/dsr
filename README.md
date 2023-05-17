@@ -9,8 +9,8 @@ An introduction to data science with [R][r], [RStudio][rstudio], and the [`{tidy
 [rstudio]: https://posit.co/products/open-source/rstudio/
 [tidyverse]: https://www.tidyverse.org/
 
-`>` __[Syllabus][syllabus]__ (very rough first draft)  
-`>` __[Readings][readings]__ (draft roadmap)
+`>` __[Syllabus][syllabus]__  
+`>` __[Readings][readings]__
 
 [syllabus]: https://f.briatte.org/teaching/syllabus-dsr.pdf
 [readings]: https://github.com/briatte/dsr/wiki/readings
@@ -164,7 +164,7 @@ Ideally, this section would also include a session to demo, or at least mention,
 
 ## 5. Description
 
-Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
+Summary statistics and distributions. Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
 <!-- `>` __[Slides][s5]__   -->
 <!-- `>` __[Readings][r5]__   -->
@@ -178,7 +178,7 @@ Also covering sampling, and possibly bootstrap resampling if time permits (which
 
 ## 6. Association
 
-Association tests to compare means and proportions.
+Statistical tests to compare means and proportions.
 
 <!-- `>` __[Slides][s6]__   -->
 <!-- `>` __[Readings][r6]__   -->
@@ -191,7 +191,7 @@ Association tests to compare means and proportions.
 
 ## 7. Correlation
 
-Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
+Linear and nonlinear, as an introduction to linear and nonlinear models.
 
 <!-- `>` __[Slides][s7]__   -->
 <!-- `>` __[Readings][r7]__   -->
@@ -207,6 +207,9 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
+- Estimation and postestimation
+- Model manipulation with the `{broom}` package
+
 <!-- `>` __[Slides][s8]__   -->
 <!-- `>` __[Readings][r8]__   -->
 `>` Demo: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
@@ -219,9 +222,7 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 ## 9. Nonlinearity
 
-Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also introduce more fun stuff~~ with no time to say more about other generalized models, splines or [smoothers][csl-smooth].
-
-[csl-smooth]: https://allmodelsarewrong.github.io/kernel-smoothers.html
+Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also introduce more fun stuff~~ with no time to say more about other generalized models.
 
 <!-- `>` __[Slides][s9]__   -->
 <!-- `>` __[Readings][r9]__   -->
@@ -256,7 +257,7 @@ Surveys, and how to handle survey weights, with the `{survey}` and `{srvyr}` pac
 
 ## 11. Classification
 
-Dimensionality reduction, principal components, clustering and partitioning, using `{factoextra}` and related packages for visualising the results.
+Dimensionality reduction, principal components, clustering and partitioning, using `{factoextra}` and related packages to visualise the results.
 
 <!-- `>` __[Slides][s11]__   -->
 <!-- `>` __[Readings][r11]__   -->
@@ -271,7 +272,10 @@ Dimensionality reduction, principal components, clustering and partitioning, usi
 
 ## 12. Extensions
 
-Students manifested an interest in maps and text, so let's cover this, using `{sf}` and `{tidytext}` respectively, plus mentions of other things like databases (again), [version control][git-r] with Git/GitHub, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
+Students manifested an interest in maps and text, so let's cover this, plus mentions of other things like databases (again), [version control][git-r] with Git/GitHub, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
+
+- Maps with `{sf}`, (mentioned in slides, not used in class: `{sfdep}`)
+- Text analysis with `{tidytext}` (mentioned in slides, not used in class: `{quanteda}`, `{topicmodels}`, `{stm}`)
 
 [git-r]: https://happygitwithr.com/
 [rmarkdown]: https://rmarkdown.rstudio.com/
