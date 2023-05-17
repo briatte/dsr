@@ -56,9 +56,11 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Package installation
 
 <!-- `>` __[Slides][s1]__   -->
+<!-- `>` __[Readings][r1]__   -->
 `>` Exercise 1: __[Generative art][ex01]__
 
 [s1]: https://f.briatte.org/teaching/slides-dsr-01-software.pdf
+[r1]: /
 [ex01]: https://github.com/briatte/dsr/tree/master/exercise-01
 
 ## 2. Workflow
@@ -74,11 +76,13 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Executing code down to a given line: `Ctrl-Alt-B`
 
 <!-- `>` __[Slides][s2]__   -->
+<!-- `>` __[Readings][r2]__   -->
 `>` Demo 1: __[Cholera deaths in London, 1854][s2-1]__ (John Snow)  
 `>` Demo 2: __[Industrial disputes and left-wing seat shares][s2-2]__ (CWS 2020)  
 `>` Exercise 2: __[Weird R syntax][ex02]__
 
 [s2]: https://f.briatte.org/teaching/slides-dsr-02-workflow.pdf
+[r2]: /
 [s2-1]: https://github.com/briatte/dsr/tree/master/dsr-02/01-cholera-1854
 [s2-2]: https://github.com/briatte/dsr/tree/master/dsr-02/02-industrial-disputes
 [ex02]: https://github.com/briatte/dsr/tree/master/exercise-02
@@ -108,11 +112,13 @@ Data wrangling, mostly with the `{dplyr}` package.
   - handling text with `{stringr}` and regular expressions, a.k.a. regex
 
 <!-- `>` __[Slides][s3]__   -->
+<!-- `>` __[Readings][r3]__   -->
 `>` Demo 1: __[Covid-19 and global income inequality][s3-2]__ (Deaton)  
 `>` Demo 2: __[Visualizing the 'EU mood'][s3-1]__ (Guinaudeau and Schnatterer)  
 `>` Exercise 3: __[Satisfaction with democracy in Hungary and Poland][ex03]__ (Eurobarometer)
 
 [s3]: https://f.briatte.org/teaching/slides-dsr-03-data.pdf
+[r3]: /
 [s3-1]: https://github.com/briatte/dsr/tree/master/dsr-03/01-covid-income
 [s3-2]: https://github.com/briatte/dsr/tree/master/dsr-03/02-eu-mood
 [ex03]: https://github.com/briatte/dsr/tree/master/exercise-03
@@ -124,12 +130,14 @@ Data wrangling, mostly with the `{dplyr}` package.
 Plots, mostly with the `{ggplot2}` package.
 
 <!-- `>` __[Slides][s4]__   -->
+<!-- `>` __[Readings][r4]__   -->
 `>` Demo: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
 `>` Bonus 1: __[Mapping life expectancy worldwide][s4-2]__  
 `>` Bonus 2: __[Anscombe's quartet][s4-3]__  
 `>` Exercise 4: __[Life expectancy and GDP per capita][ex04]__ (Preston curve)
 
 [s4]: https://f.briatte.org/teaching/slides-dsr-04-visualization.pdf
+[r4]: /
 [s4-1]: https://github.com/briatte/dsr/tree/master/dsr-04/01-debt
 [s4-2]: https://github.com/briatte/dsr/tree/master/dsr-04/02-life-expectancy
 [s4-3]: https://github.com/briatte/dsr/tree/master/dsr-04/03-anscombe
@@ -159,10 +167,12 @@ Ideally, this section would also include a session to demo, or at least mention,
 Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
 <!-- `>` __[Slides][s5]__   -->
+<!-- `>` __[Readings][r5]__   -->
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5-1]__  
 `>` Exercise 5: __[Trust in Islamist parties][ex05]__ (graded homework)
 
 [s5]: https://f.briatte.org/teaching/slides-dsr-05-description.pdf
+[r5]: /
 [s5-1]: https://github.com/briatte/dsr/tree/master/dsr-05
 [ex05]: https://github.com/briatte/dsr/tree/master/exercise-05
 
@@ -171,21 +181,25 @@ Also covering sampling, and possibly bootstrap resampling if time permits (which
 Association tests to compare means and proportions.
 
 <!-- `>` __[Slides][s6]__   -->
+<!-- `>` __[Readings][r6]__   -->
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
 `>` No exercise this week -- catch up on all previously distributed material
 
 [s6]: https://f.briatte.org/teaching/slides-dsr-06-association.pdf
+[r6]: /
 [s6-1]: https://github.com/briatte/dsr/tree/master/dsr-06
 
 ## 7. Correlation
 
 Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 
-<!-- `>` ~~__Slides__~~ (no slides this week)   -->
+<!-- `>` __[Slides][s7]__   -->
+<!-- `>` __[Readings][r7]__   -->
 `>` Demo: __[Social democratic capitalism][s7-1]__ (Kenworthy)  
 `>` Exercise 7: __[US Republican vote shares and life expectancy][ex07]__ (Case and Deaton)
 
 [s7]: https://f.briatte.org/teaching/slides-dsr-07-correlation.pdf
+[r7]: /
 [s7-1]: https://github.com/briatte/dsr/tree/master/dsr-07
 [ex07]: https://github.com/briatte/dsr/tree/master/exercise-07
 
@@ -194,10 +208,12 @@ Linear and nonlinear, with mentions of linear models and LOESS curve smoothing.
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
 <!-- `>` __[Slides][s8]__   -->
+<!-- `>` __[Readings][r8]__   -->
 `>` Demo: __[U.S. presidential election outcomes and income growth][s8-1]__ (Bartels)  
 `>` Exercise 8: __[Growth forecasts and fiscal consolidation][ex08]__ (IMF/Giles)
 
 [s8]: https://f.briatte.org/teaching/slides-dsr-08-regression.pdf
+[r8]: /
 [s8-1]: https://github.com/briatte/dsr/tree/master/dsr-08
 [ex08]: https://github.com/briatte/dsr/tree/master/exercise-08
 
@@ -208,10 +224,12 @@ Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also int
 [csl-smooth]: https://allmodelsarewrong.github.io/kernel-smoothers.html
 
 <!-- `>` __[Slides][s9]__   -->
+<!-- `>` __[Readings][r9]__   -->
 `>` Demo: __[Opposition to abortion in Canada][s9-1]__ (CES 2021)  
 `>` Exercise 9: __[Predicting Covid-19 lockdowns][ex09]__ (graded homework)
 
 [s9]: https://f.briatte.org/teaching/slides-dsr-09-nonlinearity.pdf
+[r9]: /
 [s9-1]: https://github.com/briatte/dsr/tree/master/dsr-09
 [ex09]: https://github.com/briatte/dsr/tree/master/exercise-09
 
@@ -220,10 +238,12 @@ Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also int
 Surveys, and how to handle survey weights, with the `{survey}` and `{srvyr}` packages. __Not yet online, work in progress.__
 
 <!-- `>` __[Slides][s10]__   -->
+<!-- `>` __[Readings][r10]__   -->
 `>` Demo: __[..][s10-1]__  
 `>` Exercise 10: __[Economic insecurity and religious reassurance][ex10]__ (ESS)
 
 [s10]: https://f.briatte.org/teaching/slides-dsr-10-surveys.pdf
+[r10]: /
 [s10-1]: /
 [ex10]: https://github.com/briatte/dsr/tree/master/exercise-10
 
@@ -239,11 +259,13 @@ Surveys, and how to handle survey weights, with the `{survey}` and `{srvyr}` pac
 Dimensionality reduction, principal components, clustering and partitioning, using `{factoextra}` and related packages for visualising the results.
 
 <!-- `>` __[Slides][s11]__   -->
+<!-- `>` __[Readings][r11]__   -->
 `>` Demo 1: __[Protein consumption in European countries, 1973][s11-1]__  
 `>` Demo 2: __[Feelings towards politicians in France][s11-2]__ (CNEP 2017)  
 `>` No exercise this week -- catch up on all previously distributed material
 
 [s11]: https://f.briatte.org/teaching/slides-dsr-10-classification.pdf
+[r11]: /
 [s11-1]: https://github.com/briatte/dsr/tree/master/dsr-11/01-protein-consumption
 [s11-2]: https://github.com/briatte/dsr/tree/master/dsr-11/02-political-thermometer
 
@@ -256,11 +278,13 @@ Students manifested an interest in maps and text, so let's cover this, using `{s
 [quarto]: https://quarto.org/
 
 <!-- `>` __[Slides][s12]__   -->
+<!-- `>` __[Readings][r12]__   -->
 `>` Demo 1: __[Mapping support for fossil fuel taxation][s12-1]__  
 `>` Demo 2: __[Mining into Greta Thunberg's speeches][s12-2]__  
 `>` Exercise 12: __[data science skills][ex12]__
 
 [s12]: https://f.briatte.org/teaching/slides-dsr-12-extensions.pdf
+[r12]: /
 [s12-1]: https://github.com/briatte/dsr/tree/master/dsr-12/01-fossil-fuels
 [s12-2]: https://github.com/briatte/dsr/tree/master/dsr-12/02-greta-thunberg
 [ex12]: https://github.com/briatte/dsr/tree/master/exercise-12
