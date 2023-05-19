@@ -274,10 +274,16 @@ Dimensionality reduction, principal components, clustering and partitioning, usi
 
 ## 12. Extensions
 
-Students manifested an interest in maps and text, so let's cover this, plus mentions of other things like databases (again), [version control][git-r] with Git/GitHub, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
+Students manifested an interest in maps and text, so let's cover this, plus mentions of other things like [version control][git-r] with Git/GitHub, Web scraping, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
 
-- Maps with `{sf}`, (mentioned in slides, not used in class: `{sfdep}`)
-- Text analysis with `{tidytext}` (mentioned in slides, not used in class: `{quanteda}`, `{topicmodels}`, `{stm}`)
+- Maps with `{sf}`
+  - Going further: `{sfdep}`
+- Text analysis with `{tidytext}`
+  - Going further: `{quanteda}`, `{topicmodels}`, `{stm}`
+- Going further with R
+- Passing mentions of [Git/GitHub][git-r], [R Markdown][rmarkdown] and [Quarto][quarto]
+- Passing mentions of Web scraping, Python and machine learning
+- Passing mention of Bayesian models
 
 [git-r]: https://happygitwithr.com/
 [rmarkdown]: https://rmarkdown.rstudio.com/
@@ -285,7 +291,7 @@ Students manifested an interest in maps and text, so let's cover this, plus ment
 
 <!-- `>` __[Slides][s12]__   -->
 `>` __[Readings][r12]__  
-`>` Demo 1: __[Mapping support for fossil fuel taxation][s12-1]__  
+`>` Demo 1: __[Mapping support for fossil fuel taxation][s12-1]__ (ESS)  
 `>` Demo 2: __[Mining into Greta Thunberg's speeches][s12-2]__  
 `>` Exercise 12: __[data science skills][ex12]__
 
