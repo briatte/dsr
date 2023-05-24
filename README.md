@@ -129,6 +129,10 @@ Data wrangling, mostly with the `{dplyr}` package.
 
 Plots, mostly with the `{ggplot2}` package.
 
+- Principles of data abstraction
+- Plotting engines
+- The ‘grammar of graphics’ approach
+
 <!-- `>` __[Slides][s4]__   -->
 `>` __[Readings][r4]__  
 `>` Demo: __[Economic growth and public debt][s4-1]__ (Reinhart and Rogoff)  
@@ -168,6 +172,17 @@ Ideally, this section would also include a session to demo, or at least mention,
 
 Summary statistics and distributions. Also covering sampling, and possibly bootstrap resampling if time permits (which of course won't happen).
 
+- Describing a distribution
+  - Central tendency
+  - Dispersion
+  - Quantiles
+  - Proportions
+- Inference
+  - The ‘normal’ distribution
+  - The Central Limit Theorem (CLT) and the Law of Large Numbers (LLN)
+  - Standard errors
+  - Confidence intervals
+
 <!-- `>` __[Slides][s5]__   -->
 `>` __[Readings][r5]__  
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 1][s5-1]__  
@@ -182,6 +197,11 @@ Summary statistics and distributions. Also covering sampling, and possibly boots
 
 Statistical tests to compare means and proportions.
 
+- Association tests
+- Statistical significance
+- Comparisons of means
+- Comparisons of proportions
+
 <!-- `>` __[Slides][s6]__   -->
 `>` __[Readings][r6]__  
 `>` Demo: __[Colonialism, democracy, life expectancy and wealth, Part 2][s6-1]__  
@@ -193,7 +213,14 @@ Statistical tests to compare means and proportions.
 
 ## 7. Correlation
 
-Linear and nonlinear, as an introduction to linear and nonlinear models.
+Linear and nonlinear, as an introduction to linear and nonlinear models, with some basic philosophy of ~~data~~ ~~quantitative~~ ~~social~~ ~~statistical~~ science.
+
+- Correlation, the actual thing
+- Linearity and nonlinearity
+- Data-generating processes and [stylized facts][hirschman16]
+- Fitting functions to joint distributions
+
+[hirschman16]: https://doi.org/10.15195/v3.a26
 
 <!-- `>` __[Slides][s7]__   -->
 `>` __[Readings][r7]__  
@@ -209,7 +236,16 @@ Linear and nonlinear, as an introduction to linear and nonlinear models.
 
 Linear regression, the full package: least squares, dummies, interactions, diagnostics, marginal effects. All in one session, if things go well, but this usually takes half of any introductory statistics course.
 
-- Estimation and postestimation
+- Estimation: fitting linear models via Ordinary Least Squares (OLS)
+  - Modelling your ‘response’ (dependent variable)
+  - Interpreting your coefficients
+  - Categorical predictors (independent variables): handling ‘dummies’
+  - Interaction terms: ‘multiplying’ your predictors
+- Postestimation: what to do after fitting a linear model
+  - Goodness-of-fit
+  - Diagnostics: residuals, multicollinearity and heteroscedasticity
+  - Additional diagnostics: outliers and ‘influential observations’
+  - Marginal effects
 - Model manipulation with the `{broom}` package
 
 <!-- `>` __[Slides][s8]__   -->
@@ -225,6 +261,10 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 ## 9. Nonlinearity
 
 Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also introduce more fun stuff~~ with no time to say more about other generalized models.
+
+- Generalized liner models
+- The logit ‘link’ function
+- Log-odds and odds ratios
 
 <!-- `>` __[Slides][s9]__   -->
 `>` __[Readings][r9]__  
@@ -326,6 +366,7 @@ remotes::install_cran(c(s12_maps, s12_text))
 
 # optional (used to prepare the course datasets)
 xtra <- c("rvest")
+remotes::install_cran(xtra)
 ```
 
 # Credits
