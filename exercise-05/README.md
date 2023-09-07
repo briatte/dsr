@@ -102,7 +102,7 @@ You do _not_ need to also attach the data and/or the rest of the `exercise-05` f
 
 Use the email subject __"DSR: Answers to Exercise 5, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
-Make sure to complete the rest of the code header with your feedback.
+Make sure to complete the rest of the code header with your feedback. I'm interested in what you feel you have and have _not_ understood so far in the course, and what you find most difficult with it. Feedback on the exercise is also naturally welcome.
 
 ---
 

@@ -18,8 +18,8 @@ You are a social science student interested in applying to positions that list v
 
 - List the specific __coding skills__ that you deem most useful to performing data science for people with _your_ profile.
 - List the __practical heuristics__ that you developed throughout the term in order to find solutions to your coding problems.
-- Discuss _some_ of the __course readings and videos__, explaining how they helped (or not) with learning those skills.
 - If you identified particularly __relevant packages__ outside those cited in the course material, mention them.
+- Discuss _some_ of the __course readings and videos__, explaining how they helped (or not) with learning those skills.
 
 Please limit your answer to a __single page__ of roughly __4-5 paragraphs__ at most.
 
@@ -31,11 +31,13 @@ As you have understood by now, this is a 'meta-exercise' that gives you a chance
 
 - The part on practical heuristics is a way for me to learn more on your problem-solving and Web search skills. When working on the course exercises, what useful resources did you discover beyond the course material? What was helpful to you, at your current level of practice?
 
-- The part on the course readings and videos is basically a way for me to collect feedback [on the course syllabus](https://twitter.com/emayfarris/status/1652652023597215749). It will help me calibrate the readings for future iterations of the course, and might also help me to amend the content of some of the course sessions to your needs and interests.
+- The part on R packages is yet another way for me to understand what you found useful while working on the course exercises, and possibly on the assignments of other R-based courses that you might have taken in the past, or are taking right now. This part is optional (read the instructions again: '_If_…').
 
-- The part on R packages is one last way for me to understand what you found useful while working on the course exercises, and possibly on the assignments of other R-based courses that you might have taken in the past, or are taking right now. This part is optional (read the instructions again: '_If_…').
+- Last, the part on the course readings and videos is basically a way for me to collect feedback [on the course syllabus](https://twitter.com/emayfarris/status/1652652023597215749). It will help me calibrate the readings for future iterations of the course, and might also help me to adjust the content of some of the course sessions to your needs and interests.
 
 Note: do not hesitate to speak both individually and as a group in your text, as in "collectively, we felt…" or as "one of us (Viktoria) also used…"
+
+I hope you will find this exercise interesting. You might want to treat it as a simulation exercise of you reporting on the course as if had been some kind of data analysis internship, during which you trained some technical skills, and on which you are now being asked to perform what amounts to an impact assessment.
 
 ## Submission instructions
 
