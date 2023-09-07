@@ -375,7 +375,7 @@ The last time I had a chance to build such a course was [ten years ago](https://
 
 In the meantime, I have taught [a few other quantitative methods courses](https://f.briatte.org/teaching/#quanti), including some tutorials and guest lectures for [Jan Rovny's own courses](https://jan-rovny.squarespace.com/teaching). Some of the material for this course comes from those other ones.
 
-Some thanks go to [Kim Antunez](https://antuki.github.io/apropos/), who will be soon teaching her own version of this course, and who suggested some of the readings that made it to my own list.
+Some thanks go to [Kim Antunez](https://antuki.github.io/apropos/), who will be soon teaching [her own version of this course](https://github.com/antuki/dsr), and who suggested some of the readings that made it to my own list.
 
 Some thanks also go to [Joël Gombin](https://github.com/joelgombin) and [Timothée Gidoin](https://github.com/gidoin), who inspired and helped with a first draft of this course, six years before it actually ran for the first time.
 
