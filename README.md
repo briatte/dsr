@@ -69,11 +69,12 @@ Software setup, first steps with coding, handling data, and plotting things.
   - Setting the working directory
   - Doing so by using RStudio project files: `.Rproj`
   - The Files and Plots panes
+  - Executing code down to a given line: `Ctrl-Alt-B`
 - More R syntax essentials
   - Code spanning multiple lines, and pipes: `%>%`, `|>`
+  - R objects and types
   - Data frames, variables and values
   - R has many packages and sub-syntaxes: base, `{tidyverse}`, `{ggplot2}`, etc.
-  - Executing code down to a given line: `Ctrl-Alt-B`
 
 <!-- `>` __[Slides][s2]__   -->
 `>` __[Readings][r2]__  
@@ -93,7 +94,7 @@ Data wrangling, mostly with the `{dplyr}` package.
 
 - Data I/O
   - reading/writing datasets with `{readr}`, `{haven}` and `{readxl}`
-  - inspecting datasets: `head`, `str`, `View`, `glimpse`
+  - inspecting datasets: `head`, `str`, `view`, `glimpse`
   - passing mentions -- strings, factors, dates and special formats
   - passing mentions -- [SQL and databases][db], and data engineering
 - Data manipulation on a single dataset
