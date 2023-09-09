@@ -149,24 +149,7 @@ Plots, mostly with the `{ggplot2}` package.
 
 # Part 2. Essentials
 
-Descriptive and inferential statistics, the frequentist way (no time for Bayesian ones, I'm afraid).
-
-Ideally, this section would also include a session to demo, or at least mention, the following:
-
-- Ordinal, multinomial and count data, à la [Long and Freese 2014][long-freese14], but using R instead of Stata
-- Event/duration data through event history/survival analysis, using [Mills 2010][mills10] or something more recent
-- Hierarchical data (mixed/multilevel models), using [Gelman _et al._ 2022][raos] and Bayesian estimators
-- Panel data (fixed and random effects, standard error clustering) and other [Wooldrige-type econometrics][heiss20]
-- [Natural experiments][dunning12] and [causal inference][varian15] via RDD, DiD and IV designs
-- Time series and forecasting, à la [Hyndman and Athanasopoulos 2021][fpp21]
-
-[dunning12]: https://www.cambridge.org/gb/academic/subjects/social-science-research-methods/qualitative-methods/natural-experiments-social-sciences-design-based-approach
-[fpp21]: https://otexts.com/fpp3/
-[heiss20]: http://www.urfie.net/
-[long-freese14]: https://www.stata.com/bookstore/regression-models-categorical-dependent-variables/
-[mills10]: https://www.melindacmills.com/teaching-materials
-[raos]: https://avehtari.github.io/ROS-Examples/
-[varian15]: https://people.ischool.berkeley.edu/~hal/Papers/2015/cause03.pdf
+Descriptive and inferential statistics, the frequentist way (no time for Bayesian ones, I'm afraid). This section will briefly mention some more advanced topics related to regression models, statisical estimation and machine learning.
 
 ## 5. Description
 
