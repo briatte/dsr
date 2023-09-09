@@ -298,16 +298,24 @@ Dimensionality reduction, principal components, clustering and partitioning, usi
 
 ## 12. Extensions
 
-Students manifested an interest in maps and text, so let's cover this, plus mentions of other things like [version control][git-r] with Git/GitHub, Web scraping, and dynamic documents with [R Markdown][rmarkdown] or [Quarto][quarto].
+Students manifested an interest in maps and text, so let's cover this, before closing on mentions of other useful things.
 
 - Maps with `{sf}`
-  - Going further: `{sfdep}`
+  - Spatial visualization and coordinate reference systems
+  - Centroids and interpolation
+  - Going further: passing mention of `{sfdep}`
 - Text analysis with `{tidytext}`
-  - Going further: `{quanteda}`, `{topicmodels}`, `{stm}`
+  - Tokenization and stopwords
+  - Sentiment analysis
+  - _n_-grams
+  - Going further: passing mentions of `{quanteda}`, `{topicmodels}`, and `{stm}`
 - Going further with R
-- Passing mentions of [Git/GitHub][git-r], [R Markdown][rmarkdown] and [Quarto][quarto]
-- Passing mentions of Web scraping, Python and machine learning
-- Passing mention of Bayesian models
+  - Version control with [Git/GitHub][git-r]
+  - Dynamic documents with [R Markdown][rmarkdown] and [Quarto][quarto]
+- Other advanced topics
+  - APIs and Web scraping
+  - Python and machine learning
+  - Bayesian models
 
 [git-r]: https://happygitwithr.com/
 [rmarkdown]: https://rmarkdown.rstudio.com/
