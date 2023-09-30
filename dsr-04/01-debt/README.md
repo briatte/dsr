@@ -1,13 +1,22 @@
 # README
 
-__Data source:__ Thomas Herndon, Michael Ash and Robert Pollin, "[Does high public debt consistently stifle economic growth? A critique of Reinhart and Rogoff][hap14]," _Cambridge Journal of Economics_ 38(2): 257–79, 2014. 
+__Data source:__ Thomas Herndon, Michael Ash and Robert Pollin, "[Does High Public Debt Consistently Stifle Economic Growth? A Critique of Reinhart and Rogoff][hap14]," _Cambridge Journal of Economics_ 38(2): 257–79, 2014. 
 
 [hap14]: https://doi.org/10.1093/cje/bet075
 
-The data come from the [Zenodo repository][hap-repl] of the study. You can read the backstory of this example [on Andrew Gelman's blog][gelman13].
+The data come from the [Zenodo repository][hap-repl] of the study.
+
+You can read the backstory of this example [on Andrew Gelman's blog][gelman13]. There is also an interesting reexamination of what went wrong in the original study [on Steven Miller's blog][miller20].
+
+For yet another interesting take on the same study, see [Cosma Shalizi's class exercise][shalizi13-hw11], which will force you to work with more advanced concepts and methods than what we used if you try to complete the exercise. See the [Web page of the corresponding course][shalizi13-uada], and [this lecture/book chapter][shalizi13-ch23] in particular. The CSV data for the exercise can be found at [this address][shalizi13-data].
 
 [hap-repl]: https://zenodo.org/record/4017423
 [gelman13]: https://statmodeling.stat.columbia.edu/2013/04/16/memo-to-reinhart-and-rogoff-i-think-its-best-to-admit-your-errors-and-go-on-from-there/
+[miller20]: https://svmiller.com/blog/2020/04/reinhart-rogoff-ten-years-later-replication/
+[shalizi13-hw11]: https://www.stat.cmu.edu/~cshalizi/uADA/13/hw/11/hw-11.pdf
+[shalizi13-uada]: https://www.stat.cmu.edu/~cshalizi/uADA/13/
+[shalizi13-ch23]: https://www.stat.cmu.edu/~cshalizi/uADA/13/lectures/ch23.pdf
+[shalizi13-data]: https://www.stat.cmu.edu/~cshalizi/uADA/13/hw/11/debt.csv
 
 ## R code to generate the `debt` and `growth` datasets
 

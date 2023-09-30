@@ -46,6 +46,11 @@ full_join(growth, debt, by = "year")
 # let's save the (correctly) merged dataset
 rr <- full_join(growth, debt, by = c("country", "year"))
 
+# list countries above the 90% ratio, by decade
+filter(rr, ratio >= 90) %>% 
+  group_by(decade) %>% 
+  group_split()
+
 # ------------------------------------------------------------------------------
 # Step 3: explore the data
 # ------------------------------------------------------------------------------
@@ -92,6 +97,23 @@ rr <- rr %>%
 # another way to write that step safely is to use `filter`:
 #
 # filter(!is.na(growth), !is.na(ratio))
+
+# now, here's a reformulation of the last plot, where we slightly tweak the
+# facets in order to get a horizontalized plot, with separate x-axis scales:
+ggplot(rr, aes(ratio, growth)) +
+  geom_point() +
+  facet_wrap(~ decade, nrow = 1, scales = "free_x")
+
+# ... a final variation, where we add a nonlinear approximation of the expected
+# relationship, along with some colour to distinguish countries below and above
+# the 90% threshold mentioned in the study:
+ggplot(rr, aes(ratio, growth)) +
+  geom_point(aes(color = ratio < 90)) +
+  geom_smooth(color = "black", se = FALSE) +
+  facet_wrap(~ decade, nrow = 1, scales = "free_x") +
+  theme_linedraw()
+
+# (the final `theme` element is purely cosmetic)
 
 # ------------------------------------------------------------------------------
 # Step 4: highlight EU member states
