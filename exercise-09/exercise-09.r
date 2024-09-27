@@ -31,6 +31,13 @@
 # beyond 80 characters per line, break it into multiple shorter lines, as shown
 # here. Answer parsimoniously, and do _not_ exceed three lines of text.]
 #
+# [ANSWER 4.3]:
+#
+# [Replace this paragraph with your answer to Question 4.2. If your text goes
+# beyond 80 characters per line, break it into multiple shorter lines, as shown
+# here. Answer parsimoniously, and do _not_ exceed three lines of text.]
+#
+# [ANSWER 4.4]:
 # [ANSWER 5.1]:
 # [ANSWER 5.2]:
 #
@@ -84,6 +91,12 @@ library(tidyverse)
 # [QUESTION 4.1] According to you, which model performs best, and why?
 #
 # [QUESTION 4.2] How do you interpret the coefficient for Covid-19 cases?
+#
+# [QUESTION 4.3] Is that result consistent with those reported in the article
+#                by Toshkov et al. (2022), from which the data are taken from?
+#
+# [QUESTION 4.4] Using the best model identified above, predict the effect of a
+#                50% increase in Covid-19 cases on time to lockdown.
 
 # ------------------------------------------------------------------------------
 # 5. Diagnose a linear regression model
