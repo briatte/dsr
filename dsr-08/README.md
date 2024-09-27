@@ -2,7 +2,7 @@
 
 __Data source:__ Larry Bartels, "[Obama Toes the Line][tmc]," 8 January 2013.
 
-[tmc]: https://themonkeycage.org/2013/01/obama-toes-the-line/
+[tmc]: https://web.archive.org/web/20150907132519/https://themonkeycage.org/2013/01/obama-toes-the-line/
 
 The post contains a figure and the corresponding equation for it:
 
