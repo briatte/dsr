@@ -144,7 +144,7 @@ ggplot() +
   theme_void() +
   theme(plot.background = element_rect(fill = "white", linewidth = NA)) +
   labs(
-    title = "Increasing taxes taxes on fossil fuels to reduce climate change",
+    title = "Increasing taxes on fossil fuels to reduce climate change",
     subtitle = "Data: European Social Survey Round 8, 2016"
   )
 
