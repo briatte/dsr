@@ -246,7 +246,7 @@ Linear regression, the full package: least squares, dummies, interactions, diagn
 
 Focusing ~~mostly~~ exclusively on logistic regression, ~~but hoping to also introduce more fun stuff~~ with no time to say more about other generalized models.
 
-- Generalized liner models
+- Generalized linear models
 - The logit ‘link’ function
 - Log-odds and odds ratios
 
