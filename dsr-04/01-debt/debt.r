@@ -46,10 +46,8 @@ full_join(growth, debt, by = "year")
 # let's save the (correctly) merged dataset
 rr <- full_join(growth, debt, by = c("country", "year"))
 
-# list countries above the 90% ratio, by decade
-filter(rr, ratio >= 90) %>% 
-  group_by(decade) %>% 
-  group_split()
+# check the final result
+glimpse(rr)
 
 # ------------------------------------------------------------------------------
 # Step 3: explore the data
