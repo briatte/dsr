@@ -52,7 +52,7 @@ Predict the number of days from the first case of Covid-19 to a national lockdow
 
 Use the distribution of both predictors to determine whether they might benefit from a logarithmic transformation, and if relevant, estimate several models, and select the one that performs best.
 
-Write your code in Section 4 of the answers script, and __answer Questions 4.1 and 4.2__ in that section, writing your answers at the top of the script as short paragraphs of maximum 3 lines. Round any non-integer numbers to 2 digits max.
+Write your code in Section 4 of the answers script, and __answer Questions 4.1 to 4.4__ in that section, writing your answers at the top of the script as short paragraphs of maximum 3 lines. Round any non-integer numbers to 2 digits max.
 
 ### 5. Diagnose a linear regression model
 
@@ -60,15 +60,17 @@ Run further diagnostics on the best linear model that you identified at Step 4, 
 
 ## Submission instructions
 
-Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-09-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
+Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-09-Group-X.r`, where `X` is your group number, as stated in the groups spreadsheet on Google Drive.
 
-Please send me that email __at most 10 days after the class during which you received this exercise__.
+You do _not_ need to also attach the data and/or the rest of the `exercise-09` folder -- your code will be enough.
 
-You do _not_ need to also attach the data and/or the rest of the `exercise-09` folder -- the answers will be enough.
-
-Use the email subject __"DSR: Answers to Exercise 9, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
+Use the email subject __"DSR: Answers to Exercise 9, Group X"__, where `X` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 Make sure to complete the rest of the code header with your feedback. I'm interested in what you feel you have and have _not_ understood so far in the course, and what you find most difficult with it. Feedback on the exercise is also naturally welcome.
+
+## Deadline
+
+Please fill in your answers and email me your code __before our next class__.
 
 ---
 
