@@ -21,7 +21,7 @@ datasets::anscombe %>%
   readr::write_tsv("data/anscombe.tsv")
 ```
 
-## Rationale
+## Rationale #1: plotting systems
 
 The point of this demo is to show you the existence of [different plotting systems][peng1] in R. We cover only the `ggplot2` one in class, called so in reference to the ‘grammar of graphics’ logic that it follows, but there are at least two other systems:
 
@@ -33,3 +33,9 @@ The point of this demo is to show you the existence of [different plotting syste
 [lattice]: https://jtr13.github.io/cc21fall1/introduction-to-the-lattice-package.html
 
 You'll be fine learning just the `ggplot2` one, which has also been ported to the Python language.
+
+## Rationale #2: Anscombe's quartet
+
+There is also a reason why I am including the 'Anscombe quartet' in this course. Read this article about it: ‘[What This Graph of a Dinosaur Can Teach Us about Doing Better Science][murtagh].’
+
+[murtagh]: https://www.scientificamerican.com/article/what-this-graph-of-a-dinosaur-can-teach-us-about-doing-better-science/
