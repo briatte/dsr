@@ -9,17 +9,22 @@ This exercise focuses on
 
 __This is a _graded_ exercise__, to be completed within your group, and within your group _only_ --- do not communicate between groups. All other school regulations regarding student ethics and plagiarism obviously apply.
 
-All answers are to be provided directly in the 'answers' script. The code should produce the results reported in the 'Answers' section at the top of the script.
+You will need to do two things to answer this exercise:
 
-Some further important coding requirements:
+1. __Go to the groups spreadsheet on Google Drive, and look at the 'Exercise 5' tab.__ Your group has been assigned a specific country to work with: make a note of it. Then, use that sheet to report the answers to the questions below.
 
-- It must run (execute) properly.
-- It should be __as simple and legible__ as possible.
-- Consequently, it should use __as few packages__ as possible.
-- Concision (coding/writing that is __short__ and __clear__) is _very much_ valued.
-- Comment lines should _not_ go over 80 characters per line.
-- Include the code to load packages, but _not_ the code to install them.
-- There will be grades assigned to all requirements above.
+2. In parallel, you will also need to __email me an R script that produces the answers that you reported in the document above.__ Some important coding requirements to consider follow:
+
+    - Your code must run (execute) properly.
+    - Your code should be __as simple and legible__ as possible.
+    - Consequently, your code should use __as few packages__ as possible.
+    - Concision (coding/writing that is __short__ and __clear__) is _very much_ valued.
+    - Comment lines should _not_ go over 80 characters per line.
+    - Include the code to load packages, but _not_ the code to install them.
+
+    There will be grades assigned to all requirements above.
+
+    Further instructions on how to submit your R script by email appear at the end of this document.
 
 ## Scenario
 
@@ -31,78 +36,93 @@ You are interning at _The Economist_ data science team, and have been asked to r
 
 ### 1. Access a dataset
 
-Download the _Stata_ version of the [Arab Barometer, Wave V (2018-2019)][ab5] dataset. Move it to the `data` folder. After doing so, __import the dataset__, writing your code in Section 1 of the answers script.
+Download the ___Stata___ versions of the [Arab Barometer][ab] dataset for __survey years 2012-14 and 2021-22__. Move them to the `data` folder of the exercise, and do not rename them. After doing so, __import the datasets__, writing your code in Section 1 of the answers script.
 
-[ab5]: https://www.arabbarometer.org/surveys/arab-barometer-wave-v/
+[ab]: https://www.arabbarometer.org/
 
-The dataset is well-documented on the Arab Barometer website. Download any relevant documentation, and use it to identify the variables and other information that you will need to answer the rest of the exercise.
-
-__Answer Questions 1.1 and 1.2__ at the end of that section. The answers should go at the top of the script, in the header section, on the lines starting with `[ANSWER 1.1]` and `[ANSWER 1.2]`. The same logic applies to all questions below.
+The datasets are well-documented on the [Arab Barometer][ab] website. Download any relevant documentation, and use it to identify the variables and other information that you will need to answer the rest of the exercise.
 
 ### 2. Subset and count observations
 
-Restrict your dataset to the country listed next to your group in the groups spreadsheet on Google Drive. Write your code in Section 2 of the answers script.
+Now, restrict each dataset to the country listed next to your group in the 'answers' spreadsheet on Google Drive. Write your code in Section 2 of the answers script.
 
-In that same section, write some code to __determine the size of your sample__.
+In that same section, also write some code to __determine the size of each of your two samples__ (one for each survey wave). Report both sample sizes as __Answer 1__ in the aforementioned spreadsheet.
 
-__Answer Question 2__ at the end of the section.
+At that stage, note that all further questions, except for the very last one, will focus on the _2021-22 sample_.
 
 ### 3. Create a dummy variable
 
-Recode the variable for sex as a new dummy variable called `female`, where `TRUE` means that the respondent is female and `FALSE` that the respondent is male.
+In Section 3 of the script, recode the variable for sex as a new dummy variable called `female`, where `TRUE` means that the respondent is female and `FALSE` that the respondent is male.
 
-In that same section, write some code to __determine whether there are more females than males__ in your sample.
-
-__Answer Question 3__ at the end of the section.
+In that same section, write some code to __determine whether there are more females than males__ in your sample. Report your answer as __Answer 2__, which should be either `TRUE` or `FALSE`.
 
 ### 4. Recode missing values
 
-Recode the variable for age as a new variable called `age`. The variable should be equal to `NA` if the respondent's age is missing.
+In Section 4 of the script, recode the variable for age as a new variable called `age`. The variable should be equal to `NA` if the respondent's age is missing.
 
-In that same section, write some code to __count the missing values__ of that new variable in your sample.
-
-__Answer Question 4__ at the end of the section.
+In that same section, write some code to __count the missing values__ of that new variable in your sample. Report that quantity as __Answer 3__.
 
 ### 5. Plot a distribution
 
-Make a _single_ plot that shows _both_ the distribution of `age` for males and females respectively.
+In Section 5 of the script, make a _single_ plot that shows _both_ the distributions of `age` for males and females, in a comparable way.
 
-This question only requires writing code.
+_Save the plot_, and _include it with your answers script_ when you submit it.
 
 ### 6. Describe a continuous variable
 
-Write some code to produce the average, median and 80th percentile of `age`.
+In Section 6 of the script, write some code to produce the average, median and 80th percentile of `age`.
 
-__Answer Questions 6.1 and 6.2__ at the end of the section.
+Report that last statistic as __Answer 4__.
 
 ### 7. Recode variables
 
+In Section 7 of the script:
+
 1. Recode `age` into the following age groups: __16-24, 25-34, 35-44, 45-54, 55-64, 65+__.
-2. Recode variable __Q201b item 12__ as a new dummy variable called `trust`, making it equal to `1` if the respondent stated having 'a great deal' or 'quite a lot' of trust in Islamist parties, and `0` if he or she declared having 'not a lot' of trust or 'no trust at all.'
-3. Compute percentages of `trust` in Islamist parties by age group, and find a way to determine which group reported the highest level (percentage) of trust in those parties.
-4. Find a way to compare the level of trust in Islamist parties of males and females, using the same definition of that level as above, and compute the __difference between females and males__, in _percentage points_.
 
-The code for all steps above should show in your answer, in the same order as the steps themselves.
+2. Then, recode variable __Q201b item 12__ as a new dummy variable called `trust`, making it equal to `1` if the respondent stated having 'a great deal' or 'quite a lot' of trust in Islamist parties, and `0` if he or she declared having 'not a lot' of trust or 'no trust at all.'
 
-__Answer Questions 7.1 and 7.2__ at the end of the section.
+3. Now, compute percentages of `trust` in Islamist parties by age group, and find a way to determine which group reported the highest level (percentage) of trust in those parties.
+
+    In your sample, is the highest age group the one that reports the highest level of trust in Islamist parties? Write down your answer as __Answer 5__, which should be either `TRUE` or `FALSE`.
+
+4. Last, find a way to compare the level of trust in Islamist parties of males and females, using the same definition of that level as above, and compute the __difference between females and males__, in _percentage points_.
+
+    Report that quantity as __Answer 6__.
 
 ### 8. Test a relationship
 
-Find a way to submit the last relationship that you explored above through a __statistical hypothesis test__ that compares the level of trust in Islamist parties of females to that of males.
+In Section 8, find a way to submit the last relationship that you explored above through a __statistical hypothesis test__ that compares the average level of trust in Islamist parties of females to that of males.
 
-__Answer Question 8__ at the end of the section. This is possibly the hardest question of the exercise, so feel free to call it quits if you have no idea of how to answer it: I will _not_ be assigning too many grades to that question.
+That test should lead you to answer the following question:
+
+> In your sample, do females statistically differ from males in their level of trust in Islamist parties?
+
+Report your answer as __Answer 7__, which should be either `TRUE` or `FALSE`.
+
+### 9. Report percentages
+
+In Section 9, compute the percentage of respondents for which trust in Islamist parties is missing.
+
+Report that quantity as __Answer 8__.
+
+Then, in that same section, compute the percentage of respondents who trust Islamist parties for both the 2021-22 sample, which you have been working on for most of the exercise, and for the 2012-14 sample, which you loaded at the beginning of the exercise. This step will involve doing some data preparation on that data sample.
+
+Report both quantities as __Answer 9__. This answer will tell you whether the trend observed in the [original _Economist_ article][economist] has persisted since 2019 in the country that you studied.
 
 ## Submission instructions
 
-Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-05-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
+Please [email me](mailto:francois.briatte@sciencespo.fr) your group's R script as a single file named `exercise-05-Group-X.r`, where `X` is your group number, as stated in the groups spreadsheet on Google Drive.
 
-Please send me that email __at most 10 days after the class during which you received this exercise__.
+You do _not_ need to also attach the data and/or the rest of the `exercise-05` folder -- your code will be enough.
 
-You do _not_ need to also attach the data and/or the rest of the `exercise-05` folder -- the answers will be enough.
-
-Use the email subject __"DSR: Answers to Exercise 5, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
+Use the email subject __"DSR: Answers to Exercise 5, Group X"__, where `X` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 Make sure to complete the rest of the code header with your feedback. I'm interested in what you feel you have and have _not_ understood so far in the course, and what you find most difficult with it. Feedback on the exercise is also naturally welcome.
+
+## Deadline
+
+Please fill in your answers and email me your code __before our next class__.
 
 ---
 
