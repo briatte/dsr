@@ -43,9 +43,11 @@ I hope you will find this exercise interesting. You might want to treat it as a 
 
 Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single PDF document called `exercise-12-Group-01.pdf`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
 
-Please send me that email __at most 10 days after the class during which you received this exercise__.
+Please send me that email __along with your answer to Exercise 11, before our last class together__.
 
-Use the email subject __"DSR: Answer to Exercise 12, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your document.
+You do _not_ need to also attach the data and/or the rest of the `exercise-12` folder -- the answers will be enough.
+
+Use the email subject __"DSR: Answers to Exercises 11 and 12, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 ---
 
