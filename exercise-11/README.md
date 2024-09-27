@@ -1,4 +1,4 @@
-# DSR: Exercise 10 (graded)
+# DSR: Exercise 11 (graded)
 
 This exercise focuses on fitting and interpreting _multiple_ linear regression models.
 
@@ -49,15 +49,21 @@ Find the variables below in the ESS documentation, and recode them as instructed
 
 Last, recode __religious attendance__ (variable `rlgatnd`) in order for the variable to measure religious attendance from `0` for 'never' to `6` for 'every day.'
 
+__Answer Questions 2.1, 2.2 and 2.3__ at the end of that section, rounding all numbers at one-digit precision. The answers should go at the top of the script, in the header section, on the lines starting with `[ANSWER 2.1]`, `[ANSWER 2.2]` and `[ANSWER 2.3]`. The same logic applies to all questions below.
+
 ### 3. Write a linear model
 
 Using the variables created in the previous section, predict religious attendance from age, sex, employment relationship, marital status and subjective income, for the entire ESS data sample.
 
 In that model, include an interaction between sex and marital status, in order for your model to include coefficients for those predictors _as well as for their product_.
 
+__Answer Question 3__ at the end of that section. This question is a simple check of your model formula.
+
 ### 4. Interpret regression results
 
-__Answer Questions 4.1, 4.2 and 4.3__ at the end of that section. The answers should go at the top of the script, in the header section, on the lines starting with `[ANSWER 4.1]`, `[ANSWER 4.2]` and `[ANSWER 4.3]`. The same logic applies to all questions below.
+Spend some time understanding the results of your model.
+
+__Answer Questions 4.1, 4.2 and 4.3__ at the end of that section.
 
 ### 5. Diagnose a linear regression model
 
@@ -73,13 +79,13 @@ __Answer Questions 6.1 and 6.2__ at the end of that section. Note that Question 
 
 ## Submission instructions
 
-Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-10-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
+Please [email me](mailto:francois.briatte@sciencespo.fr) your group's answers as a single R script called `exercise-11-Group-01.r`, where `01` is your group number, as stated in the groups spreadsheet on Google Drive.
 
-Please send me that email __at most 10 days after the class during which you received this exercise__.
+Please send me that email __along with your answer to Exercise 12, before our last class together__.
 
-You do _not_ need to also attach the data and/or the rest of the `exercise-10` folder -- the answers will be enough.
+You do _not_ need to also attach the data and/or the rest of the `exercise-11` folder -- the answers will be enough.
 
-Use the email subject __"DSR: Answers to Exercise 10, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
+Use the email subject __"DSR: Answers to Exercises 11 and 12, Group 01"__, where `01` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 Make sure to complete the rest of the code header with your feedback.
 

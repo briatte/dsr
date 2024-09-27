@@ -1,7 +1,7 @@
 # ==============================================================================
 #  ____  _____ _____
 # |    \|   __| __  |  Data Science with R
-# |  |  |__   |    -|  Fall 2023
+# |  |  |__   |    -|  Fall 2024
 # |____/|_____|__|__|
 #
 # Economic insecurity and religious reassurance (ESS) -- student answer script
@@ -15,7 +15,13 @@
 # Answers to questions
 # --------------------
 #
-# [ANSWER 4.1]:
+# [ANSWER 2.1]: 
+# [ANSWER 2.1]: 
+# [ANSWER 2.1]: 
+#
+# [ANSWER 3]: 
+#
+# [ANSWER 4.1]: 
 # [ANSWER 4.2]:
 #
 # [Replace this paragraph with your answer to Question 4.2. If your text goes
@@ -64,11 +70,21 @@ library(tidyverse)
 
 
 
+# [QUESTION 2.1] Report the percentage of females in the sample
+
+# [QUESTION 2.2] Report the percentage of separated, divorced or widowed 
+#                individuals in the sample, after recoding martial status
+
+# [QUESTION 2.3] Report average religious attendance in the sample, after
+#                recoding it, and treating it as a continuous measurement
+
 # ------------------------------------------------------------------------------
 # 3. Write a multiple linear regression model
 # ------------------------------------------------------------------------------
 
 
+
+# [QUESTION 3] Provide the formula of your model, in R syntax.
 
 # ------------------------------------------------------------------------------
 # 4. Interpret regression results
@@ -101,8 +117,8 @@ library(tidyverse)
 
 
 
-# [QUESTION 6.1] Report the country-level effect for Poland. (Answer with a single 
-#                number, rounded up to 1-digit precision.)
+# [QUESTION 6.1] Report the country-level effect for Poland.
+#                (Answer with a single number, rounded up to 1-digit precision.)
 
 # [QUESTION 6.2] Can you explain why I am asking you to include country of
 #                residence as a predictor, and if so, what kind of modelling
