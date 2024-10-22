@@ -15,7 +15,7 @@ You will need to do two things to answer this exercise:
 
 2. In parallel, you will also need to __email me an R script that produces the answers that you reported in the document above.__ Some important coding requirements to consider follow:
 
-    - Your code must run (execute) properly.
+    - Your code must run (execute) properly, without any adjustment.
     - Your code should be __as simple and legible__ as possible.
     - Consequently, your code should use __as few packages__ as possible.
     - Concision (coding/writing that is __short__ and __clear__) is _very much_ valued.
@@ -24,13 +24,17 @@ You will need to do two things to answer this exercise:
 
     There will be grades assigned to all requirements above.
 
-    Further instructions on how to submit your R script by email appear at the end of this document.
+    Further instructions on how to submit your R script by email appear at the end of this document, along with an __important note__ about what help you are allowed to use in order to complete the exercise.
 
 ## Scenario
 
 You are interning at _The Economist_ data science team, and have been asked to reexamine the data that supported their 2019 article [‘Arabs are losing faith in religious parties and leaders’][economist].
 
 [economist]: https://www.economist.com/graphic-detail/2019/12/05/arabs-are-losing-faith-in-religious-parties-and-leaders
+
+For more context on why it might be interesting to look at that data right now, see e.g. [‘To what extent do Gazans support Hamas?’][afonso23] and the literature that it cites.
+
+[afonso23]: https://alexandreafonso.substack.com/p/5-to-what-extent-do-gazans-support
 
 ## Instructions
 
@@ -66,7 +70,7 @@ In that same section, write some code to __count the missing values__ of that ne
 
 In Section 5 of the script, make a _single_ plot that shows _both_ the distributions of `age` for males and females, in a comparable way.
 
-_Save the plot_, and _include it with your answers script_ when you submit it.
+_Save the plot_ as a PDF or PNG file, and send it along _with your answers script_ when you submit it by email.
 
 ### 6. Describe a continuous variable
 
@@ -110,15 +114,29 @@ Then, in that same section, compute the percentage of respondents who trust Isla
 
 Report both quantities as __Answer 9__. This answer will tell you whether the trend observed in the [original _Economist_ article][economist] has persisted since 2019 in the country that you studied.
 
+_Bonus step (ignore if everything else above has been too challenging)_ --- To produce nationally representative results with maximum accuracy, you will need to adjust (and thus recompute) the percentages that you obtained above by using an additional variable. See if you can find out what that variable might be, and what to do with it, by exploring the Arab Barometer data and technical documentation.
+
 ## Submission instructions
 
-Please [email me](mailto:francois.briatte@sciencespo.fr) your group's R script as a single file named `exercise-05-Group-X.r`, where `X` is your group number, as stated in the groups spreadsheet on Google Drive.
+Please [email me](mailto:francois.briatte@sciencespo.fr) your group's R script as a single file named `exercise-05-Group-X.r`, where `X` is your group number, as stated in the groups spreadsheet on Google Drive. Also attach the plot that you produced to answer Section 5 of the exercise, after naming it in the same way.
 
-You do _not_ need to also attach the data and/or the rest of the `exercise-05` folder -- your code will be enough.
+You do _not_ need to also attach the data and/or the rest of the `exercise-05` folder -- your code and plot will be enough.
 
 Use the email subject __"DSR: Answers to Exercise 5, Group X"__, where `X` once again designates your group number. That information should also appear at the top of your script, in the code header.
 
 Make sure to complete the rest of the code header with your feedback. I'm interested in what you feel you have and have _not_ understood so far in the course, and what you find most difficult with it. Feedback on the exercise is also naturally welcome.
+
+Please turn to the next page for final instructions.
+
+## Important note on helpers
+
+For this exercise, you are allowed to use any help that you might find online, at the exception of the following:
+
+- You are _not_ allowed to submit the exercise to anyone outside of your group, which means that you are not allowed to submit it to an online forum such as StackOverflow, although you are very much welcome to read answers to R-related questions on that website and any other.
+
+- You are _not_ allowed to submit the exercise to a generative artificial intelligence (AI), which means that the code that you will submit should _not_ come from ChatGPT or equivalent technology. You are welcome to use generative AI on ungraded work, as a learning tool, but not for graded coursework.
+
+Please be reminded that I will assess your code partly on its legibility and clarity: answers that show a poor understanding of what the code does, or what its results mean, will be graded accordingly.
 
 ## Deadline
 
