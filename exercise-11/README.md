@@ -28,7 +28,7 @@ You are working for a think tank interested in testing the contemporary relevanc
 
 ### 1. Access a dataset
 
-Download a copy of the [European Social Survey][ess] (ESS), Round 9, Edition 3.1, in SPSS format (`.sav`), and place it in the `data` folder.
+Download a copy of the [European Social Survey][ess] (ESS), Round 9, Edition 3.2, in SPSS format (`.sav`), and place it in the `data` folder.
 
 [ess]: http://www.europeansocialsurvey.org/
 
