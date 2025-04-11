@@ -68,9 +68,9 @@ In that same section, write some code to __count the missing values__ of that ne
 
 ### 5. Plot a distribution
 
-In Section 5 of the script, make a _single_ plot that shows _both_ the distributions of `age` for males and females, in a comparable way.
+In Section 5 of the script, write some code to produce a _single_ plot that allows to compare the distribution of age among males and females.
 
-_Save the plot_ as a PDF or PNG file, and send it along _with your answers script_ when you submit it by email.
+_Save the plot_ as a PDF, and send it along _with your answers script_ when you submit it by email.
 
 ### 6. Describe a continuous variable
 
