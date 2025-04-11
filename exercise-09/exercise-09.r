@@ -1,7 +1,7 @@
 # ==============================================================================
 #  ____  _____ _____
 # |    \|   __| __  |  Data Science with R
-# |  |  |__   |    -|  Fall 2024
+# |  |  |__   |    -|  Spring 2025
 # |____/|_____|__|__|
 #
 # Predicting Covid-19 lockdowns -- student answer script
@@ -89,6 +89,7 @@ library(tidyverse)
 
 
 # [QUESTION 4.1] According to you, which model performs best, and why?
+#                N.B. Provide the equation (in R syntax) of the best model.
 #
 # [QUESTION 4.2] How do you interpret the coefficient for Covid-19 cases?
 #
