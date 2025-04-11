@@ -2,7 +2,7 @@
 
 __Inspiration:__ Angus Deaton, "[COVID-19 and Global Income Inequality][deaton21]", working paper, January 2021. Later published on that same year as [NBER Working Paper No. 28392][deaton21-nber], and then as an article in the [_LSE Public Policy Review_ 1(4): 1-10][deaton21-article].
 
-[deaton21]: https://scholar.princeton.edu/sites/default/files/international_income_inequality_and_the_covid_v2_assembled_0.pdf
+[deaton21]: https://web.archive.org/web/20210303234133/https://scholar.princeton.edu/sites/default/files/international_income_inequality_and_the_covid_v2_assembled_0.pdf
 [deaton21-nber]: https://www.nber.org/papers/w28392
 [deaton21-article]: https://ppr.lse.ac.uk/articles/10.31389/lseppr.26/
 
