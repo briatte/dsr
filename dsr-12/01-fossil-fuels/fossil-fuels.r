@@ -16,6 +16,7 @@
 library(gstat)
 library(sf)
 library(stars)
+library(srvyr)
 library(tidyverse)
 
 # download NUTS shapefiles ------------------------------------------------
