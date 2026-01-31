@@ -11,7 +11,8 @@ __Data source for life expectancy:__ World Bank [World Development Indicators][w
 The latter were retrieved with `WDI` (R package by Vincent Arel-Bundock):
 
 ```r
+library(tidyverse)
 library(WDI)
 WDI::WDI(country = "all", indicator = "SP.DYN.LE00.IN", latest = 1) %>% 
-  write_tsv("data/life-expectancy.tsv")
+  readr::write_tsv("data/life-expectancy.tsv")
 ```

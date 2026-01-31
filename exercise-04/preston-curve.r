@@ -11,6 +11,7 @@
 # required packages
 
 library(countrycode)
+library(ggrepel)
 library(tidyverse)
 library(WDI)
 
@@ -27,7 +28,7 @@ wdi <- WDI::WDI(indicator = what, start = 2019)
 
 wdi <- wdi %>%
   mutate(
-    # remove non-country ISO-3C does
+    # remove non-country ISO-3C codes
     iso3c = countrycode::countrycode(iso3c, "iso3c", "iso3c"),
     region = countrycode::countrycode(iso3c, "iso3c", "region")
   ) %>%
